@@ -1,0 +1,30 @@
+{
+  "name": "moonshots-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 4173 --directory docs",
+    "dev": "python3 -m http.server 4173 --directory site",
+    "dev:vite": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "scrape": "python3 scripts/scrape.py --playlist --limit 5",
+    "scrape:ids": "python3 scripts/scrape.py --ids vAgEf4jX_1o,1DB_QDiviH4,JywXvB8PpTs,tfBEWh9ibfU,0mOXQ4_kY04",
+    "process": "python3 scripts/process.py",
+    "data": "npm run scrape && npm run process",
+    "pages": "python3 scripts/process.py"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  }
+}

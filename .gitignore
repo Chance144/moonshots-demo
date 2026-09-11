@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+*.log
+data/raw
+__pycache__/
+*.pyc
+.vscode
+.idea

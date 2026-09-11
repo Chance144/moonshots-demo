@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moonshots — Searchable Episode Archive</title>
+  <meta name="description" content="Search summaries and quotes from recent Moonshots podcast episodes." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">◈</span>
+      <div>
+        <h1>Moonshots Archive</h1>
+        <p class="tagline">Peter Diamandis · searchable demo of episode summaries &amp; quotes</p>
+      </div>
+    </div>
+    <a class="playlist-link" id="playlistLink" href="#" target="_blank" rel="noopener">YouTube playlist ↗</a>
+  </header>
+
+  <main class="wrap">
+    <section class="search-panel">
+      <label class="sr-only" for="q">Search episodes</label>
+      <input
+        id="q"
+        type="search"
+        placeholder="Search titles, summaries, quotes…"
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <div class="meta-row">
+        <span id="status">Loading episodes…</span>
+        <span id="generated" class="muted"></span>
+      </div>
+    </section>
+
+    <section id="cards" class="cards" aria-live="polite"></section>
+    <p id="empty" class="empty hidden">No episodes match that search.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Demo site · auto-captions cleaned for search · not affiliated with YouTube</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

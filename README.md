@@ -58,3 +58,7 @@ Optional: `pip install yt-dlp`
 3. `JywXvB8PpTs` — EP #285
 4. `tfBEWh9ibfU` — EP #284
 5. `0mOXQ4_kY04` — EP #283
+
+## Auto-refresh
+
+- **Tender routine** (primary): every day at 8:00 AM PT — scrapes the latest 5 Moonshots, adds summaries/quotes/transcripts for new episodes, keeps five on the catalog, pushes to `main` (GitHub Pages).

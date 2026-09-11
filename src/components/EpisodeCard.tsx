@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { highlight } from "../lib/search";
+import { episodeDate } from "../types";
 import type { Episode } from "../types";
 
 function formatDate(iso: string): string {
@@ -38,7 +39,7 @@ export function EpisodeCard({
         <div className="card-body">
           <p className="kicker">
             {episode.episodeNumber ? `EP ${episode.episodeNumber}` : "Moonshots"} ·{" "}
-            {formatDate(episode.publishedAt)}
+            {formatDate(episodeDate(episode))}
           </p>
           <h2 dangerouslySetInnerHTML={{ __html: highlight(episode.title, query) }} />
           <p

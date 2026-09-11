@@ -7,6 +7,7 @@ export type SearchHit = {
     title: boolean;
     summary: boolean;
     quotes: number[];
+    transcript: boolean;
   };
 };
 
@@ -28,7 +29,7 @@ export function searchEpisodes(episodes: Episode[], query: string): SearchHit[] 
     return episodes.map((episode) => ({
       episode,
       score: 0,
-      matched: { title: false, summary: false, quotes: [] },
+      matched: { title: false, summary: false, quotes: [], transcript: false },
     }));
   }
 
@@ -36,11 +37,13 @@ export function searchEpisodes(episodes: Episode[], query: string): SearchHit[] 
     .map((episode) => {
       const title = normalize(episode.title);
       const summary = normalize(episode.summary);
+      const transcript = normalize(episode.transcript || "");
       const quoteTexts = episode.quotes.map((q) => normalize(q.text));
 
       let score = 0;
       const titleHit = terms.every((t) => title.includes(t));
       const summaryHit = terms.every((t) => summary.includes(t));
+      const transcriptHit = Boolean(transcript) && terms.every((t) => transcript.includes(t));
       const quoteHits: number[] = [];
 
       if (titleHit) score += 8;
@@ -48,6 +51,9 @@ export function searchEpisodes(episodes: Episode[], query: string): SearchHit[] 
 
       if (summaryHit) score += 4;
       else score += terms.filter((t) => summary.includes(t)).length;
+
+      if (transcriptHit) score += 3;
+      else score += terms.filter((t) => transcript.includes(t)).length;
 
       quoteTexts.forEach((text, index) => {
         const hits = terms.filter((t) => text.includes(t)).length;
@@ -63,7 +69,12 @@ export function searchEpisodes(episodes: Episode[], query: string): SearchHit[] 
       return {
         episode,
         score,
-        matched: { title: titleHit, summary: summaryHit, quotes: quoteHits },
+        matched: {
+          title: titleHit,
+          summary: summaryHit,
+          quotes: quoteHits,
+          transcript: transcriptHit,
+        },
       };
     })
     .filter((hit) => hit.score > 0)

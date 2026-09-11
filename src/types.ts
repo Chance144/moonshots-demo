@@ -1,33 +1,50 @@
 export type Quote = {
   text: string;
   timestamp: string;
-  seconds: number;
+  seconds?: number;
   speaker: string | null;
 };
 
 export type Episode = {
   id: string;
   title: string;
-  episodeNumber: number | null;
-  publishedAt: string;
-  durationSeconds: number | null;
-  durationLabel: string;
-  channel: string;
+  url?: string;
+  youtubeUrl?: string;
+  uploadDate?: string;
+  publishedAt?: string;
+  durationSec?: number | null;
+  durationSeconds?: number | null;
+  durationLabel?: string;
+  channel?: string;
   thumbnail: string;
-  youtubeUrl: string;
-  description: string;
   summary: string;
-  summaryWordCount: number;
   quotes: Quote[];
-  transcriptSource: string | null;
-  transcriptCueCount: number;
+  transcript?: string;
+  episodeNumber?: number | null;
+  summaryWordCount?: number;
+  transcriptSource?: string | null;
+  transcriptCueCount?: number;
+  description?: string;
 };
 
 export type EpisodeCatalog = {
-  generatedAt: string;
-  source: string;
+  generatedAt?: string;
+  source?: string;
   playlist: string;
-  channel: string;
-  note: string;
+  channel?: string;
+  note?: string;
   episodes: Episode[];
 };
+
+export function episodeUrl(episode: Episode): string {
+  return episode.url || episode.youtubeUrl || `https://www.youtube.com/watch?v=${episode.id}`;
+}
+
+export function episodeDate(episode: Episode): string {
+  return episode.uploadDate || episode.publishedAt || "";
+}
+
+export function episodeDuration(episode: Episode): number | null {
+  const value = episode.durationSec ?? episode.durationSeconds;
+  return typeof value === "number" ? value : null;
+}

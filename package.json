@@ -4,13 +4,16 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "python3 -m http.server 4173 --directory docs",
+    "dev": "python3 -m http.server 4173 --directory site",
+    "dev:vite": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "scrape": "python3 scripts/scrape.py --ids vAgEf4jX_1o,1DB_QDiviH4,JywXvB8PpTs,tfBEWh9ibfU,0mOXQ4_kY04",
-    "scrape:playlist": "python3 scripts/scrape.py --playlist --limit 5",
+    "scrape": "python3 scripts/scrape.py --playlist --limit 5",
+    "scrape:ids": "python3 scripts/scrape.py --ids vAgEf4jX_1o,1DB_QDiviH4,JywXvB8PpTs,tfBEWh9ibfU,0mOXQ4_kY04",
     "process": "python3 scripts/process.py",
-    "data": "npm run scrape && npm run process"
+    "data": "npm run scrape && npm run process",
+    "pages": "python3 scripts/process.py"
   },
   "dependencies": {
     "react": "^19.1.1",

@@ -1,5 +1,6 @@
 import { Link, Navigate, useParams, useSearchParams } from "react-router-dom";
 import { highlight } from "../lib/search";
+import { episodeDate, episodeDuration, episodeUrl } from "../types";
 import type { Episode } from "../types";
 
 function formatDate(iso: string): string {
@@ -33,10 +34,11 @@ export function EpisodePage({ episodes }: { episodes: Episode[] }) {
           {episode.episodeNumber && <p className="kicker">Episode {episode.episodeNumber}</p>}
           <h1>{episode.title}</h1>
           <p className="meta">
-            {formatDate(episode.publishedAt)}
-            {episode.durationLabel ? ` · ${episode.durationLabel}` : ""} · {episode.channel}
+            {formatDate(episodeDate(episode))}
+            {episodeDuration(episode) ? ` · ${Math.floor((episodeDuration(episode) || 0) / 60)} min` : ""}
+            {episode.channel ? ` · ${episode.channel}` : ""}
           </p>
-          <a className="watch" href={episode.youtubeUrl} target="_blank" rel="noreferrer">
+          <a className="watch" href={episodeUrl(episode)} target="_blank" rel="noreferrer">
             Watch on YouTube ↗
           </a>
         </div>
@@ -45,8 +47,8 @@ export function EpisodePage({ episodes }: { episodes: Episode[] }) {
       <section>
         <h2>Summary</h2>
         <p className="source-note">
-          {episode.summaryWordCount} words · extractive from the English transcript (
-          {episode.transcriptCueCount} caption cues · source: {episode.transcriptSource})
+          {episode.summary.split(/\s+/).length} words · from the episode captions
+          {episode.transcript ? ` · ${Math.round(episode.transcript.length / 1000)}k-char transcript` : ""}
         </p>
         {episode.summary.split("\n\n").map((para) => (
           <p
@@ -67,7 +69,7 @@ export function EpisodePage({ episodes }: { episodes: Episode[] }) {
                 <footer>
                   {quote.speaker ? <span className="speaker">{quote.speaker}</span> : null}
                   <a
-                    href={`${episode.youtubeUrl}&t=${quote.seconds}s`}
+                    href={`${episodeUrl(episode)}${quote.seconds ? `&t=${quote.seconds}s` : ""}`}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -79,6 +81,16 @@ export function EpisodePage({ episodes }: { episodes: Episode[] }) {
           ))}
         </ol>
       </section>
+
+      {episode.transcript && (
+        <section>
+          <h2>Full transcript</h2>
+          <p
+            className="summary"
+            dangerouslySetInnerHTML={{ __html: highlight(episode.transcript, query) }}
+          />
+        </section>
+      )}
     </main>
   );
 }

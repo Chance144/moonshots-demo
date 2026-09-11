@@ -28,7 +28,9 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW_DIR = ROOT / "data" / "raw"
+# Existing seminar raw captions live in /raw; keep writing there.
+RAW_DIR = ROOT / "raw"
+ALT_RAW_DIR = ROOT / "data" / "raw"
 
 PLAYLIST_URL = (
     "https://www.youtube.com/playlist?list=PL1wpF5k0tdIve4idTp3-FX2ZY7ks_BKeU"
@@ -95,6 +97,21 @@ def parse_clock(value: str) -> int | None:
     if len(nums) == 2:
         return nums[0] * 60 + nums[1]
     return None
+
+
+def vtt_to_plaintext(path: Path) -> str:
+    chunks: list[str] = []
+    last = ""
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line == "WEBVTT" or "-->" in line or line.isdigit():
+            continue
+        text = re.sub(r"<[^>]+>", "", line)
+        text = re.sub(r"\s+", " ", text).strip()
+        if text and text != last:
+            chunks.append(text)
+            last = text
+    return " ".join(chunks)
 
 
 def write_vtt(path: Path, cues: list[dict]) -> None:
@@ -401,6 +418,17 @@ def scrape_one(video_id: str, duration_hint: int | None = None) -> dict:
 
     out_info = RAW_DIR / f"{video_id}.info.json"
     out_info.write_text(json.dumps(record, indent=2), encoding="utf-8")
+    # Plain-text transcript for the searchable episode database.
+    vtt = Path(record["transcriptPath"]) if record.get("transcriptPath") else None
+    txt_path = RAW_DIR / f"{video_id}.txt"
+    if vtt and vtt.exists():
+        body = vtt_to_plaintext(vtt)
+        txt_path.write_text(body, encoding="utf-8")
+        record["transcriptTextPath"] = str(txt_path)
+    ALT_RAW_DIR.mkdir(parents=True, exist_ok=True)
+    for src in (out_info, vtt, txt_path if txt_path.exists() else None):
+        if src and src.exists():
+            shutil.copy2(src, ALT_RAW_DIR / src.name)
     cue_count = len(cues) if cues else ("vtt" if record.get("transcriptPath") else 0)
     print(f"  saved {out_info.name}  transcript={source} cues={cue_count}")
     return record
@@ -422,7 +450,8 @@ def main() -> int:
     if args.ids:
         video_ids = [v.strip() for v in args.ids.split(",") if v.strip()]
         mode = "ids"
-    elif args.playlist:
+    else:
+        # Default (and --playlist): last N from PL1wpF5k0tdIve4idTp3-FX2ZY7ks_BKeU
         mode = "playlist"
         try:
             catalog = playlist_catalog(args.limit)
@@ -436,9 +465,6 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001
             print(f"Playlist page failed ({exc}); falling back to default last 5 IDs")
             video_ids = DEFAULT_IDS[: args.limit]
-    else:
-        video_ids = DEFAULT_IDS
-        mode = "default-last-5"
 
     print(f"Scraping {len(video_ids)} episode(s) [{mode}]")
     records = [scrape_one(vid, duration_by_id.get(vid)) for vid in video_ids]

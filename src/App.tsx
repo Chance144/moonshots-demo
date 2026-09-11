@@ -42,8 +42,8 @@ export default function App() {
 
       <footer className="footer">
         <p>
-          Quotes and summaries are extractive — taken from the English episode
-          transcript, not invented. Source playlist:{" "}
+          Search covers titles, summaries, quotes, and full transcripts.
+          Source playlist:{" "}
           <a href="https://www.youtube.com/playlist?list=PL1wpF5k0tdIve4idTp3-FX2ZY7ks_BKeU">
             Moonshots with Peter Diamandis
           </a>

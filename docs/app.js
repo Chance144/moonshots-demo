@@ -204,6 +204,7 @@
         const id = el.getAttribute("data-id");
         const card = document.getElementById(`ep-${id}`);
         if (!card) return;
+        history.replaceState(null, "", `#ep-${id}`);
         openCard(card, true);
         card.scrollIntoView({ behavior: "smooth", block: "start" });
         const tr = card.querySelector("[data-transcript]");
@@ -247,7 +248,19 @@
       const params = new URLSearchParams(location.search);
       const initialQ = params.get("q") || "";
       if (initialQ) qEl.value = initialQ;
+      const openFromHash = () => {
+        const id = (location.hash || "").replace(/^#ep-/, "");
+        if (!id) return;
+        const card = document.getElementById(`ep-${id}`);
+        if (!card) return;
+        openCard(card, true);
+        card.scrollIntoView({ behavior: "smooth", block: "start" });
+      };
+
       render(initialQ);
+      openFromHash();
+      window.addEventListener("hashchange", openFromHash);
+
       qEl.addEventListener("input", () => {
         const q = qEl.value;
         const url = new URL(location.href);
@@ -255,6 +268,7 @@
         else url.searchParams.delete("q");
         history.replaceState(null, "", url);
         render(q);
+        openFromHash();
       });
       qEl.focus();
     })

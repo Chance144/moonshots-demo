@@ -20,7 +20,7 @@ export function HomePage({ episodes }: { episodes: Episode[] }) {
           nothing fabricated.
         </p>
         <label className="search">
-          <span className="search-label">Search titles, summaries, and quotes</span>
+          <span className="search-label">Search titles, summaries, quotes, and full transcripts</span>
           <input
             autoFocus
             type="search"

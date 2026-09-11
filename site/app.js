@@ -98,44 +98,14 @@
     return sources;
   }
 
-  function openCard(card, open = true) {
-    if (!card) return;
-    card.classList.toggle("open", open);
-    const btn = card.querySelector("button.btn[data-toggle]");
-    if (btn) btn.textContent = open ? "Collapse" : "Expand";
-  }
-
-  // Single delegated click handler — nested data-toggle used to fire twice (open then close).
-  cardsEl.addEventListener("click", (e) => {
-    if (e.target.closest("a")) return;
-
-    const openHit = e.target.closest("[data-open-episode]");
-    if (openHit) {
-      e.preventDefault();
-      e.stopPropagation();
-      const id = openHit.getAttribute("data-id");
-      const card = document.getElementById(`ep-${id}`);
-      if (!card) return;
-      openCard(card, true);
-      card.scrollIntoView({ behavior: "smooth", block: "start" });
-      const mark = card.querySelector("[data-transcript] mark");
-      if (mark) mark.scrollIntoView({ behavior: "smooth", block: "center" });
-      return;
-    }
-
-    const toggle = e.target.closest("[data-toggle]");
-    if (!toggle || !cardsEl.contains(toggle)) return;
-    e.preventDefault();
-    const card = toggle.closest(".card");
-    openCard(card, !card.classList.contains("open"));
-  });
-
   function render(query = "") {
     const eps = data.episodes.filter((ep) => matches(ep, query));
     statusEl.textContent = query
       ? `${eps.length} of ${data.episodes.length} episodes match`
       : `${data.episodes.length} episodes · full transcripts searchable`;
     emptyEl.classList.toggle("hidden", eps.length > 0);
+
+    const autoOpen = Boolean(query.trim());
 
     cardsEl.innerHTML = eps
       .map((ep) => {
@@ -164,13 +134,10 @@
 
         const snipBlock =
           snip && sources.includes("transcript")
-            ? `<button type="button" class="transcript-hit" data-open-episode data-id="${escapeHtml(
-                ep.id
-              )}">
+            ? `<div class="transcript-hit">
             <span class="hit-label">Transcript match</span>
             <span class="hit-snip">${highlight(snip, query)}</span>
-            <span class="hit-cta">Open episode ↓</span>
-          </button>`
+          </div>`
             : "";
 
         const transcriptHighlighted = query
@@ -178,10 +145,10 @@
           : escapeHtml(ep.transcript || "No transcript available.");
 
         return `
-        <article class="card ${query ? "hit-card" : ""}" id="ep-${escapeHtml(
+        <details class="card ${query ? "hit-card" : ""}" id="ep-${escapeHtml(
           ep.id
-        )}" data-id="${escapeHtml(ep.id)}">
-          <div class="card-head">
+        )}" data-id="${escapeHtml(ep.id)}" ${autoOpen ? "open" : ""}>
+          <summary class="card-head">
             <img class="thumb" src="${escapeHtml(ep.thumbnail)}" alt="" loading="lazy" />
             <div class="card-main">
               <div class="card-meta">
@@ -195,13 +162,13 @@
               ${sourceBadges}
               ${snipBlock}
               <div class="actions">
-                <button type="button" class="btn" data-toggle>Expand</button>
+                <span class="btn btn-static" aria-hidden="true">Expand / Collapse</span>
                 <a class="btn btn-yt" href="${escapeHtml(
                   ep.url
-                )}" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+                )}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Watch on YouTube ↗</a>
               </div>
             </div>
-          </div>
+          </summary>
           <div class="card-body">
             <h3 class="section-label">Summary</h3>
             <div class="summary">${highlight(ep.summary, query)}</div>
@@ -210,12 +177,11 @@
             <h3 class="section-label">Full transcript</h3>
             <div class="transcript" data-transcript>${transcriptHighlighted}</div>
           </div>
-        </article>`;
+        </details>`;
       })
       .join("");
 
-    if (query.trim()) {
-      cardsEl.querySelectorAll(".card").forEach((card) => openCard(card, true));
+    if (autoOpen) {
       const first = cardsEl.querySelector(".card");
       if (first) {
         requestAnimationFrame(() => {
@@ -227,7 +193,12 @@
     }
   }
 
-  fetch("episodes.json")
+  // Keep YouTube links from toggling details
+  cardsEl.addEventListener("click", (e) => {
+    if (e.target.closest("a.btn-yt")) e.stopPropagation();
+  });
+
+  fetch("episodes.json?v=3")
     .then((r) => {
       if (!r.ok) throw new Error(`Failed to load episodes.json (${r.status})`);
       return r.json();

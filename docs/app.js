@@ -94,16 +94,41 @@
     if (terms.every((t) => summary.includes(t))) sources.push("summary");
     if (quotes.some((q) => terms.every((t) => q.includes(t)))) sources.push("quote");
     if (terms.every((t) => transcript.includes(t))) sources.push("transcript");
-    // partial: any term in transcript still counts as transcript hit when overall match
     else if (terms.some((t) => transcript.includes(t))) sources.push("transcript");
     return sources;
   }
 
   function openCard(card, open = true) {
+    if (!card) return;
     card.classList.toggle("open", open);
     const btn = card.querySelector("button.btn[data-toggle]");
     if (btn) btn.textContent = open ? "Collapse" : "Expand";
   }
+
+  // Single delegated click handler — nested data-toggle used to fire twice (open then close).
+  cardsEl.addEventListener("click", (e) => {
+    if (e.target.closest("a")) return;
+
+    const openHit = e.target.closest("[data-open-episode]");
+    if (openHit) {
+      e.preventDefault();
+      e.stopPropagation();
+      const id = openHit.getAttribute("data-id");
+      const card = document.getElementById(`ep-${id}`);
+      if (!card) return;
+      openCard(card, true);
+      card.scrollIntoView({ behavior: "smooth", block: "start" });
+      const mark = card.querySelector("[data-transcript] mark");
+      if (mark) mark.scrollIntoView({ behavior: "smooth", block: "center" });
+      return;
+    }
+
+    const toggle = e.target.closest("[data-toggle]");
+    if (!toggle || !cardsEl.contains(toggle)) return;
+    e.preventDefault();
+    const card = toggle.closest(".card");
+    openCard(card, !card.classList.contains("open"));
+  });
 
   function render(query = "") {
     const eps = data.episodes.filter((ep) => matches(ep, query));
@@ -148,16 +173,15 @@
           </button>`
             : "";
 
-        const transcriptHtml = escapeHtml(ep.transcript || "No transcript available.");
         const transcriptHighlighted = query
           ? highlight(ep.transcript || "", query)
-          : transcriptHtml;
+          : escapeHtml(ep.transcript || "No transcript available.");
 
         return `
         <article class="card ${query ? "hit-card" : ""}" id="ep-${escapeHtml(
           ep.id
         )}" data-id="${escapeHtml(ep.id)}">
-          <div class="card-head" data-toggle>
+          <div class="card-head">
             <img class="thumb" src="${escapeHtml(ep.thumbnail)}" alt="" loading="lazy" />
             <div class="card-main">
               <div class="card-meta">
@@ -174,7 +198,7 @@
                 <button type="button" class="btn" data-toggle>Expand</button>
                 <a class="btn btn-yt" href="${escapeHtml(
                   ep.url
-                )}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Watch on YouTube ↗</a>
+                )}" target="_blank" rel="noopener">Watch on YouTube ↗</a>
               </div>
             </div>
           </div>
@@ -190,33 +214,6 @@
       })
       .join("");
 
-    cardsEl.querySelectorAll("[data-toggle]").forEach((el) => {
-      el.addEventListener("click", (e) => {
-        if (e.target.closest("a") || e.target.closest("[data-open-episode]")) return;
-        const card = el.closest(".card");
-        openCard(card, !card.classList.contains("open"));
-      });
-    });
-
-    cardsEl.querySelectorAll("[data-open-episode]").forEach((el) => {
-      el.addEventListener("click", (e) => {
-        e.stopPropagation();
-        const id = el.getAttribute("data-id");
-        const card = document.getElementById(`ep-${id}`);
-        if (!card) return;
-        history.replaceState(null, "", `#ep-${id}`);
-        openCard(card, true);
-        card.scrollIntoView({ behavior: "smooth", block: "start" });
-        const tr = card.querySelector("[data-transcript]");
-        if (tr) {
-          // scroll transcript pane to first mark if present
-          const mark = tr.querySelector("mark");
-          if (mark) mark.scrollIntoView({ behavior: "smooth", block: "center" });
-        }
-      });
-    });
-
-    // Auto-open matching episodes when searching so hits are immediately visible
     if (query.trim()) {
       cardsEl.querySelectorAll(".card").forEach((card) => openCard(card, true));
       const first = cardsEl.querySelector(".card");
@@ -248,19 +245,7 @@
       const params = new URLSearchParams(location.search);
       const initialQ = params.get("q") || "";
       if (initialQ) qEl.value = initialQ;
-      const openFromHash = () => {
-        const id = (location.hash || "").replace(/^#ep-/, "");
-        if (!id) return;
-        const card = document.getElementById(`ep-${id}`);
-        if (!card) return;
-        openCard(card, true);
-        card.scrollIntoView({ behavior: "smooth", block: "start" });
-      };
-
       render(initialQ);
-      openFromHash();
-      window.addEventListener("hashchange", openFromHash);
-
       qEl.addEventListener("input", () => {
         const q = qEl.value;
         const url = new URL(location.href);
@@ -268,7 +253,6 @@
         else url.searchParams.delete("q");
         history.replaceState(null, "", url);
         render(q);
-        openFromHash();
       });
       qEl.focus();
     })

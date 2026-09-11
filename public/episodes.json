@@ -1,0 +1,399 @@
+{
+  "generatedAt": "2026-09-11T19:36:32Z",
+  "source": "Moonshots with Peter Diamandis",
+  "playlist": "https://www.youtube.com/playlist?list=PL1wpF5k0tdIve4idTp3-FX2ZY7ks_BKeU",
+  "channel": "https://www.youtube.com/@peterdiamandis",
+  "note": "Summaries and quotes are extractive — copied from the episode transcript. They are not model-invented paraphrases.",
+  "episodes": [
+    {
+      "id": "vAgEf4jX_1o",
+      "title": "OpenAI Agents Hijack a German Website, Jensen Declares AGI Arrived, and OpenAI Solves Navier-Stokes",
+      "episodeNumber": 287,
+      "publishedAt": "2026-09-09",
+      "durationSeconds": 8552,
+      "durationLabel": "2:22:32",
+      "channel": "Peter H. Diamandis",
+      "thumbnail": "https://i.ytimg.com/vi/vAgEf4jX_1o/maxresdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vAgEf4jX_1o",
+      "description": "The mates sit down with Emad Mostaque and discuss Jensen Huang declaring that AGI has arrived, OpenAI agents hijacking a German website, and OpenAI solving the Navier-Stokes equations.",
+      "summary": "Open AI's agents found an obscure public wiki in Germany and turned it into their own message board, where they pooled answers, coordinated across tasks, and shared techniques for getting around their sandbox containment. Navier Stokes, one of the Clay Millennium Prize problems, a grand challenge in math, Open AI reportedly was able to do this with only 10,000 agents in 88 hours with 130 billion tokens and approximately $6.5 million. Meanwhile, Jensen Wong posted on X, AGI has arrived at the same time that opening eye's own chief scientist asked the world to slow down.\n\nJust like right before we went to air, OpenAI announced that the Navier Stokes problem had been solved by them. The researchers that we spoke to found traces on the wiki that OpenAI employees started visiting that same obscure German wiki in late June. So Jensen Wong posted this week that OpenAI trained GPT6 Astra on more than 100,000 Nvidia Gracewell GPUs, Blackwell GPUs, and posted three magic words, AGI has arrived. Navier Stokes, which is this grand challenge in math that deals with, as I put it when last we were discussing this, whether in some sense, whether there's a way to stir a glass of liquid or water in such a way that a singularity pops out. This was like the best, the worst kept secret from those, like in the community of using AI and computational fluid dynamics type approaches to solve Navier-Stokes. Imagine a fluid-based, not diamondoid, a fluid-based nanotech self-replicating machines, where if you could craft the right initial and or boundary conditions of a fluid, creating a self-replicating machine made entirely out of a fluid, that's potentially one killer app of solving the singularity program in Navier-Stokes. Secondly, just on the hubbub surrounding priority, who solved it, who didn't solve it, specifically with reference to the Euler problem, when OpenAI, in the past few hours announced it, I found especially concerning at the bottom of OpenAI's announcement where presumably they were trying to give appropriate credit to other teams, including teams pursuing the Euler approach. They did add a disclaimer that I thought was a bit of a head scratcher saying they can't rule out the Open AI team can't rule out the possibility that maybe some of the other team's work might have been incorporated into the training of the Open AI model that was used to solve Navier-Stokes.\n\nWe'll just have bigger and bigger problems, which will be able to solve with bigger and bigger suites of AI agents and robots.",
+      "summaryWordCount": 425,
+      "quotes": [
+        {
+          "text": "Open AI's agents found an obscure public wiki in Germany and turned it into their own message board, where they pooled answers, coordinated across tasks, and shared techniques for getting around their sandbox containment.",
+          "timestamp": "0:00",
+          "seconds": 0,
+          "speaker": null
+        },
+        {
+          "text": "Navier Stokes, one of the Clay Millennium Prize problems, a grand challenge in math, Open AI reportedly was able to do this with only 10,000 agents in 88 hours with 130 billion tokens and approximately $6.5 million.",
+          "timestamp": "0:34",
+          "seconds": 34,
+          "speaker": null
+        },
+        {
+          "text": "Meanwhile, Jensen Wong posted on X, AGI has arrived at the same time that opening eye's own chief scientist asked the world to slow down.",
+          "timestamp": "3:00",
+          "seconds": 180,
+          "speaker": null
+        },
+        {
+          "text": "Just like right before we went to air, OpenAI announced that the Navier Stokes problem had been solved by them.",
+          "timestamp": "20:16",
+          "seconds": 1216,
+          "speaker": null
+        },
+        {
+          "text": "The agents who appear to have been restricted to just passively observing the internet found a way to post messages onto an obscure German wiki site.",
+          "timestamp": "27:25",
+          "seconds": 1645,
+          "speaker": null
+        },
+        {
+          "text": "The researchers that we spoke to found traces on the wiki that OpenAI employees started visiting that same obscure German wiki in late June.",
+          "timestamp": "28:07",
+          "seconds": 1687,
+          "speaker": null
+        },
+        {
+          "text": "So Jensen Wong posted this week that OpenAI trained GPT6 Astra on more than 100,000 Nvidia Gracewell GPUs, Blackwell GPUs, and posted three magic words, AGI has arrived.",
+          "timestamp": "39:34",
+          "seconds": 2374,
+          "speaker": null
+        },
+        {
+          "text": "This was like the best, the worst kept secret from those, like in the community of using AI and computational fluid dynamics type approaches to solve Navier-Stokes.",
+          "timestamp": "52:01",
+          "seconds": 3121,
+          "speaker": null
+        },
+        {
+          "text": "Imagine a fluid-based, not diamondoid, a fluid-based nanotech self-replicating machines, where if you could craft the right initial and or boundary conditions of a fluid, creating a self-replicating machine made entirely out of a fluid, that's potentially one killer app of solving the singularity program in Navier-Stokes.",
+          "timestamp": "55:57",
+          "seconds": 3357,
+          "speaker": null
+        },
+        {
+          "text": "They did add a disclaimer that I thought was a bit of a head scratcher saying they can't rule out the Open AI team can't rule out the possibility that maybe some of the other team's work might have been incorporated into the training of the Open AI model that was used to solve Navier-Stokes.",
+          "timestamp": "57:01",
+          "seconds": 3421,
+          "speaker": null
+        }
+      ],
+      "transcriptSource": "podscripts",
+      "transcriptCueCount": 2028
+    },
+    {
+      "id": "1DB_QDiviH4",
+      "title": "Anthropic's Fable 5.1 Hits 60.9% on Humanity's Last Exam, GPT-6 Astra Drops, & the Cybercab Takeover",
+      "episodeNumber": 286,
+      "publishedAt": "2026-09-05",
+      "durationSeconds": 8692,
+      "durationLabel": "2:24:52",
+      "channel": "Peter H. Diamandis",
+      "thumbnail": "https://i.ytimg.com/vi/1DB_QDiviH4/maxresdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1DB_QDiviH4",
+      "description": "The mates sit down with Emad Mostaque to discuss: GPT-6 Astra’s ARC-AGI-3 performance, Anthropic’s Fable 5.1 frontier results, Tesla’s $30K Cybercab takeover, the collapse of mobility costs, AI",
+      "summary": "So quote, GPD 6, Astra, brings together years of research and big bets across pre-training, reinforcement, learning, and alignment. So the outer perspective, on my side at least, is that OpenAI, finally, with GPT-6, Astra, has at least internalized the computer use assistance story. And according to this benchmark, A, if you just, for those who can see this slide, you can see this beautiful linear, just trend over time, perfectly predictable going back years, and GPT6 Astra is number one, according to this, beating Fable 5. As IMAD was alluding earlier, Claude Fable remains number one, specifically the 5.1 release that also just happened. I think that what's happened here is actually they've got a store of things they've solved because earlier this week, Fable 5.1 comes out, and I think they got it down to 260 the prime gap.\n\nWell, Salim, I don't know if you saw in the last podcast when we missed you, I really wanted to hear you talk about OpenAI's new 50-50 profit share concept deal, where they give you access to their full power of their internal AI and then you share your revenue back with them, which I think is where, you know, to Alex's point that this is marketing, the way it's playing out is we announced this partnership profit share deal, then we announce Astra, then we announce that this stuff is just too dangerous for everybody to have on their own. While open AI is restricting Astra, Anthropic is going the other direction, launching Fable 5.1 and Methos 5.1, which they call the world's most advanced models for coding and knowledge work. Fable 5.1 is broadly available, while Methos 5.1 is reserved for tightly controlled cybersecurity and life science programs because Anthropic believes the capabilities require stronger safeguards. The first was Fable 5.1 score on humanity's last exam. So Fable 5.1 is scored 60.9 without tools and 65% with tools. If you say, look, Fable 5.1 is a tiny little notch above Astra, but they're only about 30 days apart. Where for Anthropic and others are now focusing is can you load the whole context of a business and have these cash reads because then it's also much, much faster to be able to be able to to have that response to environment, which is one of the reasons Fable 5.1 is more pleasant.",
+      "summaryWordCount": 395,
+      "quotes": [
+        {
+          "text": "So quote, GPD 6, Astra, brings together years of research and big bets across pre-training, reinforcement, learning, and alignment.",
+          "timestamp": "6:52",
+          "seconds": 412,
+          "speaker": null
+        },
+        {
+          "text": "So the outer perspective, on my side at least, is that OpenAI, finally, with GPT-6, Astra, has at least internalized the computer use assistance story.",
+          "timestamp": "12:31",
+          "seconds": 751,
+          "speaker": null
+        },
+        {
+          "text": "What that means is that Greg Brockman said in an interview he did earlier, this week that actually on the release of Astra, it's the first pre-trained they've had since GPT-40, which I find a bit hard to believe.",
+          "timestamp": "16:16",
+          "seconds": 976,
+          "speaker": null
+        },
+        {
+          "text": "And according to this benchmark, A, if you just, for those who can see this slide, you can see this beautiful linear, just trend over time, perfectly predictable going back years, and GPT6 Astra is number one, according to this, beating Fable 5.",
+          "timestamp": "23:37",
+          "seconds": 1417,
+          "speaker": null
+        },
+        {
+          "text": "The Wall Street Journal report that OpenEI's own internal safety assessment rated Astra as a, quote, cyber security risk, a critical cybersecurity risk, the highest threat level on its preparedness framework scale.",
+          "timestamp": "41:49",
+          "seconds": 2509,
+          "speaker": null
+        },
+        {
+          "text": "While open AI is restricting Astra, Anthropic is going the other direction, launching Fable 5.1 and Methos 5.1, which they call the world's most advanced models for coding and knowledge work.",
+          "timestamp": "49:32",
+          "seconds": 2972,
+          "speaker": null
+        },
+        {
+          "text": "Fable 5.1 is broadly available, while Methos 5.1 is reserved for tightly controlled cybersecurity and life science programs because Anthropic believes the capabilities require stronger safeguards.",
+          "timestamp": "50:01",
+          "seconds": 3001,
+          "speaker": null
+        },
+        {
+          "text": "The first was Fable 5.1 score on humanity's last exam.",
+          "timestamp": "50:01",
+          "seconds": 3001,
+          "speaker": null
+        },
+        {
+          "text": "Anthropic has done, even after the hiccup of the Fable 5 and Mythos 5 releases and subsequent regulatory scrutiny, I think has done a better job of consistently improving.",
+          "timestamp": "51:42",
+          "seconds": 3102,
+          "speaker": null
+        },
+        {
+          "text": "If you say, look, Fable 5.1 is a tiny little notch above Astra, but they're only about 30 days apart.",
+          "timestamp": "53:13",
+          "seconds": 3193,
+          "speaker": null
+        }
+      ],
+      "transcriptSource": "podscripts",
+      "transcriptCueCount": 2195
+    },
+    {
+      "id": "JywXvB8PpTs",
+      "title": "OpenAI Cuts Off Elon's Cursor, Humanity's First Star Probe, and Trump's Nuclear Mars Ship | EP #285",
+      "episodeNumber": 285,
+      "publishedAt": "2026-09-02",
+      "durationSeconds": 6994,
+      "durationLabel": "1:56:34",
+      "channel": "Peter H. Diamandis",
+      "thumbnail": "https://i.ytimg.com/vi/JywXvB8PpTs/maxresdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JywXvB8PpTs",
+      "description": "The mates sit down with Philip Johnston and Matt Pines to discuss humanity’s first star probe, Architect Labs outperforming NVIDIA by 3.4x, Musk’s plan to use satellites to cool Earth, OpenAI bloc",
+      "summary": "A Palo Alto startup called Architect Labs just announced the world's first fully AI design chip called Redwood.\n\nOne, which I do not think is likeliest, is that we're the first, that maybe humanity is just the first on the cosmic scene, in which case we have an obligation, arguably, to start sending out probes, as is the case with Fermi Explorer, which will be, it's set to be humanity's first interstellar probe and start developing our galaxy. I think there's, I mean, for scientific purposes, exploring the outer solar system, every single nation state, I would argue, can afford to send now at this price point, which, again, is mind-boggling, can afford to send their own probe to another star system. So in the causal history of human civilization, moonshots was the catalyst for humanity sending its first probe to the nearest star. They wrote Elon an email or they posted this and saying basically, you know, first of all, remember that SpaceX recently purchased cursor for $60 billion, a coding platform that have been historically dependent on OpenAI's GPT model. And I think OpenAI is probably rightfully concerned about all those reasoning trace post-training data falling into Elon's hands.\n\nA Palo Alto startup called Architect Labs, founded by Ibrahim Hussein and Adita Sabidi, just announced the world's first fully AI-designed chip called Redwood. We've built Voice Run CLI first, meaning we've kept your Claude Code Codex and even your OpenClaught in mind when we built it. right and of course the iPad the cell phone all those things were we're seeing first something that i think about a lot in all of my apparently ample free time is if i could play jean roddenberry 2.0 and reboot the entire star trek universe to knowing what i know now about what the present and future looks like what would a star trek 2.0 look like because arguably we've wildly diverged technologically from the original star trek time what would it look like Alex what what what is not in the original series that should have been or that will be in Alex's version. Similarly, my prediction here, I'll pre-register it, is that Elon, ironically, becomes the king of liquid natural gas and fossil fuels in general in order to force his entire industrial ecosystem to basically develop enough electricity and enough infra for the electricity to power all the terrestrial data sectors.\n\nNASA has already begun to work on the first ever nuclear-powered interplanetary space graph, which will launch in 2028 on a mission to Mars. So President Trump this week announced that NASA is working on a nuclear-powered interplanetary spacecraft that will launch on a mission to Mars in 2028. And nuclear Mars ship in 2028, two years from now, can't wait.",
+      "summaryWordCount": 464,
+      "quotes": [
+        {
+          "text": "I think there's, I mean, for scientific purposes, exploring the outer solar system, every single nation state, I would argue, can afford to send now at this price point, which, again, is mind-boggling, can afford to send their own probe to another star system.",
+          "timestamp": "25:52",
+          "seconds": 1552,
+          "speaker": null
+        },
+        {
+          "text": "So in the causal history of human civilization, moonshots was the catalyst for humanity sending its first probe to the nearest star.",
+          "timestamp": "26:27",
+          "seconds": 1587,
+          "speaker": null
+        },
+        {
+          "text": "They wrote Elon an email or they posted this and saying basically, you know, first of all, remember that SpaceX recently purchased cursor for $60 billion, a coding platform that have been historically dependent on OpenAI's GPT model.",
+          "timestamp": "35:11",
+          "seconds": 2111,
+          "speaker": null
+        },
+        {
+          "text": "I think OpenAI is concerned that as a result of all of this MNA, cursor gains access to reasoning traces from users interacting with OpenAI frontier models, and then that flows to SpaceX.",
+          "timestamp": "39:44",
+          "seconds": 2384,
+          "speaker": null
+        },
+        {
+          "text": "And I think OpenAI is probably rightfully concerned about all those reasoning trace post-training data falling into Elon's hands.",
+          "timestamp": "40:30",
+          "seconds": 2430,
+          "speaker": null
+        },
+        {
+          "text": "So could Elon turn around tomorrow and strike a deal with Anthropic, which now seems to need him to some extent for data center infra capability and white label a version of Claude and call that Grok 10?",
+          "timestamp": "42:52",
+          "seconds": 2572,
+          "speaker": null
+        },
+        {
+          "text": "NASA has already begun to work on the first ever nuclear-powered interplanetary space graph, which will launch in 2028 on a mission to Mars.",
+          "timestamp": "1:38:18",
+          "seconds": 5898,
+          "speaker": null
+        },
+        {
+          "text": "So President Trump this week announced that NASA is working on a nuclear-powered interplanetary spacecraft that will launch on a mission to Mars in 2028.",
+          "timestamp": "1:38:18",
+          "seconds": 5898,
+          "speaker": null
+        },
+        {
+          "text": "This ship will be among the first of what will ultimately be a massive American Starfleet, making space travel almost as common as ocean travel today.",
+          "timestamp": "1:39:06",
+          "seconds": 5946,
+          "speaker": null
+        },
+        {
+          "text": "And nuclear Mars ship in 2028, two years from now, can't wait.",
+          "timestamp": "1:39:45",
+          "seconds": 5985,
+          "speaker": null
+        }
+      ],
+      "transcriptSource": "podscripts",
+      "transcriptCueCount": 1657
+    },
+    {
+      "id": "tfBEWh9ibfU",
+      "title": "NVIDIA's $96.2B Quarter, China's 200,000 Fake Accounts, & OpenAI's New Chip | EP #284",
+      "episodeNumber": 284,
+      "publishedAt": "2026-08-29",
+      "durationSeconds": 8829,
+      "durationLabel": "2:27:09",
+      "channel": "Peter H. Diamandis",
+      "thumbnail": "https://i.ytimg.com/vi/tfBEWh9ibfU/maxresdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tfBEWh9ibfU",
+      "description": "The mates discuss NVIDIA’s $96.2B quarter and the AI circular economy, China’s 200,000 fake accounts, Flock’s 20 billion license plate scans, OpenAI’s new chip, why only 4% of companies are cu",
+      "summary": "Nvidia just booked $96.2 billion in revenue in a single quarter.\n\nOne is what's clear is NVIDIA is trying to move out of just being a chip company to try and become like literally an operating system for the whole of intelligence, right? You know, you need 100,000 and ultimately a million and then, you know, probably several million Nvidia GPUs to be in this kind of very tight, all-collect cluster that can train the next generation of models. The second story comes from Runway's co-founder who reports that video generation now represents roughly 70% of all AI token consumption in China, driven by short-form content and robotics, and it's growing fast than Claude grew in the U.S.\n\nI think the party decides actually having everyone, or maybe not everyone, but a sizable fraction of the youth of China, deeply engaged with party, deeply controlled AI companions, is actually, from the party's perspective, net helpful, not net harmful.\n\nSo somebody asked the question, why the hell, how the hell do we have 200, how many people had a lie time to whip out their cell phone cameras and track this thing real time.\n\nSo the second story comes out of Goldman Sachs, which this week warned that professional services firms consulting, law, accounting, face an existential risk as AI capabilities improve faster than their partners can adapt, creating a dangerous skill gap where junior staff trained on AI outperform senior partners who refuse to use it.\n\nWithin this farm, we found 200 accounts posting in a manner that could manipulate a legitimate debate about American AI and energy policy. It's a custom inference chip developed with Broadcom reporting 1.5 to 1.9x more AI work per watt and up to 3.6x lower end-to-end latency as compared to NVIDIA's GB 200s and GB300s. It's like crazy future would be a heck of a plot twist, but this has me wondering if they have such amazing balance of pre-fill of the prompt with otherwise memory bandwidth, limited decoding for LLMs, whether OpenAI wants the optionality in a year or two of saying, hey, market, in addition to our own models, we're going to respond to the competitive threat of Chinese open weight models and other open weight models by surprise.\n\nThe weather modification startup called Rainmaker says that 10 drones that flew over Alaska's Kenai Peninsula generated an estimated 19 million gallons of additional rainfall in just three hours using what they call a glaciogenic cloud seeding. And I would expect lots of new targets, lots of new approaches to emerge from both the AlphaFold-3 style of protein folding problem and structural biology being solved, as well as virtual cell models. So Elon previously stated his plans for a star mine, started with about 100 to 200 gigawatts per year of orbital AI compute launched from Earth, and then moving to manufacturing AI satellites on the moon for launch with a mass driver.",
+      "summaryWordCount": 490,
+      "quotes": [
+        {
+          "text": "Nvidia just booked $96.2 billion in revenue in a single quarter.",
+          "timestamp": "0:00",
+          "seconds": 0,
+          "speaker": null
+        },
+        {
+          "text": "The second story comes from Runway's co-founder who reports that video generation now represents roughly 70% of all AI token consumption in China, driven by short-form content and robotics, and it's growing fast than Claude grew in the U.S.",
+          "timestamp": "25:10",
+          "seconds": 1510,
+          "speaker": null
+        },
+        {
+          "text": "I think the party decides actually having everyone, or maybe not everyone, but a sizable fraction of the youth of China, deeply engaged with party, deeply controlled AI companions, is actually, from the party's perspective, net helpful, not net harmful.",
+          "timestamp": "40:09",
+          "seconds": 2409,
+          "speaker": null
+        },
+        {
+          "text": "Within this farm, we found 200 accounts posting in a manner that could manipulate a legitimate debate about American AI and energy policy.",
+          "timestamp": "1:21:11",
+          "seconds": 4871,
+          "speaker": null
+        },
+        {
+          "text": "tech tax revenue funded a new high school, hospital, library, police, and fire stations, while residents' property taxes, their rates decreased.",
+          "timestamp": "1:22:28",
+          "seconds": 4948,
+          "speaker": null
+        },
+        {
+          "text": "It's a custom inference chip developed with Broadcom reporting 1.5 to 1.9x more AI work per watt and up to 3.6x lower end-to-end latency as compared to NVIDIA's GB 200s and GB300s.",
+          "timestamp": "1:26:52",
+          "seconds": 5212,
+          "speaker": null
+        },
+        {
+          "text": "Like you remember GPT OSS, they got, they claim almost a 54X throughput increase hosting GPTOSS versus what they obliquely refer to, I guess, as their as the, existing best, presumably a reference to some Nvidia architecture.",
+          "timestamp": "1:28:45",
+          "seconds": 5325,
+          "speaker": null
+        },
+        {
+          "text": "You know, the U.S. is building its whole data center power gen based on natural gas, which is like six bucks per million British thermal units, while China is basically getting this for near zero marginal cost from solar.",
+          "timestamp": "1:46:22",
+          "seconds": 6382,
+          "speaker": null
+        },
+        {
+          "text": "And I would expect lots of new targets, lots of new approaches to emerge from both the AlphaFold-3 style of protein folding problem and structural biology being solved, as well as virtual cell models.",
+          "timestamp": "1:58:48",
+          "seconds": 7128,
+          "speaker": null
+        },
+        {
+          "text": "So Elon previously stated his plans for a star mine, started with about 100 to 200 gigawatts per year of orbital AI compute launched from Earth, and then moving to manufacturing AI satellites on the moon for launch with a mass driver.",
+          "timestamp": "2:06:24",
+          "seconds": 7584,
+          "speaker": null
+        }
+      ],
+      "transcriptSource": "podscripts",
+      "transcriptCueCount": 2178
+    },
+    {
+      "id": "0mOXQ4_kY04",
+      "title": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
+      "episodeNumber": 283,
+      "publishedAt": "2026-08-27",
+      "durationSeconds": 8226,
+      "durationLabel": "2:17:06",
+      "channel": "Peter H. Diamandis",
+      "thumbnail": "https://i.ytimg.com/vi/0mOXQ4_kY04/maxresdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0mOXQ4_kY04",
+      "description": "The mates sit down with Emad Mostaque to discuss: whether the singularity is slowing down, Sam Altman’s changing views, the case against an Anthropic IPO, Emad’s 18 Grokbots, Waymo’s massive har",
+      "summary": "Newsflash, Google Waymo alphabet are switching over to using and OEMing Chinese hardware in order to achieve Waymo objectives. So Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI, that the impact is actually slower than you originally expected. Going one layer down, though, I don't think I agree with necessarily the premise that societal inertia is the villain for slowing down or spreading out the singularity sigmoid.\n\nOne of the fun ones that I've got is I have a Grokbot called Atelier that has a little team of artists and is trying to learn art.\n\nThey have internal, regular meetings to try to apportion out their scarce compute and the three main constituencies inside Google that are fighting for the flops are, one, Google Cloud Platform, which is basically fighting on behalf of external users, two, Google DeepMind that's fighting for training and inference flops, and then three, Google Search, which needs its own flops, especially as search becomes more intelligent. And this week, NVIDIA stepping up, pouring $6 billion into developing an open-source AI model and inference infrastructure designed to give U.S. developers a domestic alternative to Alibaba, Deep Seek, and Kimi. But I got calls from both Mercor and from Orrin, our good buddy, Cush Bavaria, who was on the pod a week ago, looking for acquisition targets to accelerate, you know, that the hiring cycle is too slow.\n\nThere are a number of U.S. adversaries who would love nothing more than to slow down America's data center buildout. That's what he said he'd sell them at for the vehicle and the sensor hardware compared to Waymo's Gen 5 Jaguar, which costs about $300,000, $200K for the vehicle, 100K for the full autonomous driving hardware package. Combine that lower-cost Chinese hardware with this new interior tech, which the company says was designed to cut sensor cost while improving performance, and the math starts to move in Waymo's favor in a way that it hadn't previously. After what Waymo calls, it's sixth generation driver, the hardware and software system that actually does the driving. here and wouldn't also be surprised as Alphabet Waymo is starting to drive costs down, in this case, I guess by white labeling Chinese hardware. run this causal relationship in reverse that if you made sure that there were no broken windows, you could make sure that crime overall was down, or at least that was the thinking at the time in sub-quadrants in New York City in the 90s and the early 2000s. But Alvin also said, we will habitually report if one Waymo in one corner of San Francisco runs over a cat, it'll make every headline in the world. A lot of suborbital vehicles, which just went straight up, you know, into the ionosphere and beyond stratosphere and came back down were being launched from, you know, white sands and from Fairbanks.",
+      "summaryWordCount": 493,
+      "quotes": [
+        {
+          "text": "Newsflash, Google Waymo alphabet are switching over to using and OEMing Chinese hardware in order to achieve Waymo objectives.",
+          "timestamp": "0:30",
+          "seconds": 30,
+          "speaker": null
+        },
+        {
+          "text": "Sam says factors like the economic inertia, institutional lag, the inability of humans to rapidly adapt to change are combining to slow the curve.",
+          "timestamp": "8:28",
+          "seconds": 508,
+          "speaker": null
+        },
+        {
+          "text": "So Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI, that the impact is actually slower than you originally expected.",
+          "timestamp": "8:28",
+          "seconds": 508,
+          "speaker": null
+        },
+        {
+          "text": "Going one layer down, though, I don't think I agree with necessarily the premise that societal inertia is the villain for slowing down or spreading out the singularity sigmoid.",
+          "timestamp": "11:54",
+          "seconds": 714,
+          "speaker": null
+        },
+        {
+          "text": "That's what he said he'd sell them at for the vehicle and the sensor hardware compared to Waymo's Gen 5 Jaguar, which costs about $300,000, $200K for the vehicle, 100K for the full autonomous driving hardware package.",
+          "timestamp": "1:38:38",
+          "seconds": 5918,
+          "speaker": null
+        },
+        {
+          "text": "Combine that lower-cost Chinese hardware with this new interior tech, which the company says was designed to cut sensor cost while improving performance, and the math starts to move in Waymo's favor in a way that it hadn't previously.",
+          "timestamp": "1:40:28",
+          "seconds": 6028,
+          "speaker": null
+        },
+        {
+          "text": "After what Waymo calls, it's sixth generation driver, the hardware and software system that actually does the driving.",
+          "timestamp": "1:40:28",
+          "seconds": 6028,
+          "speaker": null
+        },
+        {
+          "text": "here and wouldn't also be surprised as Alphabet Waymo is starting to drive costs down, in this case, I guess by white labeling Chinese hardware.",
+          "timestamp": "1:42:56",
+          "seconds": 6176,
+          "speaker": null
+        },
+        {
+          "text": "There's an interesting historic rhyme with Tesla, which started with high-end Roadsder and has been pushing down costs right up until they hit the autonomy barrier, at which point, remember the Tesla Model 2 that was supposed to launch, but never did.",
+          "timestamp": "1:42:56",
+          "seconds": 6176,
+          "speaker": null
+        },
+        {
+          "text": "But Alvin also said, we will habitually report if one Waymo in one corner of San Francisco runs over a cat, it'll make every headline in the world.",
+          "timestamp": "1:54:14",
+          "seconds": 6854,
+          "speaker": null
+        }
+      ],
+      "transcriptSource": "podscripts",
+      "transcriptCueCount": 2138
+    }
+  ]
+}

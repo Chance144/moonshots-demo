@@ -76,3 +76,5 @@ YouTube often blocks cloud IPs. The scraper still completes via oEmbed + playlis
 ## Stack
 
 Vite, React 19, TypeScript, React Router. No backend — search runs in the browser against `public/episodes.json`.
+
+`docs/` is a static GitHub Pages snapshot of an earlier vanilla demo. Use `npm run dev` for the seminar app.

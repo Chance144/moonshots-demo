@@ -53,11 +53,11 @@ Optional: `pip install yt-dlp`
 
 ## Demo episode IDs (newest first)
 
-1. `LNBzLTLuLUo` — EP #292
-2. `DrV4WwNEAZE` — EP #291
-3. `2uiIEdmL040` — EP #290
-4. `H5ZLorBJCDk` — AMA #289
-5. `AxzcWOxzkiw`
+1. `s5BFumpCH_Q` — AMA #293
+2. `LNBzLTLuLUo` — EP #292
+3. `DrV4WwNEAZE` — EP #291
+4. `2uiIEdmL040` — EP #290
+5. `H5ZLorBJCDk` — AMA #289
 
 ## Auto-refresh
 

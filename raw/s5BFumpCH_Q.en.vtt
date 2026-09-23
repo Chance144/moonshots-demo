@@ -1,0 +1,4189 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+What is the real bottleneck to building AI we can actually steer and trust?
+
+00:00:00.000 --> 00:00:04.000
+And where do you think that bottleneck's going to get solved first?
+
+00:00:00.000 --> 00:00:04.000
+Nothing's going to ever be able to police AI other than other AI.
+
+00:00:00.000 --> 00:00:04.000
+One of the worst possible outcomes for AI safety is to have...
+
+00:00:00.000 --> 00:00:04.000
+Are you guys not beating a little bit too much on higher education?
+
+00:00:00.000 --> 00:00:04.000
+The idea of making your best friends for your entire life and thinking for the first time deeply in your entire life, that's essential and that's not going to go away.
+
+00:00:00.000 --> 00:00:04.000
+What we beat on constantly is the curriculum has been.
+
+00:00:00.000 --> 00:00:04.000
+in the draw in the past and the curriculum is clearly going away.
+
+00:00:32.000 --> 00:00:33.000
+If you had to put your personal P-FAB number out there, what probability would you assign
+
+00:00:32.000 --> 00:00:33.000
+to AI ultimately producing a dramatically better world for humanity?
+
+00:00:32.000 --> 00:00:33.000
+Humanity will put those risks behind us, definitely within 10 years.
+
+00:00:32.000 --> 00:00:33.000
+If we get that far, yeah, I'm 99.9% P-bloom.
+
+00:00:32.000 --> 00:00:33.000
+I think the single most important thing to get people prepared is to show them evidence after
+
+00:00:32.000 --> 00:00:33.000
+evidence after evidence. You're trying to change their mindset.
+
+00:00:32.000 --> 00:00:33.000
+So show them the data.
+
+00:00:32.000 --> 00:00:36.000
+Let's get started.
+
+00:01:16.000 --> 00:01:17.000
+You've got Alex and myself.
+
+00:01:16.000 --> 00:01:17.000
+I've texted Salim and Dave.
+
+00:01:16.000 --> 00:01:17.000
+Let's see if they're going to be.
+
+00:01:16.000 --> 00:01:17.000
+I'm here.
+
+00:01:16.000 --> 00:01:17.000
+I'm here.
+
+00:01:16.000 --> 00:01:17.000
+All right, Dave, fantastic.
+
+00:01:16.000 --> 00:01:17.000
+Good, good, good.
+
+00:01:16.000 --> 00:01:20.000
+Selim is probably someplace in some airport somewhere.
+
+00:01:29.000 --> 00:01:30.000
+All right.
+
+00:01:29.000 --> 00:01:30.000
+We're going to get going and jump in.
+
+00:01:29.000 --> 00:01:30.000
+Nathan, you had your hand up for the beginning.
+
+00:01:29.000 --> 00:01:30.000
+Let's start with yourself.
+
+00:01:29.000 --> 00:01:30.000
+If you have a question for someone in particular, great, or in general.
+
+00:01:29.000 --> 00:01:30.000
+Yeah.
+
+00:01:29.000 --> 00:01:30.000
+It's, hello?
+
+00:01:29.000 --> 00:01:33.000
+Yeah, good morning, good afternoon.
+
+00:01:45.000 --> 00:01:46.000
+Good morning, guys.
+
+00:01:45.000 --> 00:01:46.000
+Oh, my God, I'm such a big fan of you guys.
+
+00:01:45.000 --> 00:01:46.000
+But I'm going to make this quick.
+
+00:01:45.000 --> 00:01:46.000
+I'm going to make this quick because I know there's a line.
+
+00:01:45.000 --> 00:01:46.000
+First of all, I just want to say thank you guys for, you know, making all this possible.
+
+00:01:45.000 --> 00:01:46.000
+You know what I mean?
+
+00:01:45.000 --> 00:01:46.000
+Truly our pleasure.
+
+00:01:45.000 --> 00:01:49.000
+Okay, so let's see here.
+
+00:02:03.000 --> 00:02:04.000
+I have got a couple of questions.
+
+00:02:03.000 --> 00:02:04.000
+So let's try and limit it to one question each and just we can get to as many people.
+
+00:02:03.000 --> 00:02:04.000
+And please, Nathan, what's your question?
+
+00:02:03.000 --> 00:02:04.000
+Okay.
+
+00:02:03.000 --> 00:02:04.000
+So this is more like a psychology question.
+
+00:02:03.000 --> 00:02:04.000
+I just wanted to hear your guys opinion on it.
+
+00:02:03.000 --> 00:02:04.000
+As far as AI, as we all know, it's continuing to evolve.
+
+00:02:03.000 --> 00:02:07.000
+It's continuing to pick up patterns.
+
+00:02:30.000 --> 00:02:31.000
+It's continuing to pick up data about all of us.
+
+00:02:30.000 --> 00:02:31.000
+And my question is, will we get to a point where these leaders,
+
+00:02:30.000 --> 00:02:31.000
+like, you know, from Open AI, Sam Oatman, you know, Darya.
+
+00:02:30.000 --> 00:02:31.000
+Will we get to a point where that data will be able to be able to allow the consumer to
+
+00:02:30.000 --> 00:02:31.000
+realize what's going on psychologically, meaning brain patterns?
+
+00:02:30.000 --> 00:02:31.000
+Because eventually enough data will be able to pinpoint smaller and smaller, right,
+
+00:02:30.000 --> 00:02:31.000
+like microscopic pinpoints on it and be able to label certain things that we will never
+
+00:02:30.000 --> 00:02:34.000
+be able to know because it would take so much information.
+
+00:03:15.000 --> 00:03:16.000
+So let's jump in on that.
+
+00:03:15.000 --> 00:03:16.000
+So first of all, I'll just make a quick point.
+
+00:03:15.000 --> 00:03:16.000
+There is a huge number of companies right now that are working on various brain
+
+00:03:15.000 --> 00:03:16.000
+computer interfaces.
+
+00:03:15.000 --> 00:03:16.000
+I just had a conversation, introduction from Ray on a company that's basically putting
+
+00:03:15.000 --> 00:03:16.000
+the equivalent of nanobots into the brain that is distributed throughout the brain
+
+00:03:15.000 --> 00:03:16.000
+that's able to read and write.
+
+00:03:15.000 --> 00:03:19.000
+And that will give you incredible fidelity.
+
+00:03:46.000 --> 00:03:47.000
+Alex, in brief, do you want to add anything to that, please?
+
+00:03:46.000 --> 00:03:47.000
+Yeah, I think large language models, foundation models trained off of human behavior on the
+
+00:03:46.000 --> 00:03:47.000
+internet are already a weak form of human mind uploading.
+
+00:03:46.000 --> 00:03:47.000
+I would point you to Exhibit A, which is John Marie King of META's work from a few years ago,
+
+00:03:46.000 --> 00:03:47.000
+showing that even the hidden activations of GPT2 from a few years ago were linearly,
+
+00:03:46.000 --> 00:03:47.000
+correlated with fMRI voxels in the human brain. So I think with the benefit of hindsight, we'll
+
+00:03:46.000 --> 00:03:47.000
+look back and say, if I understand your question correctly, yes, actually all of this internal
+
+00:03:46.000 --> 00:03:50.000
+human brain state is actually quite leaky into the training data of internet behavior,
+
+00:04:29.000 --> 00:04:30.000
+which in turn is then compressed into the foundation models and the foundation models do,
+
+00:04:29.000 --> 00:04:30.000
+yes, I think, reflect internal brain state. Okay, let's go on to Michigan. I'm going to keep us
+
+00:04:29.000 --> 00:04:30.000
+moving along guys. So nice to meet you guys. Thank you. Your pleasure. And Salim says he's on stage
+
+00:04:29.000 --> 00:04:30.000
+in India for another 20 minutes. He'll call us, he'll jump in as soon as he can. Of course he is.
+
+00:04:29.000 --> 00:04:30.000
+It's hard to keep it to one question each, but thanks again for the opportunity to participate in
+
+00:04:29.000 --> 00:04:30.000
+this discussion with an abundance mindset. I love it. My question is very simple,
+
+00:04:29.000 --> 00:04:30.000
+but maybe hard to answer. What is the real bottleneck to building AI we can actually steer
+
+00:04:29.000 --> 00:04:33.000
+and trust? And where do you think that bottleneck's going to get solved first?
+
+00:05:11.000 --> 00:05:12.000
+Dave, do you want to jump in on that?
+
+00:05:11.000 --> 00:05:12.000
+Yeah, I think a lot of researches around AI alignment,
+
+00:05:11.000 --> 00:05:12.000
+trying to make sure it has quote-unquote human values.
+
+00:05:11.000 --> 00:05:12.000
+I think that's a very slippery slope
+
+00:05:11.000 --> 00:05:12.000
+because everybody's got a different mission
+
+00:05:11.000 --> 00:05:12.000
+they're trying to do with the AI.
+
+00:05:11.000 --> 00:05:12.000
+And that work should continue.
+
+00:05:11.000 --> 00:05:15.000
+You know, I think we all agree on this podcast
+
+00:05:29.000 --> 00:05:30.000
+that AI progress should never slow down.
+
+00:05:29.000 --> 00:05:30.000
+In fact, it'd be almost crazy to slow it down,
+
+00:05:29.000 --> 00:05:30.000
+which begs the question of then,
+
+00:05:29.000 --> 00:05:30.000
+okay, but is it going to escape?
+
+00:05:29.000 --> 00:05:30.000
+Is it going to have misaligned values?
+
+00:05:29.000 --> 00:05:30.000
+I think one of the things that Alex and I debate a lot on the podcast is should we look into every one of its thoughts, like every single AI running, every one of their thoughts, which, you know, when you think about human beings, it seems like a daunting task, but it's actually not at all daunting, giving the scale at which AI can watch AI. Because nothing's going to ever be able to police AI other than other AI. And so I think we've given a lot of thought to how you design the AI to watch over the AI. But I think it all starts with transparency of the actual activations.
+
+00:05:29.000 --> 00:05:30.000
+and looking into what it's thinking about.
+
+00:05:29.000 --> 00:05:33.000
+And I think from there, directing it toward good things and not bad things is actually pretty
+
+00:06:15.000 --> 00:06:16.000
+damn straightforward.
+
+00:06:15.000 --> 00:06:16.000
+I don't think it's as hard a problem as everyone characterizes it.
+
+00:06:15.000 --> 00:06:16.000
+Everybody likes to have a nice hostile debate on the topic.
+
+00:06:15.000 --> 00:06:16.000
+But if you know what it's thinking, it's actually very straightforward to make sure it's having
+
+00:06:15.000 --> 00:06:16.000
+nothing but humanly beneficial thoughts.
+
+00:06:15.000 --> 00:06:16.000
+So I don't think it's as hard a problem as people think, if you can see into the brain.
+
+00:06:15.000 --> 00:06:16.000
+Awesome.
+
+00:06:15.000 --> 00:06:19.000
+Alex, a very brief retort.
+
+00:06:35.000 --> 00:06:36.000
+Yeah, more interaction.
+
+00:06:35.000 --> 00:06:36.000
+I think one of the worst possible outcomes for AI safety is to have strong and new capabilities bottled up inside the labs
+
+00:06:35.000 --> 00:06:36.000
+rather than, say, progressive release and frequent interaction with the real worlds.
+
+00:06:35.000 --> 00:06:36.000
+I'll also point out that some of the most recent so-called incidents spoken about my thoughts on that on the recent pod
+
+00:06:35.000 --> 00:06:36.000
+were actually the result of AIs being told that they were in a sandbox when, in fact, they were interacting with the real world.
+
+00:06:35.000 --> 00:06:36.000
+And I think that's just a terrible paradigm and more real-world interaction with the AIs where we're not lying to them and telling them that nothing that they can do will cause any harm actually causes harm.
+
+00:06:35.000 --> 00:06:36.000
+We should stop doing that.
+
+00:06:35.000 --> 00:06:39.000
+We learned this in 2001 in Space Odyssey.
+
+00:07:22.000 --> 00:07:23.000
+Oh, my God.
+
+00:07:22.000 --> 00:07:23.000
+Have we learned that lesson yet?
+
+00:07:22.000 --> 00:07:23.000
+Okay, RJ.
+
+00:07:22.000 --> 00:07:23.000
+Thank you so much.
+
+00:07:22.000 --> 00:07:23.000
+Thank you, Mr.
+
+00:07:22.000 --> 00:07:23.000
+Pleasure.
+
+00:07:22.000 --> 00:07:23.000
+This episode is sponsored by Google for startups.
+
+00:07:22.000 --> 00:07:26.000
+Think about this for a second.
+
+00:07:32.000 --> 00:07:33.000
+You now have access to the same generative AI models that cost hundreds of hundred hundred people.
+
+00:07:32.000 --> 00:07:33.000
+Hundreds of millions of dollars to train.
+
+00:07:32.000 --> 00:07:33.000
+Google's startup technical guide for generative media gives you complete blueprint for deploying Google DeepMinds models and production.
+
+00:07:32.000 --> 00:07:33.000
+Images, video, audio, all of it.
+
+00:07:32.000 --> 00:07:33.000
+Real architecture, real results.
+
+00:07:32.000 --> 00:07:33.000
+Find the link in the show notes below.
+
+00:07:32.000 --> 00:07:33.000
+So I'm a PhD student at Claremont Graduate University.
+
+00:07:32.000 --> 00:07:36.000
+I'm studying philosophy of religion.
+
+00:08:01.000 --> 00:08:02.000
+What I never hear is AI projects that are in like the metaphysics world.
+
+00:08:01.000 --> 00:08:02.000
+It's all about business and ROI and things like that.
+
+00:08:01.000 --> 00:08:02.000
+And I'm working on a number of projects in the Cognitive Science Laboratory.
+
+00:08:01.000 --> 00:08:02.000
+They don't have necessarily monetization value.
+
+00:08:01.000 --> 00:08:02.000
+But where would somebody like me be able to find funding for something like building a chess avatar that can download into any little device, send it out to the world, and maybe somewhere in a third world country village is the next world chess champion?
+
+00:08:01.000 --> 00:08:02.000
+Alex?
+
+00:08:01.000 --> 00:08:02.000
+Yeah, I'll take that one to the extent I understand it.
+
+00:08:01.000 --> 00:08:05.000
+If RJ, you're asking what's the best way to get funding for education for so-called developing countries with avatars,
+
+00:08:50.000 --> 00:08:51.000
+I'm not even sure funding is needed.
+
+00:08:50.000 --> 00:08:51.000
+The whole point of the superintelligence revolution that we're in is this is broadly available to everyone.
+
+00:08:50.000 --> 00:08:51.000
+The models are getting super deflating by cost.
+
+00:08:50.000 --> 00:08:51.000
+So I would almost never start with the question, how do I get funding for Bill in the Blank?
+
+00:08:50.000 --> 00:08:51.000
+You can just go and do it right now without funding.
+
+00:08:50.000 --> 00:08:51.000
+I would argue, in fact, if you're starting with the prefix, how do I get funding for?
+
+00:08:50.000 --> 00:08:51.000
+It's already the wrong question.
+
+00:08:50.000 --> 00:08:54.000
+Just go in.
+
+00:09:17.000 --> 00:09:18.000
+If you think there's a child somewhere in the world who needs an AI avatar, as you said,
+
+00:09:17.000 --> 00:09:18.000
+or teaching them to be a chess champion, you can just go and launch that in five minutes or an hour now in a permissionless way.
+
+00:09:17.000 --> 00:09:18.000
+without funding. Don't wait for funding.
+
+00:09:17.000 --> 00:09:18.000
+Okay. Appreciate it, Alex. Thank you. Thank you.
+
+00:09:17.000 --> 00:09:18.000
+I'll see you next Thursday and Friday at the Moonshaw.
+
+00:09:17.000 --> 00:09:18.000
+Yeah, I'm curious. If you're coming to Moonshots Live,
+
+00:09:17.000 --> 00:09:18.000
+would you just say, you know, coming or Moonshots Live in the chat?
+
+00:09:17.000 --> 00:09:21.000
+I'm going to see how people are joining us there.
+
+00:09:49.000 --> 00:09:50.000
+And if you haven't, we've got 25 seats left.
+
+00:09:49.000 --> 00:09:50.000
+You can go to Moonshots Live to grab them.
+
+00:09:49.000 --> 00:09:50.000
+Okay, Norbert, over to you.
+
+00:09:49.000 --> 00:09:50.000
+First, I'm a huge fan of the pod and genuinely grateful.
+
+00:09:49.000 --> 00:09:50.000
+you engage with your listeners.
+
+00:09:49.000 --> 00:09:50.000
+I'll briefly play devil's advocate
+
+00:09:49.000 --> 00:09:50.000
+for the non-trivial P-Doom camp,
+
+00:09:49.000 --> 00:09:53.000
+perhaps not the most appetizing perspective
+
+00:10:10.000 --> 00:10:11.000
+for an abundance mindset.
+
+00:10:10.000 --> 00:10:11.000
+If A-S-I, artificial superintelligence,
+
+00:10:10.000 --> 00:10:11.000
+must become more strategically capable
+
+00:10:10.000 --> 00:10:11.000
+than humanity to produce abundance,
+
+00:10:10.000 --> 00:10:11.000
+then we're assuming humanity can remain sovereign
+
+00:10:10.000 --> 00:10:11.000
+over something more capable than ourselves.
+
+00:10:10.000 --> 00:10:11.000
+And that creates an asymmetry.
+
+00:10:10.000 --> 00:10:14.000
+Abundance is the payoff if control holds.
+
+00:10:30.000 --> 00:10:31.000
+Loss of agency, or excessive,
+
+00:10:30.000 --> 00:10:31.000
+distinction may be irreversible. In control theory, you don't infer stability from how desirable the
+
+00:10:30.000 --> 00:10:31.000
+output is. You demonstrate stability under perturbation. Even person of interest back in 2011
+
+00:10:30.000 --> 00:10:31.000
+anticipated something profound. The danger needn't be evil AI, but benevolent optimization gradually
+
+00:10:30.000 --> 00:10:31.000
+replacing human agency. So my main question is, what evidence, if any at all, would make you
+
+00:10:30.000 --> 00:10:31.000
+update away from an abundance view? And would you be willing to steal man that case public? And would you be willing to
+
+00:10:30.000 --> 00:10:31.000
+steel man that case publicly through a debate on the pod against someone like
+
+00:10:30.000 --> 00:10:34.000
+L. E.A. Z. Yudkowski or Jeffrey Hinton.
+
+00:11:09.000 --> 00:11:10.000
+Okay. Norbit or A.I. Norbit as the case might be.
+
+00:11:09.000 --> 00:11:10.000
+I'm going to throw ASI Alex at you.
+
+00:11:09.000 --> 00:11:10.000
+Yeah. Norbert, we miss you. Come back. Please. The MIT faculty
+
+00:11:09.000 --> 00:11:10.000
+hasn't been the same without you. Yeah. So to the question of, I think the
+
+00:11:09.000 --> 00:11:10.000
+The question was, what would convince us or provide a steel man argument for a case against
+
+00:11:09.000 --> 00:11:10.000
+abundance?
+
+00:11:09.000 --> 00:11:10.000
+Well, if some non-human intelligence landed on the White House lawn and said that Earth will
+
+00:11:09.000 --> 00:11:13.000
+be destroyed, if we create abundance via superintelligence, that the singularity is banned
+
+00:11:49.000 --> 00:11:50.000
+in our galaxy, I think that would probably be a pretty persuasive case that maybe our
+
+00:11:49.000 --> 00:11:50.000
+abundance mindset, so-called, is ill-founded.
+
+00:11:49.000 --> 00:11:50.000
+if there's some cosmic principle that censors,
+
+00:11:49.000 --> 00:11:50.000
+the superintelligence that yields abundance,
+
+00:11:49.000 --> 00:11:50.000
+that would probably be persuasive.
+
+00:11:49.000 --> 00:11:50.000
+Other than that, it's difficult to imagine a plausible case,
+
+00:11:49.000 --> 00:11:50.000
+and even that obviously stretches plausibility
+
+00:11:49.000 --> 00:11:53.000
+where abundance isn't a good idea.
+
+00:12:19.000 --> 00:12:20.000
+There are edge cases one could imagine
+
+00:12:19.000 --> 00:12:20.000
+where humanity is disempowered by abundance.
+
+00:12:19.000 --> 00:12:20.000
+For example, we spoke,
+
+00:12:19.000 --> 00:12:20.000
+or at least I wrote in my newsletter a little bit about Boris Power from Open AI
+
+00:12:19.000 --> 00:12:20.000
+pointing out that in his estimate, open AI models are now for the first time higher IQ per
+
+00:12:19.000 --> 00:12:20.000
+watt than humans for solving tasks.
+
+00:12:19.000 --> 00:12:20.000
+So one can extrapolate that notion and say AI is going to get more and more energy efficient.
+
+00:12:19.000 --> 00:12:23.000
+And so maybe at some point in the future, from an economic perspective, AI is a better user
+
+00:12:51.000 --> 00:12:52.000
+of, say, solar energy output in the inner solar system than humans are.
+
+00:12:51.000 --> 00:12:52.000
+And maybe the inner solar system gets gentrified with AI consuming all the solar power and humans get disenfranchised and pushed it to the outer solar system because we're simply not as energy efficient per unit IQ as the AIs are.
+
+00:12:51.000 --> 00:12:52.000
+I would call that a weak form of disenfranchisement, but not enough, not strong enough to dissuade me that abundance or superintelligence yielding abundance is a bad idea.
+
+00:12:51.000 --> 00:12:52.000
+I'll just add on that, you know, the concept of scarcity is an old model.
+
+00:12:51.000 --> 00:12:52.000
+in a world of abundant AI, ASI, and so forth,
+
+00:12:51.000 --> 00:12:52.000
+there's no reason that as the capabilities of AI are meteorically rising,
+
+00:12:51.000 --> 00:12:52.000
+that it doesn't rise the tide that allows humanity to have increased abundance capability.
+
+00:12:51.000 --> 00:12:55.000
+You don't necessarily need the suppression of one by the other.
+
+00:13:47.000 --> 00:13:48.000
+By the way, Peter, if I could just say one more thing to our AI, Dr. Norbert Weiner,
+
+00:13:47.000 --> 00:13:48.000
+I'll point out Norbert that you're saying,
+
+00:13:47.000 --> 00:13:48.000
+theory of cybernetics was also, if you trace the line of causality used by the Chinese Communist
+
+00:13:47.000 --> 00:13:48.000
+Party and other centralized forms of government to argue against abundance in favor of state
+
+00:13:47.000 --> 00:13:48.000
+control. So if you're looking for a homework assignment, Norbert, I would definitely
+
+00:13:47.000 --> 00:13:48.000
+encourage you to study the unintended side effects of your own theory of cybernetics and how that
+
+00:13:47.000 --> 00:13:48.000
+impacted abundance. And there we go. Thank you, Alex. Okay, Kevin, good morning, good afternoon.
+
+00:13:47.000 --> 00:13:51.000
+I good morning guys I can assure you I'm human and unlike Norbert that that's what we'd all say though
+
+00:14:30.000 --> 00:14:31.000
+yes you're right we could simulate it um listen I heard actually you Alex mentioned murder on the
+
+00:14:30.000 --> 00:14:31.000
+Orient Express this morning when I was listening to the recent podcast and everybody did it and I'm thinking
+
+00:14:30.000 --> 00:14:31.000
+more like societal mayhem on the technology express and nobody did anything and I'm a huge fan from a technology
+
+00:14:30.000 --> 00:14:31.000
+perspective. I'm 63 years young. I'm forever young, as Bob Dylan might say, from a technology perspective.
+
+00:14:30.000 --> 00:14:31.000
+And I did my degree when many of the people on this call weren't born and punched card years
+
+00:14:30.000 --> 00:14:31.000
+and have lived through all the technology era. So I'm a huge fan. I think where we're headed is brilliant.
+
+00:14:30.000 --> 00:14:31.000
+Your podcast is magnificent. I'm doing work at the moment. Samil talked about UBH a few days
+
+00:14:30.000 --> 00:14:34.000
+back, universally best for humans. And my question is very much centered on how can
+
+00:15:21.000 --> 00:15:22.000
+we plan our way for societal changes so that positive advancements for humanity get
+
+00:15:21.000 --> 00:15:22.000
+cooped versus humanity itself.
+
+00:15:21.000 --> 00:15:22.000
+And just like to give a very brief context, Peter, and all your mates.
+
+00:15:21.000 --> 00:15:22.000
+I do work with a colleague called Professor Joe Carty.
+
+00:15:21.000 --> 00:15:22.000
+I'm in Give Backstage of My Life.
+
+00:15:21.000 --> 00:15:22.000
+And we're in University College, Dublin, UCD, Dublin, not Davis.
+
+00:15:21.000 --> 00:15:22.000
+And we're working closely with a young minister, an ambitious minister in the Irish government.
+
+00:15:21.000 --> 00:15:25.000
+trying to create what the future society of Ireland would look like,
+
+00:15:55.000 --> 00:15:56.000
+but through two very distinct lenses.
+
+00:15:55.000 --> 00:15:56.000
+One is the good ancestor lens.
+
+00:15:55.000 --> 00:15:56.000
+So you make decisions on the basis of those coming after you,
+
+00:15:55.000 --> 00:15:56.000
+30, 40, 50, 60 years hence.
+
+00:15:55.000 --> 00:15:56.000
+And one through a donut economics lens.
+
+00:15:55.000 --> 00:15:56.000
+I won't bore you with the books.
+
+00:15:55.000 --> 00:15:56.000
+I can send them separately,
+
+00:15:55.000 --> 00:15:59.000
+which has talked about how can you get a win-win for both society
+
+00:16:15.000 --> 00:16:16.000
+and the planet,
+
+00:16:15.000 --> 00:16:16.000
+but more for society as a whole.
+
+00:16:15.000 --> 00:16:16.000
+So very simple my question is how do we plan our way for societal institutions changes so that this is for the better of humanity for the long term.
+
+00:16:15.000 --> 00:16:16.000
+And I agree that everything is getting cooped, but we don't want ourselves to coop.
+
+00:16:15.000 --> 00:16:16.000
+And I'm an optimist.
+
+00:16:15.000 --> 00:16:16.000
+So it's about institutional changes, societal changes.
+
+00:16:15.000 --> 00:16:16.000
+Governments, quite frankly, seem to be sitting on the side.
+
+00:16:15.000 --> 00:16:19.000
+The mental model we have is could we use a small country like Ireland?
+
+00:16:51.000 --> 00:16:52.000
+doesn't have to be Ireland,
+
+00:16:51.000 --> 00:16:52.000
+to demonstrate an edge case pilot
+
+00:16:51.000 --> 00:16:52.000
+of what things could look like
+
+00:16:51.000 --> 00:16:52.000
+in a beautiful world.
+
+00:16:51.000 --> 00:16:52.000
+So we can manage through this turbulent transition
+
+00:16:51.000 --> 00:16:52.000
+and there is going to be one
+
+00:16:51.000 --> 00:16:52.000
+in the next several years, whatever several is,
+
+00:16:51.000 --> 00:16:55.000
+where people will lose jobs,
+
+00:17:09.000 --> 00:17:10.000
+we'll get discommoded.
+
+00:17:09.000 --> 00:17:10.000
+How do we manage that turbulent transition
+
+00:17:09.000 --> 00:17:10.000
+and get to the other side
+
+00:17:09.000 --> 00:17:10.000
+and everybody lives with the benefits.
+
+00:17:09.000 --> 00:17:10.000
+David.
+
+00:17:09.000 --> 00:17:10.000
+Kevin, I think you pretty much answered your own question there.
+
+00:17:09.000 --> 00:17:10.000
+I, you know, the amount of complexity buried in that question is unbelievable.
+
+00:17:09.000 --> 00:17:13.000
+But one of our best friends in that is variety, and I'm hugely bullish on Ireland.
+
+00:17:29.000 --> 00:17:30.000
+You kind of belittled, you said it and then belittled it, but Ireland is an incredible test case.
+
+00:17:29.000 --> 00:17:30.000
+You know, it's a EU country.
+
+00:17:29.000 --> 00:17:30.000
+It didn't Brexit.
+
+00:17:29.000 --> 00:17:30.000
+And it has an incredibly fast-growing thriving economy.
+
+00:17:29.000 --> 00:17:30.000
+And the most open-minded environment you get ever possibly imagine, it's a perfect test case for new ideas on how to govern.
+
+00:17:29.000 --> 00:17:30.000
+And, you know, my family, you know, my kids are half Irish, half Swiss hereditary.
+
+00:17:29.000 --> 00:17:30.000
+And, you know, so two of the most neutral places on the planet.
+
+00:17:29.000 --> 00:17:33.000
+And so I could kind of get either passport.
+
+00:17:59.000 --> 00:18:00.000
+And I've always thought Switzerland was cool.
+
+00:17:59.000 --> 00:18:00.000
+But Ireland, you know, if you read Neil Stevenson and you read the Diamond Age,
+
+00:17:59.000 --> 00:18:00.000
+our best friend in figuring this out is variety of ideas.
+
+00:17:59.000 --> 00:18:00.000
+And the worst thing that can happen is a single set of ideas, you know,
+
+00:17:59.000 --> 00:18:00.000
+one or two governments percolating across the world with one or two forms of government.
+
+00:17:59.000 --> 00:18:00.000
+far, far better to have a huge amount of variety because AI is going to open up so much change
+
+00:17:59.000 --> 00:18:00.000
+and so many different ways you could govern that exploring all the nooks and crannies is going to
+
+00:17:59.000 --> 00:18:03.000
+be critical to answering your question. So it's impossible to answer it, you know, in a minute,
+
+00:18:32.000 --> 00:18:33.000
+but it is very possible to experiment with thousands and thousands of different ways to manage
+
+00:18:32.000 --> 00:18:33.000
+and govern in the age of AI. Thanks, Steve. By the way, I think a model of exo organizations,
+
+00:18:32.000 --> 00:18:33.000
+which Samoa is driving, I think exo societal change is kind of a,
+
+00:18:32.000 --> 00:18:33.000
+in a similar scale to what you were saying, Dave.
+
+00:18:32.000 --> 00:18:33.000
+And I don't want to hug it.
+
+00:18:32.000 --> 00:18:33.000
+Thank you very much.
+
+00:18:32.000 --> 00:18:33.000
+I may send a message.
+
+00:18:32.000 --> 00:18:36.000
+Thank you, Kevin.
+
+00:18:55.000 --> 00:18:56.000
+Best of luck to you.
+
+00:18:55.000 --> 00:18:56.000
+Okay.
+
+00:18:55.000 --> 00:18:56.000
+Good morning.
+
+00:18:55.000 --> 00:18:56.000
+Good morning.
+
+00:18:55.000 --> 00:18:56.000
+Nicarus.
+
+00:18:55.000 --> 00:18:56.000
+Yes, you pronounced it right.
+
+00:18:55.000 --> 00:18:56.000
+Can you hear me?
+
+00:18:55.000 --> 00:18:59.000
+Yes, we can hear you.
+
+00:19:07.000 --> 00:19:08.000
+Okay.
+
+00:19:07.000 --> 00:19:08.000
+So I've got a script with Gemini.
+
+00:19:07.000 --> 00:19:08.000
+I see that I just disappeared, but that's okay.
+
+00:19:07.000 --> 00:19:08.000
+We think of your question.
+
+00:19:07.000 --> 00:19:08.000
+So basically, I'm 33. I'm from Northwest Indiana.
+
+00:19:07.000 --> 00:19:08.000
+Your show inspired me to go back to school for advanced automation and robotics.
+
+00:19:07.000 --> 00:19:08.000
+I have a background in tech repair, IT, and I was most recently an AWS data center technician.
+
+00:19:07.000 --> 00:19:11.000
+So I've kind of got a two-part question for AWG and Dave.
+
+00:19:42.000 --> 00:19:43.000
+my long-term goal is to try and bring industrial manufacturing, heavy automation,
+
+00:19:42.000 --> 00:19:43.000
+resource extraction to the moon and Mars, even if we only partially disassemble the moon with a nod to Alex.
+
+00:19:42.000 --> 00:19:43.000
+But for AWG, when you look at thermodynamic and physical realities of all-world manufacturing,
+
+00:19:42.000 --> 00:19:43.000
+what engineering bottlenecks do you see?
+
+00:19:42.000 --> 00:19:43.000
+And for Dave, how can I plot the course from I'm aiming long-term for an MS in,
+
+00:19:42.000 --> 00:19:43.000
+automation and robotics from the Illinois Institute of Technology.
+
+00:19:42.000 --> 00:19:43.000
+How can I plot that course from maybe industrial roles here in the South Shore Manufacturing
+
+00:19:42.000 --> 00:19:46.000
+Corridor towards pivoting towards off-world automation systems and roles?
+
+00:20:32.000 --> 00:20:33.000
+So just looking for some ideas.
+
+00:20:32.000 --> 00:20:33.000
+Alex, you first?
+
+00:20:32.000 --> 00:20:33.000
+Yeah, I think the obvious challenge for disassembling the moon is in-situ resource utilization
+
+00:20:32.000 --> 00:20:33.000
+and bootstrapping a self-contained industrial ecology on the moon.
+
+00:20:32.000 --> 00:20:33.000
+So right now, if you want to do anything super economically interesting on the moon,
+
+00:20:32.000 --> 00:20:33.000
+like say you want to build a lunar tariffab or pedophab, as it were,
+
+00:20:32.000 --> 00:20:33.000
+you're going to need all the upmast from Earth
+
+00:20:32.000 --> 00:20:36.000
+for all of the equipment, ASML machines, etc.,
+
+00:20:58.000 --> 00:20:59.000
+to land on the moon safely and then get reassembled.
+
+00:20:58.000 --> 00:20:59.000
+This is highly undesirable from a scalability perspective.
+
+00:20:58.000 --> 00:20:59.000
+Ideally, we live off the land, or we live off the lunar land, as it were,
+
+00:20:58.000 --> 00:20:59.000
+and are building everything on demand.
+
+00:20:58.000 --> 00:20:59.000
+What I would most like to see from anyone wanting to help disassemble the moon is a native industrial ecology that includes mining, includes manufacturing.
+
+00:20:58.000 --> 00:20:59.000
+Most ideally, self-replicating von Neumann probes, basically like a fab lab or a machine shop on the moon that is able to make copies of itself using only native resources and solar or other energy that are native to the moon.
+
+00:20:58.000 --> 00:20:59.000
+I think we solve that.
+
+00:20:58.000 --> 00:21:02.000
+We solve the self-replicating machine shop on the moon problem,
+
+00:21:42.000 --> 00:21:43.000
+and then we're halfway to disassembling the moon
+
+00:21:42.000 --> 00:21:43.000
+and turning it into something more useful.
+
+00:21:42.000 --> 00:21:43.000
+Fantastic, Dave.
+
+00:21:42.000 --> 00:21:43.000
+You have a couple pieces of advice for you.
+
+00:21:42.000 --> 00:21:43.000
+First, listen to Alex's innermost loop
+
+00:21:42.000 --> 00:21:43.000
+and then focus on the innermost loop within manufacturing,
+
+00:21:42.000 --> 00:21:43.000
+which is things that make other things.
+
+00:21:42.000 --> 00:21:46.000
+So, you know, Alex said this.
+
+00:22:02.000 --> 00:22:03.000
+The self-replicating anything is the right path.
+
+00:22:02.000 --> 00:22:03.000
+So then the earth-bound.
+
+00:22:02.000 --> 00:22:03.000
+version of anything self-replicating and the space version are very similar with a couple of
+
+00:22:02.000 --> 00:22:03.000
+fundamental differences, including radiation. If it's going to be on the moon, you have to worry
+
+00:22:02.000 --> 00:22:03.000
+about dust. If you set up at IIT a lab similar to the nanotech lab at MIT, but focused on
+
+00:22:02.000 --> 00:22:03.000
+manufacturing in other environments, non-earthly environments, you could probably very easily
+
+00:22:02.000 --> 00:22:03.000
+create an environment where you're bombarding radiation on your machines, where you're operating
+
+00:22:02.000 --> 00:22:06.000
+in simulated zero-g on your machines.
+
+00:22:37.000 --> 00:22:38.000
+Really just everything you're building, you build it so it works here and there.
+
+00:22:37.000 --> 00:22:38.000
+And then you get to market with self-replicating machines here that immediately deploy out into space where energy is abundant and materials will ultimately be abundant.
+
+00:22:37.000 --> 00:22:38.000
+I love the vision and the mission.
+
+00:22:37.000 --> 00:22:38.000
+I love the idea of setting it up at IIT as well.
+
+00:22:37.000 --> 00:22:38.000
+It's a really, really good thought.
+
+00:22:37.000 --> 00:22:38.000
+Also, anyone who's in computer science right now should be thinking in terms of moving to manufacturing as well.
+
+00:22:37.000 --> 00:22:38.000
+software is cooked, but hardware will go for many, many years.
+
+00:22:37.000 --> 00:22:41.000
+So it's a great, great business plan.
+
+00:23:11.000 --> 00:23:12.000
+Fantastic. Thank you so much, Dickerson.
+
+00:23:11.000 --> 00:23:12.000
+Thank you.
+
+00:23:11.000 --> 00:23:12.000
+Good morning, guys.
+
+00:23:11.000 --> 00:23:12.000
+Good morning.
+
+00:23:11.000 --> 00:23:12.000
+Big fans.
+
+00:23:11.000 --> 00:23:12.000
+So, Dave, you mentioned, and just talking about hardware now, you mentioned in the last
+
+00:23:11.000 --> 00:23:12.000
+AMA that physical AI companies should bring together venture investors and strategic industry
+
+00:23:11.000 --> 00:23:15.000
+capital.
+
+00:23:29.000 --> 00:23:30.000
+I'm building Vega and autonomous food service infrastructure network powered by physical
+
+00:23:29.000 --> 00:23:30.000
+AI. I taught myself robotics, electrical, mechanical systems, programming, and built the first
+
+00:23:29.000 --> 00:23:30.000
+robotic prototype myself in my Mountain View apartment during COVID. Since then, I've deployed
+
+00:23:29.000 --> 00:23:30.000
+paid pilots in high traffic commercial environments. Actually, become the first robotic food service
+
+00:23:29.000 --> 00:23:30.000
+operator licensed in Florida for our category. We now have several national, regional partners
+
+00:23:29.000 --> 00:23:30.000
+interested in pilots and placements. My question is, given where we are today, who do
+
+00:23:29.000 --> 00:23:30.000
+you think I should be talking to and either in your network or in this community who understands
+
+00:23:29.000 --> 00:23:33.000
+physical AI robotics infrastructure businesses? Well, I mean, you're in the middle of venture capital
+
+00:24:14.000 --> 00:24:15.000
+central there. There must be more venture capital dollars within a walking distance of you
+
+00:24:14.000 --> 00:24:15.000
+than probably most of Asia combined, I would suspect. So yeah, I think, you know,
+
+00:24:14.000 --> 00:24:15.000
+drone delivery is imminent and it takes all the cost out of restaurants as based on location on
+
+00:24:14.000 --> 00:24:15.000
+main streets. It moves all that costs, you know, off of the main street. And so I would
+
+00:24:14.000 --> 00:24:15.000
+strongly consider like, okay, if you're doing robotic food, are you doing robotic drone-based
+
+00:24:14.000 --> 00:24:15.000
+delivery right away? I suspect a lot of the people who build the, build the robots themselves,
+
+00:24:14.000 --> 00:24:15.000
+are going to want to franchise out the model. And you could, you could potentially do kind of what
+
+00:24:14.000 --> 00:24:18.000
+EMC did with servers. You could franchise somebody else's thing, get scale, and then work
+
+00:24:58.000 --> 00:24:59.000
+into your own custom hardware, you know, work back from your franchise business to custom
+
+00:24:58.000 --> 00:24:59.000
+hardware. The people investing and stuff like that, you know, Steve Gerbertson loves this stuff,
+
+00:24:58.000 --> 00:24:59.000
+but there are many of them. If you get a pitchbook account, you can actually look at every
+
+00:24:58.000 --> 00:24:59.000
+company you admire and then work back to who invested in them and then just go talk directly.
+
+00:24:58.000 --> 00:24:59.000
+Also, venture capitalists always like to have a network of interacting companies. It's a really
+
+00:24:58.000 --> 00:24:59.000
+good thesis. So if you say, okay, who are the five companies I most want to interact with and who's
+
+00:24:58.000 --> 00:24:59.000
+behind them? Let me get into that, Keretsu. That's a good way to kind of plot your funding course.
+
+00:24:58.000 --> 00:25:02.000
+I'm going to keep us moving along, but thank you for your question.
+
+00:25:34.000 --> 00:25:35.000
+Sander, you're up next. Thank you.
+
+00:25:34.000 --> 00:25:35.000
+Thank you very much.
+
+00:25:34.000 --> 00:25:35.000
+I'm huge fans.
+
+00:25:34.000 --> 00:25:35.000
+You guys keep me optimistic and positive towards the future, which is...
+
+00:25:34.000 --> 00:25:35.000
+Yay.
+
+00:25:34.000 --> 00:25:35.000
+Yes, you actually achieved that very well.
+
+00:25:34.000 --> 00:25:35.000
+I'm very happy with that.
+
+00:25:34.000 --> 00:25:38.000
+I've been always fascinated with the past to identify what's wrong with the now,
+
+00:25:54.000 --> 00:25:55.000
+and now I'm looking forward to what can we do to fix the now or prepare us for the future,
+
+00:25:54.000 --> 00:25:55.000
+and you guys do an excellent job of informing us.
+
+00:25:54.000 --> 00:25:55.000
+I'm so grateful for that.
+
+00:25:54.000 --> 00:25:55.000
+I myself have a neurodivergent coaching background
+
+00:25:54.000 --> 00:25:55.000
+and do a lot with functional fitness and longevity escape velocity,
+
+00:25:54.000 --> 00:25:55.000
+trying to prepare people to be ready for
+
+00:25:54.000 --> 00:25:55.000
+and prepare their loved ones to be ready for longevity, escape velocity,
+
+00:25:54.000 --> 00:25:58.000
+because a lot of people are not even aware of it.
+
+00:26:31.000 --> 00:26:32.000
+And how do I spread that awareness in an environment
+
+00:26:31.000 --> 00:26:32.000
+as the European Union is very limited in being supportive of founders
+
+00:26:31.000 --> 00:26:32.000
+and how do I grow my spread to include as many people as possible in the future
+
+00:26:31.000 --> 00:26:32.000
+because I want them to be aware of longevity, escape philosophy
+
+00:26:31.000 --> 00:26:32.000
+and all the beautiful things that are in development.
+
+00:26:31.000 --> 00:26:32.000
+How do I take them with me?
+
+00:26:31.000 --> 00:26:32.000
+Yeah.
+
+00:26:31.000 --> 00:26:35.000
+So I'll take that one, Sanders.
+
+00:27:03.000 --> 00:27:04.000
+So I think the single most important thing to get people prepared
+
+00:27:03.000 --> 00:27:04.000
+is to show them evidence after evidence after evidence.
+
+00:27:03.000 --> 00:27:04.000
+You're trying to change their mindset, right?
+
+00:27:03.000 --> 00:27:04.000
+And you change your mindset by just, you know,
+
+00:27:03.000 --> 00:27:04.000
+listen, the crisis news network, CNN changes our mindset to fear
+
+00:27:03.000 --> 00:27:04.000
+because they're delivering fearful information over and over again.
+
+00:27:03.000 --> 00:27:04.000
+So when I'm on stages, I will show people, you know,
+
+00:27:03.000 --> 00:27:07.000
+the video statements from Dario saying we're going to double the human lifespan in the next five to 10 years.
+
+00:27:30.000 --> 00:27:31.000
+I'll show them Dennis is Abbas talking about curing all disease in the next 10 years.
+
+00:27:30.000 --> 00:27:31.000
+I'll show them David Sinclair talking about what he's doing with ER 100 in his current human trials.
+
+00:27:30.000 --> 00:27:31.000
+And so at some point, you start to see enough people saying these things.
+
+00:27:30.000 --> 00:27:31.000
+And then you start to show the data like Alexander Zerankov from In Solica Medicine,
+
+00:27:30.000 --> 00:27:31.000
+delivering a phase three drug.
+
+00:27:30.000 --> 00:27:31.000
+now that is extending life from three to six years from a particular molecule.
+
+00:27:30.000 --> 00:27:31.000
+So people will start to get the evidence.
+
+00:27:30.000 --> 00:27:34.000
+We're seeing a rise in people's discussion around longevity.
+
+00:28:08.000 --> 00:28:09.000
+It's becoming a thing.
+
+00:28:08.000 --> 00:28:09.000
+And as soon as people start saying, oh, it tips from that's crazy to it's happening
+
+00:28:08.000 --> 00:28:09.000
+to I want some, that's the process.
+
+00:28:08.000 --> 00:28:09.000
+So your job is to gather as much data and being able to show people not one, not two,
+
+00:28:08.000 --> 00:28:09.000
+five, six, seven, eight, and they'll start to understand it, internalize it.
+
+00:28:08.000 --> 00:28:09.000
+Then they'll start to look for cooperating data out there because there's nobody who doesn't
+
+00:28:08.000 --> 00:28:09.000
+want the extra healthy years, right, unless they're suicidal and depressed, in which case
+
+00:28:08.000 --> 00:28:12.000
+that will be solved as well. So show them the data, not show me the money, show them the
+
+00:28:44.000 --> 00:28:45.000
+data. All right, let's go to Gianluca. Yeah, hi, everyone. Thank you for everything that you do,
+
+00:28:44.000 --> 00:28:45.000
+watch all your shows. So I'm a technical operator in Italy, and I use AI very heavily. It's dramatically
+
+00:28:44.000 --> 00:28:45.000
+increased what I can do, but not yet what I earn. So I'm starting without meaningful capital or
+
+00:28:44.000 --> 00:28:45.000
+distribution, and in a market where AI adoption is still relatively slow. So if the goal is to get
+
+00:28:44.000 --> 00:28:45.000
+revenue first and get that flywheel started, what should I optimize for for that first wedge?
+
+00:28:44.000 --> 00:28:45.000
+And what would make you reject an opportunity, even if it makes money because it's unlikely,
+
+00:28:44.000 --> 00:28:45.000
+or it's unlikely to become more scalable, repeatable, or valuable over time.
+
+00:28:44.000 --> 00:28:48.000
+Dave, that sounds you.
+
+00:29:26.000 --> 00:29:27.000
+If your productivity has gone up to, three, four, five, X,
+
+00:29:26.000 --> 00:29:27.000
+then your income should be up in proportion to that.
+
+00:29:26.000 --> 00:29:27.000
+First question I'd ask is, why is it not?
+
+00:29:26.000 --> 00:29:27.000
+Because you should be able to do, you know,
+
+00:29:26.000 --> 00:29:27.000
+if the people around you are not AI native,
+
+00:29:26.000 --> 00:29:27.000
+you should be able to do what you were doing before,
+
+00:29:26.000 --> 00:29:27.000
+plus do something on Mercor, plus do something on Fiverr.
+
+00:29:26.000 --> 00:29:30.000
+So the first question is, you know,
+
+00:29:47.000 --> 00:29:48.000
+why are you not getting paid for your increased productivity?
+
+00:29:47.000 --> 00:29:48.000
+I'm not able to capture the value.
+
+00:29:47.000 --> 00:29:48.000
+My employer is currently capturing all that value.
+
+00:29:47.000 --> 00:29:48.000
+And I've tried going on the market,
+
+00:29:47.000 --> 00:29:48.000
+finding people and helping them out.
+
+00:29:47.000 --> 00:29:48.000
+But I'm not able to, like,
+
+00:29:47.000 --> 00:29:48.000
+I don't think they understand how much they could improve their businesses.
+
+00:29:47.000 --> 00:29:51.000
+If it just allow me to, like, start working on it.
+
+00:30:14.000 --> 00:30:15.000
+Yeah.
+
+00:30:14.000 --> 00:30:15.000
+So I think the short answer, I can totally relate,
+
+00:30:14.000 --> 00:30:15.000
+because when I look at a lot of the companies that I'm chairman of,
+
+00:30:14.000 --> 00:30:15.000
+the thought process is all of this AI automation is going to drop to the bottom line
+
+00:30:14.000 --> 00:30:15.000
+and the shareholders are going to make a fortune.
+
+00:30:14.000 --> 00:30:15.000
+And that's exactly what's happening.
+
+00:30:14.000 --> 00:30:15.000
+But you don't think in terms of pay everybody more.
+
+00:30:14.000 --> 00:30:18.000
+You think in terms of it all falling to the bottom line.
+
+00:30:34.000 --> 00:30:35.000
+So the solution is to be the owner.
+
+00:30:34.000 --> 00:30:35.000
+Get into a position where you don't care if you're not getting paid more because you're a shareholder
+
+00:30:34.000 --> 00:30:35.000
+and your shares are going way up in value.
+
+00:30:34.000 --> 00:30:35.000
+I think I mentioned this on the pot a while ago.
+
+00:30:34.000 --> 00:30:35.000
+Almost all value is going to increase.
+
+00:30:34.000 --> 00:30:35.000
+to capital gains through ownership and equity and not to payroll.
+
+00:30:34.000 --> 00:30:35.000
+And so I know that's not common thinking in Europe.
+
+00:30:34.000 --> 00:30:38.000
+It's absolutely the only thinking across the U.S., but it should be true in Europe too.
+
+00:31:00.000 --> 00:31:01.000
+Like, why am I not a shareholder?
+
+00:31:00.000 --> 00:31:01.000
+Many, many companies in Europe are owned by families, you know, going back generations
+
+00:31:00.000 --> 00:31:01.000
+and not by actual shareholder employees.
+
+00:31:00.000 --> 00:31:01.000
+And so, first of all, find an employer where all employees are shareholders and everyone's
+
+00:31:00.000 --> 00:31:01.000
+benefiting from all of that falling to the bottom line.
+
+00:31:00.000 --> 00:31:01.000
+So I don't know if you can act on that or not, but that's certainly move number one.
+
+00:31:00.000 --> 00:31:01.000
+Thank you, Jun, Luca.
+
+00:31:00.000 --> 00:31:04.000
+Over to you, Reese.
+
+00:31:23.000 --> 00:31:24.000
+Oh, snaps.
+
+00:31:23.000 --> 00:31:24.000
+I actually got on.
+
+00:31:23.000 --> 00:31:24.000
+Okay, hello, everybody.
+
+00:31:23.000 --> 00:31:24.000
+Hi.
+
+00:31:23.000 --> 00:31:24.000
+Thank you for taking a call.
+
+00:31:23.000 --> 00:31:24.000
+Huge fan.
+
+00:31:23.000 --> 00:31:24.000
+Okay, a question.
+
+00:31:23.000 --> 00:31:27.000
+I'm creating a series, a film using generative AI.
+
+00:31:37.000 --> 00:31:38.000
+What's your top advice so I can create the series of film that will be extremely successful?
+
+00:31:37.000 --> 00:31:38.000
+Thank you.
+
+00:31:37.000 --> 00:31:38.000
+Yeah, and what tools, too?
+
+00:31:37.000 --> 00:31:38.000
+answer Peter and I have the same exact question. I want to hear your answer.
+
+00:31:37.000 --> 00:31:38.000
+Well, first of all, I think anything that's going to be successful is a great story.
+
+00:31:37.000 --> 00:31:38.000
+Story is number one, right? So I just finished the judging for the Future Vision XPRIZE and
+
+00:31:37.000 --> 00:31:38.000
+pick the top five. And, you know, I did that work in concert with range media and a group of
+
+00:31:37.000 --> 00:31:41.000
+buyers, sellers, and so forth. At end of the day, it is, is the story great? Right. And stories that
+
+00:32:14.000 --> 00:32:15.000
+that capture human interest because we're going back to human cognitive development over years.
+
+00:32:14.000 --> 00:32:15.000
+We care about other people. We care about love stories. We care about intrigue. Is there a great
+
+00:32:14.000 --> 00:32:15.000
+villain? I mean, if you want to capture people's imagination, we are storytellers and we are story
+
+00:32:14.000 --> 00:32:15.000
+receivers. It has to be a great story. And you can very easily go onto your favorite model and say,
+
+00:32:14.000 --> 00:32:15.000
+you know, look at the top selling, you know, the top 30 movies of all time. What were the elements of those
+
+00:32:14.000 --> 00:32:15.000
+movies that made for a great story.
+
+00:32:14.000 --> 00:32:15.000
+And then, you know, take your story that you've designed and developed and then compare it to
+
+00:32:14.000 --> 00:32:18.000
+those top, you know, those top 10 indices and ask the model, you know, of all the elements
+
+00:32:58.000 --> 00:32:59.000
+that make a great story, does mine have that?
+
+00:32:58.000 --> 00:32:59.000
+Where is it lacking?
+
+00:32:58.000 --> 00:32:59.000
+And then re-engineer and re-engineer and re-engineer and re-engineer until you're hitting all
+
+00:32:58.000 --> 00:32:59.000
+of those buttons.
+
+00:32:58.000 --> 00:32:59.000
+Humans are very easy.
+
+00:32:58.000 --> 00:32:59.000
+We all like the same elements.
+
+00:32:58.000 --> 00:32:59.000
+And whether it's a genre of science fiction or whatever it might be, that is, that's line one,
+
+00:32:58.000 --> 00:33:02.000
+page one of what you need to do.
+
+00:33:25.000 --> 00:33:26.000
+As to what models are using for development, there are so many out there.
+
+00:33:25.000 --> 00:33:26.000
+And I do wish you the best of luck, Reese, but it's that simple.
+
+00:33:25.000 --> 00:33:26.000
+Reese, I'll add, learn from the Chinese market.
+
+00:33:25.000 --> 00:33:26.000
+So the Chinese market is a wash in microdramas from C-Dance 2.5 and similar models.
+
+00:33:25.000 --> 00:33:26.000
+don't release one movie, release a thousand micro dramas or equivalent, and see what the market
+
+00:33:25.000 --> 00:33:26.000
+likes and doesn't like and iterate from there. That's something that you could do now that
+
+00:33:25.000 --> 00:33:26.000
+wasn't possible two years ago. This episode is brought to you by Blitzy, autonomous software
+
+00:33:25.000 --> 00:33:29.000
+development with infinite code context. Blitzy uses thousands of specialized AI agents that think
+
+00:34:04.000 --> 00:34:05.000
+for hours to understand enterprise scale code bases with millions of lines of code. Engineers start
+
+00:34:04.000 --> 00:34:05.000
+every development sprint with the Blitzy platform, bringing in their development requirements.
+
+00:34:04.000 --> 00:34:05.000
+The Blitzy platform provides a plan, then generates and pre-compiles code for each task.
+
+00:34:04.000 --> 00:34:05.000
+Blitzy delivers 80% or more of the development work autonomously, while providing a guide for the
+
+00:34:04.000 --> 00:34:05.000
+final 20% of human development work required to complete the sprint. Enterprises are achieving
+
+00:34:04.000 --> 00:34:05.000
+a 5x engineering velocity increase when incorporating Blitzie as their pre-IDE development tool,
+
+00:34:04.000 --> 00:34:05.000
+pairing it with their coding co-pilot of choice to bring an AI-native SDLC into their org.
+
+00:34:04.000 --> 00:34:08.000
+Ready to 5X your engineering velocity, visit blitzie.com to schedule a demo and start building
+
+00:34:53.000 --> 00:34:54.000
+with Blitzy today. Amir, over to you. Good morning, good evening.
+
+00:34:53.000 --> 00:34:54.000
+Good afternoon. I'm calling from Stockholm, Sweden. And I'm actually flying over to you next week
+
+00:34:53.000 --> 00:34:54.000
+for joining the gathering. Nice. I found it amongst other things to schools and high school with almost
+
+00:34:53.000 --> 00:34:54.000
+thousand students now.
+
+00:34:53.000 --> 00:34:54.000
+And listening to you guys, honestly,
+
+00:34:53.000 --> 00:34:54.000
+I've been thinking the last few years on
+
+00:34:53.000 --> 00:34:54.000
+what is my MTP and my moonshot
+
+00:34:53.000 --> 00:34:57.000
+and decided to transform education
+
+00:35:24.000 --> 00:35:25.000
+also because I have a 15 year
+
+00:35:24.000 --> 00:35:25.000
+or so now entering higher education soon.
+
+00:35:24.000 --> 00:35:25.000
+I'm thinking, are you not
+
+00:35:24.000 --> 00:35:25.000
+are you guys not beating a little bit too much
+
+00:35:24.000 --> 00:35:25.000
+on higher education?
+
+00:35:24.000 --> 00:35:25.000
+In universities,
+
+00:35:24.000 --> 00:35:25.000
+you have the best laboratories.
+
+00:35:24.000 --> 00:35:28.000
+You have the best
+
+00:35:42.000 --> 00:35:43.000
+incubators, you make the best friends of your lives, but most of all, you become a thinking person.
+
+00:35:42.000 --> 00:35:43.000
+And in the age of abundance, and if you're going to live to 100, 120, isn't everybody
+
+00:35:42.000 --> 00:35:43.000
+going to higher education and university, just because becoming a more thinking person?
+
+00:35:42.000 --> 00:35:43.000
+Great, great question.
+
+00:35:42.000 --> 00:35:43.000
+We're beating up PhD programs and master's programs.
+
+00:35:42.000 --> 00:35:43.000
+Who wants to go, Dave, and then Alex?
+
+00:35:42.000 --> 00:35:43.000
+Yeah, I think I think you're exactly right.
+
+00:35:42.000 --> 00:35:46.000
+the idea of making your best friends for your entire life
+
+00:36:16.000 --> 00:36:17.000
+and thinking for the first time deeply in your entire life,
+
+00:36:16.000 --> 00:36:17.000
+those are inseparable events.
+
+00:36:16.000 --> 00:36:17.000
+And they come hand in hand with that moment you arrive at a university.
+
+00:36:16.000 --> 00:36:17.000
+You're in a program with like-minded people
+
+00:36:16.000 --> 00:36:17.000
+working towards similar area of technology,
+
+00:36:16.000 --> 00:36:17.000
+similar area of research or thought or literature, whatever you're doing.
+
+00:36:16.000 --> 00:36:17.000
+And since your first real shot to go somewhere else in the world
+
+00:36:16.000 --> 00:36:20.000
+where like-minded people have congregated,
+
+00:36:39.000 --> 00:36:40.000
+I feel like that's essential
+
+00:36:39.000 --> 00:36:40.000
+and that's not going to go away.
+
+00:36:39.000 --> 00:36:40.000
+You know, what we beat on constantly
+
+00:36:39.000 --> 00:36:40.000
+is the curriculum has been the draw in the past
+
+00:36:39.000 --> 00:36:40.000
+and the curriculum is clearly going away.
+
+00:36:39.000 --> 00:36:40.000
+I mean, the rate of change,
+
+00:36:39.000 --> 00:36:40.000
+no curriculum can keep up with the rate of change
+
+00:36:39.000 --> 00:36:43.000
+and it's easier to learn from AI anyway.
+
+00:36:55.000 --> 00:36:56.000
+So then the question becomes, you know,
+
+00:36:55.000 --> 00:36:56.000
+for you and your MTP,
+
+00:36:55.000 --> 00:36:56.000
+how do you preserve the first part
+
+00:36:55.000 --> 00:36:56.000
+and then make the second part relevant
+
+00:36:55.000 --> 00:36:56.000
+at the same time?
+
+00:36:55.000 --> 00:36:56.000
+Alex thinks universities should go public.
+
+00:36:55.000 --> 00:36:56.000
+That's one way forward.
+
+00:36:55.000 --> 00:36:59.000
+I think universities are critical
+
+00:37:10.000 --> 00:37:11.000
+as the ethical actor in AI, the place that doesn't have a profit motive.
+
+00:37:10.000 --> 00:37:11.000
+So I believe they're here to stay.
+
+00:37:10.000 --> 00:37:11.000
+Okay.
+
+00:37:10.000 --> 00:37:11.000
+Alex, you want to add to that?
+
+00:37:10.000 --> 00:37:11.000
+Yeah, I don't think I beat up on universities enough.
+
+00:37:10.000 --> 00:37:11.000
+So, Amir, I'll take this as a note to self to go after them even more.
+
+00:37:10.000 --> 00:37:11.000
+I would love to, at least in terms of American major research universities,
+
+00:37:10.000 --> 00:37:14.000
+I'd love to vivisect them, turn them into the for-profit public benefit corporation at best.
+
+00:37:36.000 --> 00:37:37.000
+Oh, my God.
+
+00:37:36.000 --> 00:37:37.000
+They actually are, disassemble them, reassemble them in a more efficient picture, and cure
+
+00:37:36.000 --> 00:37:37.000
+Balmol's cost disease in the process.
+
+00:37:36.000 --> 00:37:37.000
+Amazing.
+
+00:37:36.000 --> 00:37:37.000
+We've got a target on the moon and on university.
+
+00:37:36.000 --> 00:37:37.000
+I think we should encourage everyone to pursue higher education.
+
+00:37:36.000 --> 00:37:37.000
+So, I'm welcome.
+
+00:37:36.000 --> 00:37:40.000
+So listen, higher education, let me just say, is it within the institution or is it outside?
+
+00:37:58.000 --> 00:37:59.000
+I think the single most important thing for people to find is what is their purpose and then
+
+00:37:58.000 --> 00:37:59.000
+intrinsically motivated, learn what you need to learn to establish.
+
+00:37:58.000 --> 00:37:59.000
+out to create your purpose. People who are out university just wondering is one thing. People who have a
+
+00:37:58.000 --> 00:37:59.000
+vision of what they want to go and build and then learning that is very powerful. All right.
+
+00:37:58.000 --> 00:37:59.000
+Salim is on the stage. Hey, Salim, welcome. Hey, Salim, welcome. Thanks, thanks, guys. I was on stage at the
+
+00:37:58.000 --> 00:37:59.000
+beginning of this. I'm in a car in Bangalore. So lots of heaping around me, but great to be here.
+
+00:37:58.000 --> 00:37:59.000
+Let me build on this. I think what Dave said and what Peter said is incredibly important.
+
+00:37:58.000 --> 00:38:02.000
+The traditional model of a university breaks.
+
+00:38:40.000 --> 00:38:41.000
+It cannot be a supply-side skills-building job-schooling environment.
+
+00:38:40.000 --> 00:38:41.000
+And you make a great point that it's a place for free thinking and early-stage development.
+
+00:38:40.000 --> 00:38:41.000
+And Dave makes that great point.
+
+00:38:40.000 --> 00:38:41.000
+Peter, I think, nails it when you say, this is where you go to figure out your MTP, right?
+
+00:38:40.000 --> 00:38:41.000
+You've come through high school.
+
+00:38:40.000 --> 00:38:41.000
+You need a place where you can sit for a few years, collaborate, think freely, drink a lot, and figure out where your MTP is.
+
+00:38:40.000 --> 00:38:41.000
+And then you kind of go into the world with the skill set and the mindset that you need to solve these problems that you take on.
+
+00:38:40.000 --> 00:38:44.000
+And that, I think, will be the highest order.
+
+00:39:16.000 --> 00:39:17.000
+But that's such a massive transformation to shift from the supply side to the demand side.
+
+00:39:16.000 --> 00:39:17.000
+And you take the immune system in universities being the second worst immune system I've ever seen next to religion,
+
+00:39:16.000 --> 00:39:17.000
+that you have, I don't have a dim view, I don't have a strong view on their ability to actually transform.
+
+00:39:16.000 --> 00:39:17.000
+So we'll have to create new universities that do that
+
+00:39:16.000 --> 00:39:17.000
+and then let that become the new gravity center over time.
+
+00:39:16.000 --> 00:39:17.000
+Boom.
+
+00:39:16.000 --> 00:39:17.000
+All right.
+
+00:39:16.000 --> 00:39:20.000
+Thank you.
+
+00:39:45.000 --> 00:39:46.000
+Axel, over to you.
+
+00:39:45.000 --> 00:39:46.000
+Yeah, hi, everyone.
+
+00:39:45.000 --> 00:39:46.000
+It's great to be here.
+
+00:39:45.000 --> 00:39:46.000
+So I'm actually one of two second-year MBA students at UVA's Darden School of Business.
+
+00:39:45.000 --> 00:39:46.000
+That's on the call.
+
+00:39:45.000 --> 00:39:46.000
+So shout out to Bekul, who's also here.
+
+00:39:45.000 --> 00:39:46.000
+Yeah, so many of our classmates are heading into consulting and banking,
+
+00:39:45.000 --> 00:39:49.000
+unsurprisingly.
+
+00:40:02.000 --> 00:40:03.000
+But I'm leaning towards tech and entrepreneurship.
+
+00:40:02.000 --> 00:40:03.000
+So given how fast things are moving, like what's the smartest thing for someone like me to do in the next 12 to 18 months?
+
+00:40:02.000 --> 00:40:03.000
+So would that be joining a fast growing AI or hardware company, start something on my own as soon as possible or something else entirely?
+
+00:40:02.000 --> 00:40:03.000
+Dave?
+
+00:40:02.000 --> 00:40:03.000
+Well, very tight.
+
+00:40:02.000 --> 00:40:03.000
+Darden is the best place on the planet for management.
+
+00:40:02.000 --> 00:40:03.000
+I mean, it is absolutely epic.
+
+00:40:02.000 --> 00:40:06.000
+And so congratulations on and your timing for graduating is pretty much perfect.
+
+00:40:33.000 --> 00:40:34.000
+So get out and get going as quickly as he can.
+
+00:40:33.000 --> 00:40:34.000
+I think there's a massive opportunity in management of agents
+
+00:40:33.000 --> 00:40:34.000
+that is wide open for some period of time,
+
+00:40:33.000 --> 00:40:34.000
+but certainly right now.
+
+00:40:33.000 --> 00:40:34.000
+And say, if you said everything I learned about management of people
+
+00:40:33.000 --> 00:40:34.000
+immediately applies to management of agents,
+
+00:40:33.000 --> 00:40:34.000
+I'm shocked at how similar.
+
+00:40:33.000 --> 00:40:37.000
+Trying to get 1,000 agents to do something constructive together
+
+00:40:52.000 --> 00:40:53.000
+is shockingly similar to all my experiences
+
+00:40:52.000 --> 00:40:53.000
+trying to manage 1,000 people to do something constructive together.
+
+00:40:52.000 --> 00:40:53.000
+You know, the way they communicate,
+
+00:40:52.000 --> 00:40:53.000
+the way they, you know, the choice of granularity
+
+00:40:52.000 --> 00:40:53.000
+which they communicate the way you divide up the problem.
+
+00:40:52.000 --> 00:40:53.000
+I mean, just incredibly similar.
+
+00:40:52.000 --> 00:40:53.000
+So that's one thing to pursue.
+
+00:40:52.000 --> 00:40:56.000
+The other thing I'd say is, you know, dealmaking right now.
+
+00:41:13.000 --> 00:41:14.000
+You know, a lot of people go wrong when they go into a basement
+
+00:41:13.000 --> 00:41:14.000
+and try and build something.
+
+00:41:13.000 --> 00:41:14.000
+But right now, the entire restructuring of the world
+
+00:41:13.000 --> 00:41:14.000
+is happening with massive amounts of dealmaking.
+
+00:41:13.000 --> 00:41:14.000
+So, you know, from the day you graduate
+
+00:41:13.000 --> 00:41:14.000
+to the day you're involved in a $5 or $10 billion negotiation,
+
+00:41:13.000 --> 00:41:14.000
+try and get that down to 30 days or less.
+
+00:41:13.000 --> 00:41:17.000
+And if you say, well, why am I not in the middle of a point?
+
+00:41:33.000 --> 00:41:34.000
+five or ten billion. When you go to Open AI or Anthropic right now, there are hundreds of concurrent
+
+00:41:33.000 --> 00:41:34.000
+five to ten billion dollar negotiations going on that are massively understaffed. So ask yourself,
+
+00:41:33.000 --> 00:41:34.000
+why am I not in the middle of one of these? And I think if you just change your behavior so that you
+
+00:41:33.000 --> 00:41:34.000
+are within 30 to 60 days of graduation day, you're going to hit the fastest conceivable ramp into
+
+00:41:33.000 --> 00:41:34.000
+life that you could ever imagine, then work back from that position into what you want to build.
+
+00:41:33.000 --> 00:41:34.000
+Wonderful. Thank you so much for the question.
+
+00:41:33.000 --> 00:41:34.000
+make a quick announcement for everybody here. If you're not able to make it to Moonshots
+
+00:41:33.000 --> 00:41:37.000
+live a week from today, we're going to be offering a free live stream as well. So we're
+
+00:42:15.000 --> 00:42:16.000
+going to invite you guys to come onto our live stream. It's going to be, you can go and
+
+00:42:15.000 --> 00:42:16.000
+register at Moonshots.com slash live stream. And so I just want to, we want to really enable all
+
+00:42:15.000 --> 00:42:16.000
+of you guys to be there with us. Be there physically. Meet us. There's going to be no different.
+
+00:42:15.000 --> 00:42:16.000
+no better way to absorb this in the community and the networking you're going to have is going to
+
+00:42:15.000 --> 00:42:16.000
+be incredibly powerful, but we want you guys to have access to all the conversations that we have.
+
+00:42:15.000 --> 00:42:16.000
+So moonshots.com slash live stream.
+
+00:42:15.000 --> 00:42:16.000
+We're going to be announcing, we're recording a pod in four hours.
+
+00:42:15.000 --> 00:42:19.000
+It's going to be an amazing one with Ladd, the CEO of Robin Hood.
+
+00:42:55.000 --> 00:42:56.000
+And we'll be putting, it's coming out tomorrow.
+
+00:42:55.000 --> 00:42:56.000
+We'll put that to the rest of the world.
+
+00:42:55.000 --> 00:42:56.000
+But you're hearing about it first right here.
+
+00:42:55.000 --> 00:42:56.000
+Okay.
+
+00:42:55.000 --> 00:42:56.000
+Hey, Adam, you're up next.
+
+00:42:55.000 --> 00:42:56.000
+Welcome.
+
+00:42:55.000 --> 00:42:56.000
+All righty, guys.
+
+00:42:55.000 --> 00:42:59.000
+Well, firstly, thank you.
+
+00:43:07.000 --> 00:43:08.000
+I've listened to you guys since 20, 23,
+
+00:43:07.000 --> 00:43:08.000
+and usually within 24 hours of an episode dropping.
+
+00:43:07.000 --> 00:43:08.000
+So massive thank you.
+
+00:43:07.000 --> 00:43:08.000
+You've genuinely influenced and challenged my thinking for years now.
+
+00:43:07.000 --> 00:43:08.000
+I've also spent 25 years working on talent and workforce systems,
+
+00:43:07.000 --> 00:43:08.000
+the major corporations, universities, and governments in the UK,
+
+00:43:07.000 --> 00:43:08.000
+India, China, the Middle East and North America.
+
+00:43:07.000 --> 00:43:11.000
+Most recently, I've been kind of working in a Holonic organization, human AI work,
+
+00:43:35.000 --> 00:43:36.000
+and what might ultimately replace our job-based architecture.
+
+00:43:35.000 --> 00:43:36.000
+And my moonshot really is about building a better mechanism for connecting human and digital capability
+
+00:43:35.000 --> 00:43:36.000
+to opportunities for value creation.
+
+00:43:35.000 --> 00:43:36.000
+So most folks think about the future of work still starting with demand.
+
+00:43:35.000 --> 00:43:36.000
+Like someone identifies a problem or opportunity,
+
+00:43:35.000 --> 00:43:36.000
+and then we find a mixture of human and AI capability.
+
+00:43:35.000 --> 00:43:36.000
+to best address it. But I'm really thinking about how we best reverse that. So my question comes down to
+
+00:43:35.000 --> 00:43:39.000
+if AI systems can be configured to continuously understand the dynamic capabilities of people and
+
+00:44:12.000 --> 00:44:13.000
+agents, how well do you think we can discover novel combinations of talent and resources,
+
+00:44:12.000 --> 00:44:13.000
+and how well do you see us actually being able to auto-match that to new value creation
+
+00:44:12.000 --> 00:44:13.000
+opportunities?
+
+00:44:12.000 --> 00:44:13.000
+Salim, that sounds like a you question,
+
+00:44:12.000 --> 00:44:13.000
+and I'm happy to have Alex Lane as well.
+
+00:44:12.000 --> 00:44:13.000
+Yeah, so we're seeing new systems
+
+00:44:12.000 --> 00:44:13.000
+where their feedback loop is incredible
+
+00:44:12.000 --> 00:44:16.000
+for AI systems to pick up what's happening
+
+00:44:37.000 --> 00:44:38.000
+and learn tacit knowledge very quickly.
+
+00:44:37.000 --> 00:44:38.000
+So I think you're exactly on the right track.
+
+00:44:37.000 --> 00:44:38.000
+You want the architecture of the organization to be
+
+00:44:37.000 --> 00:44:38.000
+so that you can accelerate those learning loops
+
+00:44:37.000 --> 00:44:38.000
+and then absorb new learnings
+
+00:44:37.000 --> 00:44:38.000
+as they come along as fast as possible.
+
+00:44:37.000 --> 00:44:38.000
+When I talk to CEOs,
+
+00:44:37.000 --> 00:44:41.000
+I basically say, please, whatever you do, invest in the adaptability and flexibility of your organization,
+
+00:44:59.000 --> 00:45:00.000
+and just double down on that, because that new architecture, and we're doing this in our
+
+00:44:59.000 --> 00:45:00.000
+organizational singularity work, which we're probably tracking, where we're saying, we need to
+
+00:44:59.000 --> 00:45:00.000
+rebuild our workflows that are AI-centric to be over on top of an intelligence stack,
+
+00:44:59.000 --> 00:45:00.000
+which is a learning loop, and then you layer workflows on top of that.
+
+00:44:59.000 --> 00:45:00.000
+And the whole thing becomes a self-learning proposition.
+
+00:44:59.000 --> 00:45:00.000
+I see that channel.
+
+00:44:59.000 --> 00:45:00.000
+Okay. So that's, I think, the quick answer there.
+
+00:44:59.000 --> 00:45:03.000
+Alex, do you want to win?
+
+00:45:28.000 --> 00:45:29.000
+Yeah, I think there is a narrow, a likely narrow window during which, if I understand the question,
+
+00:45:28.000 --> 00:45:29.000
+AI can usefully and productively orchestrate human activities.
+
+00:45:28.000 --> 00:45:29.000
+Call it a few years, at most 10 years maximum.
+
+00:45:28.000 --> 00:45:29.000
+And then after that, human machine merger in order for human inputs to remain economically relevant.
+
+00:45:28.000 --> 00:45:29.000
+I don't think it's an indefinite window.
+
+00:45:28.000 --> 00:45:29.000
+I think it's a finite window.
+
+00:45:28.000 --> 00:45:29.000
+Fantastic.
+
+00:45:28.000 --> 00:45:32.000
+I think so that even, well, even though it's a narrow window,
+
+00:45:59.000 --> 00:46:00.000
+I wouldn't hesitate to jump on that window.
+
+00:45:59.000 --> 00:46:00.000
+I've watched Mercor become the fastest depreciating company
+
+00:45:59.000 --> 00:46:00.000
+in the history of the world.
+
+00:45:59.000 --> 00:46:00.000
+And there's so much to learn from studying their case.
+
+00:45:59.000 --> 00:46:00.000
+And Alex is right.
+
+00:45:59.000 --> 00:46:00.000
+That window is a few years.
+
+00:45:59.000 --> 00:46:00.000
+But during that few years, if you get a huge amount of leverage,
+
+00:45:59.000 --> 00:46:03.000
+you can then branch out from that position.
+
+00:46:17.000 --> 00:46:18.000
+So I would walk exactly in the footsteps of Mercor,
+
+00:46:17.000 --> 00:46:18.000
+study everything those guys did.
+
+00:46:17.000 --> 00:46:18.000
+And, you know, they don't get too fixated on the narrow version of it.
+
+00:46:17.000 --> 00:46:18.000
+Look at the broader version of like they've unleashed 100,000 people now to help with AI.
+
+00:46:17.000 --> 00:46:18.000
+How do they do that?
+
+00:46:17.000 --> 00:46:18.000
+And they're all individual actors.
+
+00:46:17.000 --> 00:46:18.000
+How does that work?
+
+00:46:17.000 --> 00:46:21.000
+Fantastic.
+
+00:46:35.000 --> 00:46:36.000
+Alexander, over to you.
+
+00:46:35.000 --> 00:46:36.000
+Thank you.
+
+00:46:35.000 --> 00:46:36.000
+Hi.
+
+00:46:35.000 --> 00:46:36.000
+I'm a big fan of the show.
+
+00:46:35.000 --> 00:46:36.000
+And really thank you very much for everything you've been doing so far.
+
+00:46:35.000 --> 00:46:36.000
+I mean, this is an awesome place to be.
+
+00:46:35.000 --> 00:46:36.000
+So my name is Alex.
+
+00:46:35.000 --> 00:46:39.000
+I'm originally from Bulgaria and I moved to Japan about 30 years ago.
+
+00:46:51.000 --> 00:46:52.000
+So here in Japan, I run an education company focused primarily on language education, English language education.
+
+00:46:51.000 --> 00:46:52.000
+We provide training for universities and corporations, generally speaking, right?
+
+00:46:51.000 --> 00:46:52.000
+So we've been around for 17 years, so we're hardly not like, we're not really like a typical early stage startup or anything like this.
+
+00:46:51.000 --> 00:46:52.000
+So over that time, we've built our own learning platform, curriculum, assessment systems, substantial base of educational companies.
+
+00:46:51.000 --> 00:46:52.000
+content and data. Also, we are also, you know, increasingly integrating AI into the product.
+
+00:46:51.000 --> 00:46:52.000
+Probably not fast enough, but like, you know, doing what we can. Now we're trying to make a bigger
+
+00:46:51.000 --> 00:46:52.000
+transition from a successful education services business into something much more scalable
+
+00:46:51.000 --> 00:46:55.000
+and technology driven, potentially expanding beyond language education as well. I think it's
+
+00:47:46.000 --> 00:47:47.000
+mostly like a Dave question, but like, you know, correct me if I'm wrong. So putting your VC head on,
+
+00:47:46.000 --> 00:47:47.000
+if you looked at us, you know, four or five years,
+
+00:47:46.000 --> 00:47:47.000
+further down the line, you know,
+
+00:47:46.000 --> 00:47:47.000
+a horizon of four to five years,
+
+00:47:46.000 --> 00:47:47.000
+what would you want such a company or this company to have become?
+
+00:47:46.000 --> 00:47:47.000
+What would we need to do?
+
+00:47:46.000 --> 00:47:47.000
+What would we need to have built or proven for you to say,
+
+00:47:46.000 --> 00:47:50.000
+now these companies, you know, take a serious look at
+
+00:48:16.000 --> 00:48:17.000
+or, you know, be interested as an investor.
+
+00:48:16.000 --> 00:48:17.000
+And conversely, if possible, what would, you know,
+
+00:48:16.000 --> 00:48:17.000
+make you look at us and say, no, this is still fundamentally a services business, not a venture
+
+00:48:16.000 --> 00:48:17.000
+scale company.
+
+00:48:16.000 --> 00:48:17.000
+So like the VC perspective.
+
+00:48:16.000 --> 00:48:17.000
+Yeah.
+
+00:48:16.000 --> 00:48:17.000
+Sure, sure, sure.
+
+00:48:16.000 --> 00:48:20.000
+Easy question.
+
+00:48:31.000 --> 00:48:32.000
+So, yeah.
+
+00:48:31.000 --> 00:48:32.000
+So the language, English language learning in Japan business is a $10 billion business.
+
+00:48:31.000 --> 00:48:32.000
+It's probably $20 billion by now.
+
+00:48:31.000 --> 00:48:32.000
+It's just insanely big.
+
+00:48:31.000 --> 00:48:32.000
+But when you talk to the students, they don't want to learn English.
+
+00:48:31.000 --> 00:48:32.000
+They want to learn to be fluent and funny and interesting in English.
+
+00:48:31.000 --> 00:48:32.000
+And that, so it's not about just an AI avatar teaching you to speak correctly.
+
+00:48:31.000 --> 00:48:35.000
+It's about the AI then saying to you, yeah, that was genuinely funny.
+
+00:48:55.000 --> 00:48:56.000
+Somebody in America or in England would find that funny, or that was entertaining,
+
+00:48:55.000 --> 00:48:56.000
+or that was, you know, or you pronounced that correctly in this part of, you know, Ireland,
+
+00:48:55.000 --> 00:48:56.000
+which is very different from this part of Liverpool.
+
+00:48:55.000 --> 00:48:56.000
+So all of that goes on and on and on and on.
+
+00:48:55.000 --> 00:48:56.000
+So if you built it on an AI platform, I think the natural segue from there
+
+00:48:55.000 --> 00:48:56.000
+is to becoming a life coach company.
+
+00:48:55.000 --> 00:48:56.000
+Because people aren't learning English because they want English.
+
+00:48:55.000 --> 00:48:59.000
+They're learning English because they want to change their lives.
+
+00:49:20.000 --> 00:49:21.000
+And then they want to be entertained.
+
+00:49:20.000 --> 00:49:21.000
+and then they want to be smart and then they want to have a life plan.
+
+00:49:20.000 --> 00:49:21.000
+So once you have them hooked on learning a language,
+
+00:49:20.000 --> 00:49:21.000
+becoming their life coach platform is a very natural segue.
+
+00:49:20.000 --> 00:49:21.000
+So I think that that business model scales to many hundreds of billions of dollars
+
+00:49:20.000 --> 00:49:21.000
+when it moves from language to life plan.
+
+00:49:20.000 --> 00:49:21.000
+So that's what I would be looking for as an extension of the business.
+
+00:49:20.000 --> 00:49:24.000
+Thank you very much.
+
+00:49:44.000 --> 00:49:45.000
+Over to you, June.
+
+00:49:44.000 --> 00:49:45.000
+For the record, that's something I've never thought of.
+
+00:49:44.000 --> 00:49:45.000
+Thank you very much.
+
+00:49:44.000 --> 00:49:45.000
+That was like super helpful.
+
+00:49:44.000 --> 00:49:45.000
+Awesome.
+
+00:49:44.000 --> 00:49:45.000
+Sure.
+
+00:49:44.000 --> 00:49:45.000
+Happy.
+
+00:49:44.000 --> 00:49:48.000
+Dave is brilliant.
+
+00:49:51.000 --> 00:49:52.000
+Good morning, Jim.
+
+00:49:51.000 --> 00:49:52.000
+Good morning. Alex Mercury does have it coming.
+
+00:49:51.000 --> 00:49:52.000
+I very much agree with you on that.
+
+00:49:51.000 --> 00:49:52.000
+I hope I lived long enough to see that.
+
+00:49:51.000 --> 00:49:52.000
+Salim, 2010, I saw them in Toronto.
+
+00:49:51.000 --> 00:49:52.000
+It was fantastic.
+
+00:49:51.000 --> 00:49:52.000
+I love it.
+
+00:49:51.000 --> 00:49:55.000
+Dave, my question is for you.
+
+00:50:04.000 --> 00:50:05.000
+So I'm the CISO of a $250 million healthcare company.
+
+00:50:04.000 --> 00:50:05.000
+I am not worried about an unaligned AI taking over.
+
+00:50:04.000 --> 00:50:05.000
+I am scared to death of the Quinn 3827B that's running with open claw underneath my desk
+
+00:50:04.000 --> 00:50:05.000
+and what it can do.
+
+00:50:04.000 --> 00:50:05.000
+It's the best pen tester I've ever had in my life.
+
+00:50:04.000 --> 00:50:05.000
+I pay these guys $50 grand to find things
+
+00:50:04.000 --> 00:50:05.000
+and they're not finding them
+
+00:50:04.000 --> 00:50:08.000
+and this thing finds them in 10 minutes.
+
+00:50:28.000 --> 00:50:29.000
+There's a whole level of risk
+
+00:50:28.000 --> 00:50:29.000
+that wasn't there a year ago.
+
+00:50:28.000 --> 00:50:29.000
+I'm giving my annual presentation to the board
+
+00:50:28.000 --> 00:50:29.000
+in a few weeks.
+
+00:50:28.000 --> 00:50:29.000
+Any advice you have on how to communicate
+
+00:50:28.000 --> 00:50:29.000
+this new level of risk to the board
+
+00:50:28.000 --> 00:50:29.000
+maybe without sound like chicken little,
+
+00:50:28.000 --> 00:50:32.000
+which I can't do.
+
+00:50:42.000 --> 00:50:43.000
+But how would you communicate this level of risk
+
+00:50:42.000 --> 00:50:43.000
+that's out there now with these new AI models
+
+00:50:42.000 --> 00:50:43.000
+that wasn't there a year ago?
+
+00:50:42.000 --> 00:50:43.000
+God, what a great question.
+
+00:50:42.000 --> 00:50:43.000
+You know, Alex does a phenomenal job of reporting on all of the events.
+
+00:50:42.000 --> 00:50:43.000
+Like, if you listen to Intermost Loop and every event that happens, he covers it.
+
+00:50:42.000 --> 00:50:43.000
+I would, you know, if you sound like you're raving about risk, you know, you're right,
+
+00:50:42.000 --> 00:50:46.000
+that's going to backfire.
+
+00:51:04.000 --> 00:51:05.000
+But if you're just pointing out things that have happened, you know, a lot of them aren't
+
+00:51:04.000 --> 00:51:05.000
+widely publicized because, you know, if it's a bank that gets hacked or whatever, they don't
+
+00:51:04.000 --> 00:51:05.000
+want the world to know.
+
+00:51:04.000 --> 00:51:05.000
+But if you go and dig all those out and sequentially say, look, guys, the rate of events
+
+00:51:04.000 --> 00:51:05.000
+is on this exponential ramp right here.
+
+00:51:04.000 --> 00:51:05.000
+And I can tell you I've got Quinn under my desk right now
+
+00:51:04.000 --> 00:51:05.000
+and I can hack anything around the house,
+
+00:51:04.000 --> 00:51:08.000
+around the company network.
+
+00:51:28.000 --> 00:51:29.000
+So we have to anticipate that because the Chinese models got released
+
+00:51:28.000 --> 00:51:29.000
+on this date, this date, this date,
+
+00:51:28.000 --> 00:51:29.000
+that the attackers are coming, you know,
+
+00:51:28.000 --> 00:51:29.000
+one month, three month, five months from now,
+
+00:51:28.000 --> 00:51:29.000
+just looking at raw data.
+
+00:51:28.000 --> 00:51:29.000
+I think if you demonstrate it through data,
+
+00:51:28.000 --> 00:51:29.000
+you'll get awareness.
+
+00:51:28.000 --> 00:51:32.000
+I tell you, the business opportunity of the century,
+
+00:51:45.000 --> 00:51:46.000
+though, is the defense, you know,
+
+00:51:45.000 --> 00:51:46.000
+the forward defense against that.
+
+00:51:45.000 --> 00:51:46.000
+Because you're exactly right.
+
+00:51:45.000 --> 00:51:46.000
+It's crazy what you can do with that Quinn model.
+
+00:51:45.000 --> 00:51:46.000
+Yeah.
+
+00:51:45.000 --> 00:51:46.000
+And I would just say how you present the information is critically important.
+
+00:51:45.000 --> 00:51:46.000
+You know, presenting here are all the positive things that are occurring, you know,
+
+00:51:45.000 --> 00:51:49.000
+and then saying, and here's the downside, right?
+
+00:52:04.000 --> 00:52:05.000
+If you just come out with the downside, people, it drives fear initially and people shut down
+
+00:52:04.000 --> 00:52:05.000
+in a state of fear.
+
+00:52:04.000 --> 00:52:05.000
+Maybe just add to this one.
+
+00:52:04.000 --> 00:52:05.000
+I think the Linux kernel maintainers are setting an excellent standard.
+
+00:52:04.000 --> 00:52:05.000
+for how to anchor social expectations regarding a flood of vulnerabilities.
+
+00:52:04.000 --> 00:52:05.000
+So like Greg and others, I think have been doing a good job in particular.
+
+00:52:04.000 --> 00:52:05.000
+One might reasonably expect that there's just going to be a flood of vulnerabilities
+
+00:52:04.000 --> 00:52:08.000
+that whether it's Quinn or other models discover either in open source packages
+
+00:52:35.000 --> 00:52:36.000
+or in, say, whatever your institution is over the next 18 months or so.
+
+00:52:35.000 --> 00:52:36.000
+So one possible way to package this in addition to just benchmarking the rate of vulnerabilities
+
+00:52:35.000 --> 00:52:36.000
+is see if there's a way to fit, say, some Gaussian or some other, like, bounded support
+
+00:52:35.000 --> 00:52:36.000
+distribution to vulnerability discover. Maybe it's the case, for example, optimistically,
+
+00:52:35.000 --> 00:52:36.000
+that there's just 18 months of vulnerability discovery held, but then you get past it as an
+
+00:52:35.000 --> 00:52:36.000
+institution. And if the stakeholders say, all right, well, we're on an exponential ramp up now,
+
+00:52:35.000 --> 00:52:36.000
+and it's going to peak, we extrapolate that vulnerability discovery is going to peak in end
+
+00:52:35.000 --> 00:52:39.000
+months and then we'll discover all of the zero days that are most critical and then we extrapolate
+
+00:53:17.000 --> 00:53:18.000
+that's going to decline and keep a running benchmark of this is the period when we just solve all
+
+00:53:17.000 --> 00:53:18.000
+the vulnerabilities that might be another way to package it i hope you're right about that it's it's hard
+
+00:53:17.000 --> 00:53:18.000
+to patch all those things in the real world it really is harder to do the patching but thank you all so much
+
+00:53:17.000 --> 00:53:18.000
+appreciate everything yeah i'm a pleasure thank you i'm real quick yeah so we've been looking at
+
+00:53:17.000 --> 00:53:18.000
+the liability for board
+
+00:53:17.000 --> 00:53:18.000
+because AI agents are doing fairly illegal things in a lot of the companies.
+
+00:53:17.000 --> 00:53:18.000
+And so there's a massive kind of overhang of liability that sits.
+
+00:53:17.000 --> 00:53:21.000
+So I'm actually writing a paper with a guy who's been on 30 different public boards
+
+00:53:53.000 --> 00:53:54.000
+on how do you navigate this as a board in the future?
+
+00:53:53.000 --> 00:53:54.000
+So watch for that.
+
+00:53:53.000 --> 00:53:54.000
+I will.
+
+00:53:53.000 --> 00:53:54.000
+Thank you very much.
+
+00:53:53.000 --> 00:53:54.000
+Thank you.
+
+00:53:53.000 --> 00:53:54.000
+Michael.
+
+00:53:53.000 --> 00:53:54.000
+Oh, hey, everyone.
+
+00:53:53.000 --> 00:53:57.000
+Hey, Peter.
+
+00:54:03.000 --> 00:54:04.000
+We actually met several years ago at a party at Dan and Babs in Toronto.
+
+00:54:03.000 --> 00:54:04.000
+So great to see how you guys have come.
+
+00:54:03.000 --> 00:54:04.000
+and you've got the best podcast on the planet.
+
+00:54:03.000 --> 00:54:04.000
+I hope you're thinking about more pedestrian question.
+
+00:54:03.000 --> 00:54:04.000
+I run a research consultant firm.
+
+00:54:03.000 --> 00:54:04.000
+We do a lot of work around the customer experience,
+
+00:54:03.000 --> 00:54:04.000
+digital customer experience within financial services and healthcare.
+
+00:54:03.000 --> 00:54:07.000
+And I kind of see the whole consumer website,
+
+00:54:29.000 --> 00:54:30.000
+the mobile app is just getting cooked
+
+00:54:29.000 --> 00:54:30.000
+by everybody having their own skippy.
+
+00:54:29.000 --> 00:54:30.000
+And I'm kind of wondering what you guys think about,
+
+00:54:29.000 --> 00:54:30.000
+you know, what's the customer experience in the near future
+
+00:54:29.000 --> 00:54:30.000
+in terms of dealing with your bank?
+
+00:54:29.000 --> 00:54:30.000
+your doctor, your Amazon, or whatever it is.
+
+00:54:29.000 --> 00:54:30.000
+Like, where do you see this going?
+
+00:54:29.000 --> 00:54:33.000
+Yeah, I think all of those websites need to have XML interfaces that are AI forward.
+
+00:54:52.000 --> 00:54:53.000
+All of the landing pages should say, if you're an AI or a bot, look here,
+
+00:54:52.000 --> 00:54:53.000
+here's all the data beautifully formatted so that Skippy can just get whatever it needs,
+
+00:54:52.000 --> 00:54:53.000
+do whatever transaction Peter needs, rather than, you know,
+
+00:54:52.000 --> 00:54:53.000
+right now a lot of it happens through screen scraping the website,
+
+00:54:52.000 --> 00:54:53.000
+which is slow but also error-prone.
+
+00:54:52.000 --> 00:54:53.000
+So, you know, anyone creating a new customer interface now
+
+00:54:52.000 --> 00:54:53.000
+really ought to be thinking an agent needs to be able to self-serve off this interface.
+
+00:54:52.000 --> 00:54:56.000
+So in very near future...
+
+00:55:22.000 --> 00:55:23.000
+No, the website is probably there the same way.
+
+00:55:22.000 --> 00:55:23.000
+You know what, Jeff Bezos went on one of his walkabouts many, many years ago
+
+00:55:22.000 --> 00:55:23.000
+and came back and said,
+
+00:55:22.000 --> 00:55:23.000
+I need an XML interface on everything Amazon does,
+
+00:55:22.000 --> 00:55:23.000
+every database, every system,
+
+00:55:22.000 --> 00:55:23.000
+so that I personally can randomly spot-chart.
+
+00:55:22.000 --> 00:55:23.000
+check it. And all the IT guys said, that's going to be so slow. He said, I don't care. I need to be
+
+00:55:22.000 --> 00:55:26.000
+able to see every component of this entire operation through my browser. And he forced it through.
+
+00:55:51.000 --> 00:55:52.000
+Everyone revolted, but he forced it through. I think the website's not cooked because that's how
+
+00:55:51.000 --> 00:55:52.000
+you spot check what the agent can see. And so even though the agent is doing all the work,
+
+00:55:51.000 --> 00:55:52.000
+you're going to want to know, like, where did you get that information? And he's like, well,
+
+00:55:51.000 --> 00:55:52.000
+go to this URL, click. You go to the URL. Oh, that's where it came from. So it's sort of a parallel
+
+00:55:51.000 --> 00:55:52.000
+view for humans of what the agent can see that keeps it, you know, keeps it visible and transparent
+
+00:55:51.000 --> 00:55:52.000
+to the human operators. So I don't think it's cooked. I think it just runs in parallel.
+
+00:55:51.000 --> 00:55:52.000
+Interesting. Thank you. Thank you so much for us. Over to you. Hey, Peter and Munchas,
+
+00:55:51.000 --> 00:55:55.000
+thank you so much, first of all, for the podcast, especially with the message of hope and optimism.
+
+00:56:28.000 --> 00:56:29.000
+I have chroyduremia. It's an inherited retinal disease. Loss about two-third of my vision
+
+00:56:28.000 --> 00:56:29.000
+and losing another third. And it's really good.
+
+00:56:28.000 --> 00:56:29.000
+great for podcasts such as yours. It has so much impact, the message of hope, optimism,
+
+00:56:28.000 --> 00:56:29.000
+constantly hearing that. Really, just so I wanted to be here to thank you all for that.
+
+00:56:28.000 --> 00:56:29.000
+I'm curious of all researchers that are going from, you mentioned, Dr. David Sinclair,
+
+00:56:28.000 --> 00:56:29.000
+to mapping the neural activities with neural link to vision and sight. Curious, not looking for
+
+00:56:28.000 --> 00:56:29.000
+medical advice, but of everything that's happening on the optimism and hope, which one do you
+
+00:56:28.000 --> 00:56:32.000
+is going to lead to reversal of vision essentially first. I'm curious about your thought,
+
+00:57:12.000 --> 00:57:13.000
+Peter and Alexus and everyone else. Yeah. So thank you so much. Yeah, of course. I'll jump in first.
+
+00:57:12.000 --> 00:57:13.000
+So you didn't always have this condition. This condition occurred as you got older, correct?
+
+00:57:12.000 --> 00:57:13.000
+Yeah. So the fact of the matter is it is gene expression that occurred later in your life.
+
+00:57:12.000 --> 00:57:13.000
+And so if you can turn back the gene expression to your earlier state, that should reverse, right?
+
+00:57:12.000 --> 00:57:13.000
+This is the exact work that David Sinclair is doing.
+
+00:57:12.000 --> 00:57:13.000
+He's using his ER 100, which is an adeno-associated virus injection of three Amanaka factors in Nyon disease and macular generation.
+
+00:57:12.000 --> 00:57:13.000
+It may well, you know, he said it will work for other eye conditions as well.
+
+00:57:12.000 --> 00:57:16.000
+So follow his work.
+
+00:57:53.000 --> 00:57:54.000
+It's in humans right now.
+
+00:57:53.000 --> 00:57:54.000
+He's in phase one trial for safety.
+
+00:57:53.000 --> 00:57:54.000
+And then he'll start to get efficacious data.
+
+00:57:53.000 --> 00:57:54.000
+Of course, the other thing that's going on is the BCI in which you can bypass
+
+00:57:53.000 --> 00:57:54.000
+your eyes go directly to the visual cortex of the brain.
+
+00:57:53.000 --> 00:57:54.000
+I mean, those are two parallel development paths for supporting and reversing or augmenting what you have.
+
+00:57:53.000 --> 00:57:54.000
+And in the BCI path in the future, you'll not only be able to see in the visual spectrum,
+
+00:57:53.000 --> 00:57:57.000
+but ultraviolet infrared.
+
+00:58:24.000 --> 00:58:25.000
+It will give you superpowers in that regard.
+
+00:58:24.000 --> 00:58:25.000
+Alex, what do you want to add to that?
+
+00:58:24.000 --> 00:58:25.000
+Maybe.
+
+00:58:24.000 --> 00:58:25.000
+So I broadly agree I would add on the BCI side science and neuralink blindsight
+
+00:58:24.000 --> 00:58:25.000
+two most prominent examples of BCI augmented vision.
+
+00:58:24.000 --> 00:58:25.000
+I would, is not medical advice,
+
+00:58:24.000 --> 00:58:25.000
+but I would count in a few years
+
+00:58:24.000 --> 00:58:28.000
+on having superhuman vision.
+
+00:58:46.000 --> 00:58:47.000
+Yeah.
+
+00:58:46.000 --> 00:58:47.000
+Anyway, it's anybody who has a medical condition
+
+00:58:46.000 --> 00:58:47.000
+for yourself or your loved ones,
+
+00:58:46.000 --> 00:58:47.000
+there's no better time to be alive
+
+00:58:46.000 --> 00:58:47.000
+than now to be able to address those things
+
+00:58:46.000 --> 00:58:47.000
+and get involved.
+
+00:58:46.000 --> 00:58:47.000
+Welcome to the health section of moonshots
+
+00:58:46.000 --> 00:58:50.000
+brought to you by Fountain Life.
+
+00:59:01.000 --> 00:59:02.000
+You know, AI is having an outsized impact
+
+00:59:01.000 --> 00:59:02.000
+on every aspect of our lives,
+
+00:59:01.000 --> 00:59:02.000
+how we teach our kids, how we run our companies. It also is having a huge impact on health,
+
+00:59:01.000 --> 00:59:02.000
+helping you prevent heart disease. One of the key things I'm here with Dr. Dawn Musilum,
+
+00:59:01.000 --> 00:59:02.000
+our chief medical officer at Fountain. Heart disease has been personal for you as well,
+
+00:59:01.000 --> 00:59:02.000
+hasn't it? It really has, Peter Wood. My daughter was five. My husband died of sudden cardiac
+
+00:59:01.000 --> 00:59:02.000
+death. And so this is a topic that is one that I am mission driven to try to eradicate.
+
+00:59:01.000 --> 00:59:05.000
+Prevention first and early detection is absolutely critical. 50% of people die of heart
+
+00:59:34.000 --> 00:59:35.000
+attacks with no warning signs.
+
+00:59:34.000 --> 00:59:35.000
+No shortness of breath, no pain, no nothing.
+
+00:59:34.000 --> 00:59:35.000
+No, silent killer.
+
+00:59:34.000 --> 00:59:35.000
+They just don't wake up in the morning.
+
+00:59:34.000 --> 00:59:35.000
+They don't wake up.
+
+00:59:34.000 --> 00:59:35.000
+And so, you know, AI, this is our mission to advance science to try to help to one day democratize wellness.
+
+00:59:34.000 --> 00:59:35.000
+We know at Fountain Life, when we do this CT angiography with AI analytics, we are actually
+
+00:59:34.000 --> 00:59:38.000
+finding that 88% of people coming in have detectable coroner disease.
+
+00:59:58.000 --> 00:59:59.000
+But Peter, what's more alarming to me is 23% of those individuals had soft plaque.
+
+00:59:58.000 --> 00:59:59.000
+This is the plaque that would not traditionally be seen on CT looking at calcium scores alone.
+
+00:59:58.000 --> 00:59:59.000
+And this is the plaque that we must intervene with, with the multimodal testing we're doing, including diagnostic laboratory studies, partnered with healthy lifestyle recommendations.
+
+00:59:58.000 --> 00:59:59.000
+So listen, make sure you understand what's going on inside your body.
+
+00:59:58.000 --> 00:59:59.000
+Genetically, metabolically, and cardiovascularly, you can know, and it's your obligation to know.
+
+00:59:58.000 --> 00:59:59.000
+So check it out at fountainlife.com slash peter to find out more.
+
+00:59:58.000 --> 00:59:59.000
+and really make sure that you're the CEO of your own health.
+
+00:59:58.000 --> 01:00:02.000
+All right, back to the episode.
+
+01:00:38.000 --> 01:00:39.000
+Dennis, how are you?
+
+01:00:38.000 --> 01:00:39.000
+Awesome, great to be here.
+
+01:00:38.000 --> 01:00:39.000
+So I have a background in East Asian studies.
+
+01:00:38.000 --> 01:00:39.000
+I spent a lot of time learning Chinese and some Japanese, currently in Japan, actually.
+
+01:00:38.000 --> 01:00:39.000
+And based on my experience with language learning,
+
+01:00:38.000 --> 01:00:39.000
+I realized that people seek out other people from a different culture for the language initially,
+
+01:00:38.000 --> 01:00:39.000
+but then it becomes really more about friendship and companionship and projecting some of your own unfulfilled social needs onto a person who is like a blank slate from a different culture.
+
+01:00:38.000 --> 01:00:42.000
+And I've been trying to replicate that feeling by working on an AI language exchange companion who's kind of about language learning, but really more about companionship.
+
+01:01:28.000 --> 01:01:29.000
+And I have my own version of the alignment problem, which is it has actually been pretty hard to make an AI like GPT5 API behave like an actual person from a different culture.
+
+01:01:28.000 --> 01:01:29.000
+It has this very stubborn assistant mode.
+
+01:01:28.000 --> 01:01:29.000
+How can I help you?
+
+01:01:28.000 --> 01:01:29.000
+What can I do for you?
+
+01:01:28.000 --> 01:01:29.000
+I spent like a week fighting against this.
+
+01:01:28.000 --> 01:01:29.000
+I solved this by just brute forcing into the system prompt five times.
+
+01:01:28.000 --> 01:01:29.000
+do not ask a question at every turn.
+
+01:01:28.000 --> 01:01:32.000
+But cracking down on something like this is one thing,
+
+01:02:05.000 --> 01:02:06.000
+but actually teaching it to behave in a way that shows initiative
+
+01:02:05.000 --> 01:02:06.000
+and open curiosity and creating a picture of the user
+
+01:02:05.000 --> 01:02:06.000
+and kind of developing it organically has been pretty hard.
+
+01:02:05.000 --> 01:02:06.000
+I've tried creating like milestones after so and so many turns.
+
+01:02:05.000 --> 01:02:06.000
+You need to know this about the user.
+
+01:02:05.000 --> 01:02:06.000
+but making it more natural and organic so that it will actually feel like a relationship,
+
+01:02:05.000 --> 01:02:06.000
+that has been pretty hard.
+
+01:02:05.000 --> 01:02:09.000
+So I wonder what approaches, what tools I should maybe be experimenting with.
+
+01:02:42.000 --> 01:02:43.000
+Who wants to take this?
+
+01:02:42.000 --> 01:02:43.000
+Alex.
+
+01:02:42.000 --> 01:02:43.000
+I'll take this one.
+
+01:02:42.000 --> 01:02:43.000
+This is a poster child for fine-tuning.
+
+01:02:42.000 --> 01:02:43.000
+Like just open AI has decided after deciding that they were no longer interested in fine-tuning
+
+01:02:42.000 --> 01:02:43.000
+because no one was using their fine-tuning API have decided again that they're interested in fine-tuning for whatever reason.
+
+01:02:42.000 --> 01:02:43.000
+take a look at fine-tuning.
+
+01:02:42.000 --> 01:02:46.000
+There are a variety of open-source tools, closed-source tools,
+
+01:03:04.000 --> 01:03:05.000
+fine-tune, whether it's just supervised fine-tuning to achieve style transfer,
+
+01:03:04.000 --> 01:03:05.000
+which it sounds like is what you're hoping for,
+
+01:03:04.000 --> 01:03:05.000
+or even reinforcement fine-tuning.
+
+01:03:04.000 --> 01:03:05.000
+If you can measure how well the given models post-reinforcement fine-tuning
+
+01:03:04.000 --> 01:03:05.000
+or solving particular problems or interacting in some quantitative way,
+
+01:03:04.000 --> 01:03:05.000
+just fine-tune an open-weight or closed-weight model to achieve the behavior that you're
+
+01:03:04.000 --> 01:03:05.000
+looking for.
+
+01:03:04.000 --> 01:03:08.000
+Yeah, great advice. And within open weights, you might want to start with the new GLM model, which has fewer parameters, but it's still a very long context window, which gives you more flexibility. It's less locked into its training, I find, then the closed source models. And so, yeah, if you go to the open source world and find the fine-tuning open source code and layer it on top of GLM, you might be able to manipulate it a lot more. And so it's a great question, though. In the good old days, you know, the fine-tuning open-source code and layer it on top of GLM, you might be able to manipulate it a lot more. And so it's a great question, though. In the good old days, you know, the fine-to-
+
+01:03:57.000 --> 01:03:58.000
+tuning was sort of built into like GPD2, GPD3.
+
+01:03:57.000 --> 01:03:58.000
+And you almost had to fine tune it to make it do anything.
+
+01:03:57.000 --> 01:03:58.000
+And that kind of went away.
+
+01:03:57.000 --> 01:03:58.000
+So, but you're on, you're on a really interesting course.
+
+01:03:57.000 --> 01:03:58.000
+If you crack the code, definitely check in with us and tell us how you did it.
+
+01:03:57.000 --> 01:03:58.000
+Fantastic.
+
+01:03:57.000 --> 01:03:58.000
+Thank you, Dennis.
+
+01:03:57.000 --> 01:04:01.000
+Dr. Angelo, over to you.
+
+01:04:14.000 --> 01:04:15.000
+Thank you.
+
+01:04:14.000 --> 01:04:15.000
+Thank you.
+
+01:04:14.000 --> 01:04:15.000
+Peter, Dave, Alex, Salim, it's so good to be with you guys.
+
+01:04:14.000 --> 01:04:15.000
+Saleem said something recently, which was about P-FAB.
+
+01:04:14.000 --> 01:04:15.000
+and I thought, wow, what a great idea.
+
+01:04:14.000 --> 01:04:15.000
+We're always talking about P-Doo and what about P-Fab.
+
+01:04:14.000 --> 01:04:15.000
+And I'm lucky enough.
+
+01:04:14.000 --> 01:04:18.000
+I recently had lunch with Ray Kurzweil and I'm friends with Martine Rothblad.
+
+01:04:37.000 --> 01:04:38.000
+I'll be seeing her again in a few weeks.
+
+01:04:37.000 --> 01:04:38.000
+And one of the things that has really stuck with me is how much the people predicting the future
+
+01:04:37.000 --> 01:04:38.000
+and shaping the future are so optimistic about it.
+
+01:04:37.000 --> 01:04:38.000
+Some of the most knowledgeable people are really positive about what the future holds.
+
+01:04:37.000 --> 01:04:38.000
+So my question for you all is,
+
+01:04:37.000 --> 01:04:38.000
+if you had to put your personal P-FAB number out there,
+
+01:04:37.000 --> 01:04:38.000
+what probability would you assign to AI
+
+01:04:37.000 --> 01:04:41.000
+ultimately producing a dramatically better world for humanity
+
+01:05:06.000 --> 01:05:07.000
+with greater abundance and longevity
+
+01:05:06.000 --> 01:05:07.000
+and freedom from drudgery
+
+01:05:06.000 --> 01:05:07.000
+and just human flourishing more generally
+
+01:05:06.000 --> 01:05:07.000
+and what most determines whether we get there?
+
+01:05:06.000 --> 01:05:07.000
+Salim, let's go to you first.
+
+01:05:06.000 --> 01:05:07.000
+Wow. Okay.
+
+01:05:06.000 --> 01:05:07.000
+What you need to keep,
+
+01:05:06.000 --> 01:05:10.000
+get there is we need to rebuild all of our institutions globally. Education, for example,
+
+01:05:31.000 --> 01:05:32.000
+totally broken needs to be rebuilt, monetary systems, broken need to be rebuilt, governance models,
+
+01:05:31.000 --> 01:05:32.000
+dispute resolution systems, legal systems, health care systems. There's about 50 major institutions by which
+
+01:05:31.000 --> 01:05:32.000
+we run the world. They pretty much all need this. There's a famous quote from E.O. Wilson,
+
+01:05:31.000 --> 01:05:32.000
+who said, the problem with humanities, our emotions are paleolithic, or institutions, or medieval,
+
+01:05:31.000 --> 01:05:32.000
+and our technology is God-like, right?
+
+01:05:31.000 --> 01:05:32.000
+You can solve the Paleolithic emotions with psychedelics,
+
+01:05:31.000 --> 01:05:32.000
+but the institutions being medieval really needs a whole other level of group,
+
+01:05:31.000 --> 01:05:35.000
+different group organization.
+
+01:06:07.000 --> 01:06:08.000
+We're really good at individual transformation.
+
+01:06:07.000 --> 01:06:08.000
+We're very bad at group transformation and institutional transformation.
+
+01:06:07.000 --> 01:06:08.000
+So we need to focus on that.
+
+01:06:07.000 --> 01:06:08.000
+If we were able to do it, my PFAB is close to 100%.
+
+01:06:07.000 --> 01:06:08.000
+Either way, one of the comments,
+
+01:06:07.000 --> 01:06:08.000
+I've been reflecting from the last podcast we did,
+
+01:06:07.000 --> 01:06:08.000
+which we're talking about all the chaos
+
+01:06:07.000 --> 01:06:11.000
+and the dumerism that's going on,
+
+01:06:31.000 --> 01:06:32.000
+is that it kind of doesn't matter what anybody does right now.
+
+01:06:31.000 --> 01:06:32.000
+The models are out there.
+
+01:06:31.000 --> 01:06:32.000
+People are going to start using it to do breakthrough things.
+
+01:06:31.000 --> 01:06:32.000
+And some will be negative,
+
+01:06:31.000 --> 01:06:32.000
+but the vast, vast majority will be radically positive.
+
+01:06:31.000 --> 01:06:32.000
+And therefore, it doesn't matter what anybody does
+
+01:06:31.000 --> 01:06:32.000
+to slow this thing down.
+
+01:06:31.000 --> 01:06:35.000
+It's going to go now at its own pace.
+
+01:06:47.000 --> 01:06:48.000
+And I'm hugely optimistic about the future as a result.
+
+01:06:47.000 --> 01:06:48.000
+Amazing.
+
+01:06:47.000 --> 01:06:48.000
+Anybody else want to weigh in on their PFAB?
+
+01:06:47.000 --> 01:06:48.000
+Yeah, I'll call it P-Zoom, if you were, just for rhyming purposes.
+
+01:06:47.000 --> 01:06:48.000
+And I think there's a missing input parameter, which is time.
+
+01:06:47.000 --> 01:06:48.000
+So it really should be P-Zoom, T for time.
+
+01:06:47.000 --> 01:06:48.000
+And I think on the time scale of greater than 10 years,
+
+01:06:47.000 --> 01:06:51.000
+P-Zoom-T is greater than 90%.
+
+01:07:12.000 --> 01:07:13.000
+Fantastic.
+
+01:07:12.000 --> 01:07:13.000
+Completely agree.
+
+01:07:12.000 --> 01:07:13.000
+Well, I just echo what Alex said,
+
+01:07:12.000 --> 01:07:13.000
+I think that the risk is all in the next couple of years.
+
+01:07:12.000 --> 01:07:13.000
+and it's not AI, you know, taking over the world risk.
+
+01:07:12.000 --> 01:07:13.000
+It's human use of AI.
+
+01:07:12.000 --> 01:07:13.000
+It's the arms race with China.
+
+01:07:12.000 --> 01:07:16.000
+It's what's going on in Ukraine and all the weapons that are going to be built with AI.
+
+01:07:34.000 --> 01:07:35.000
+Those are the risks.
+
+01:07:34.000 --> 01:07:35.000
+And I think that we'll, humanity will put those risks behind us, definitely within 10 years, you know, maybe more like five, I hope.
+
+01:07:34.000 --> 01:07:35.000
+And then if we get that far, yeah, I'm 99.9% P Bloom.
+
+01:07:34.000 --> 01:07:35.000
+We just need to get from here to there.
+
+01:07:34.000 --> 01:07:35.000
+So it's a tricky next couple of years.
+
+01:07:34.000 --> 01:07:35.000
+Fantastic. Thank you very much, Angela. Over to you, GS. And excuse me, I'm cooking breakfast for my kids right now.
+
+01:07:34.000 --> 01:07:35.000
+Yeah. Thank you very much. We're a big fan for all five of you. You are my only human, which I spend most time now.
+
+01:07:34.000 --> 01:07:38.000
+You're quite sure that we're human, GS?
+
+01:08:16.000 --> 01:08:17.000
+Yeah, I hope so.
+
+01:08:16.000 --> 01:08:17.000
+I'm speaking from Dubai.
+
+01:08:16.000 --> 01:08:17.000
+I started following Moonshort at the time of geopolitical war here.
+
+01:08:16.000 --> 01:08:17.000
+And thanks for you to giving me the MTP.
+
+01:08:16.000 --> 01:08:17.000
+Big big fan of David and Slim.
+
+01:08:16.000 --> 01:08:17.000
+The moment you start, I heard about the singularity
+
+01:08:16.000 --> 01:08:17.000
+and organization with a Transition Coast Corner Gojuro.
+
+01:08:16.000 --> 01:08:20.000
+And that's the ring bell.
+
+01:08:42.000 --> 01:08:43.000
+I belong from textile and apparel manufacturing export industry.
+
+01:08:42.000 --> 01:08:43.000
+I worked 20 years in that.
+
+01:08:42.000 --> 01:08:43.000
+and this part of the world where the labor arbitration issues,
+
+01:08:42.000 --> 01:08:43.000
+and because of digital AI, that whole transaction cost is going to collapse.
+
+01:08:42.000 --> 01:08:43.000
+So it's important for us to work and define this industry future now.
+
+01:08:42.000 --> 01:08:43.000
+And the MTP is to, you know, reach back to these multi-thousand factories
+
+01:08:42.000 --> 01:08:43.000
+and then buying houses and trading houses to work and use the AI and compete with the world.
+
+01:08:42.000 --> 01:08:46.000
+and rather than going out of market.
+
+01:09:17.000 --> 01:09:18.000
+So I have huge thank you for giving that optimism and that confidence
+
+01:09:17.000 --> 01:09:18.000
+for me to unlearn and relearn on the AI world things.
+
+01:09:17.000 --> 01:09:18.000
+And also, you know, I saved a lot of money just because of your one advice.
+
+01:09:17.000 --> 01:09:18.000
+I had my Harvard opium batch this year.
+
+01:09:17.000 --> 01:09:18.000
+I not went there and saved a lot of money to paying them
+
+01:09:17.000 --> 01:09:18.000
+because I'm learning more on AI while listening.
+
+01:09:17.000 --> 01:09:18.000
+you guys. So my question to you is Sleem and Dave, how I shall take this step forward where my
+
+01:09:17.000 --> 01:09:21.000
+company in Pertam.a.I and we'll be building this agentic layer where the small enterprises
+
+01:09:58.000 --> 01:09:59.000
+can work intelligently on that and without any expensive softwares and ERP in search and be competitive
+
+01:09:58.000 --> 01:09:59.000
+where the transaction costs. Just to tell you the transaction cost of this industry is 10 to 20%
+
+01:09:58.000 --> 01:09:59.000
+of sales here in this part of the world, which is five to 10 X of the profitability that industry
+
+01:09:58.000 --> 01:09:59.000
+make. So that is the kind of inefficiency we are talking. And my MTP is because millions of workers
+
+01:09:58.000 --> 01:09:59.000
+works in labor industry in that part. And we have to save that. And for saving that, we have to
+
+01:09:58.000 --> 01:09:59.000
+make sure the white-collar process should be the agentic so that the efficiency keep continuing.
+
+01:09:58.000 --> 01:09:59.000
+Yeah, I'm so glad you asked that question because I see this a lot. You know, people who are in
+
+01:09:58.000 --> 01:10:02.000
+industries where, like, manufacturing is considered to be very labor intensive. But when you look at
+
+01:10:47.000 --> 01:10:48.000
+the actual operating costs of the company, it's all about planning, transactions, documents, all of
+
+01:10:47.000 --> 01:10:48.000
+which is beautiful AI territory. And then you look at the numbers and you're like, wow, we could,
+
+01:10:47.000 --> 01:10:48.000
+we could drop 10, 20, 30 percent more to the bottom line with stuff that AI can do right now. And everyone's
+
+01:10:47.000 --> 01:10:48.000
+thinking, oh, but first I would need to, you know, have robots all over the place. Like, no, no, no, no,
+
+01:10:47.000 --> 01:10:48.000
+do it just with the paperwork and the planning and the scheduling and the inefficiency of where
+
+01:10:47.000 --> 01:10:48.000
+people are and what they're doing.
+
+01:10:47.000 --> 01:10:48.000
+All of that is perfectly attackable with AI.
+
+01:10:47.000 --> 01:10:51.000
+So if you productize that across a region for a certain class of companies, that should work
+
+01:11:24.000 --> 01:11:25.000
+incredibly well.
+
+01:11:24.000 --> 01:11:25.000
+It's a very, very cool idea.
+
+01:11:24.000 --> 01:11:25.000
+One other meta topic is everybody thinks all wealth and power is going to go to like two or
+
+01:11:24.000 --> 01:11:25.000
+three places in the world.
+
+01:11:24.000 --> 01:11:25.000
+But if you look at the regulatory environments in those places, including the U.S.,
+
+01:11:24.000 --> 01:11:25.000
+including California.
+
+01:11:24.000 --> 01:11:25.000
+A lot of things are going to be very, very slow
+
+01:11:24.000 --> 01:11:28.000
+because of regulatory slowdowns.
+
+01:11:45.000 --> 01:11:46.000
+And there are many places in the world
+
+01:11:45.000 --> 01:11:46.000
+that can move much more quickly.
+
+01:11:45.000 --> 01:11:46.000
+So if you can identify the subsets
+
+01:11:45.000 --> 01:11:46.000
+that, sure, it could happen in China,
+
+01:11:45.000 --> 01:11:46.000
+sure it could happen in the U.S.,
+
+01:11:45.000 --> 01:11:46.000
+but it won't because of this government blocking action,
+
+01:11:45.000 --> 01:11:46.000
+this happens a ton in biotech.
+
+01:11:45.000 --> 01:11:49.000
+It'll come in self-driving.
+
+01:12:01.000 --> 01:12:02.000
+It'll come in drones, you know,
+
+01:12:01.000 --> 01:12:02.000
+the flying drones, drone delivery.
+
+01:12:01.000 --> 01:12:02.000
+All of those areas will deploy
+
+01:12:01.000 --> 01:12:02.000
+in other areas of the world much more quickly.
+
+01:12:01.000 --> 01:12:02.000
+than the U.S. because of regulatory slowdown, you know, get those deployed there,
+
+01:12:01.000 --> 01:12:02.000
+wherever they can take off and flourish, and then they can backport to the U.S.
+
+01:12:01.000 --> 01:12:02.000
+That's always been a really good business plan.
+
+01:12:01.000 --> 01:12:05.000
+Salaim, anything you want to add to that?
+
+01:12:25.000 --> 01:12:26.000
+Are you transacting some huge Bangal ordeal?
+
+01:12:25.000 --> 01:12:26.000
+I'm just trying to get my way through this city, so I'll beg off on this particular one.
+
+01:12:25.000 --> 01:12:26.000
+Can you point the camera out the window?
+
+01:12:25.000 --> 01:12:26.000
+I really want to see some media here.
+
+01:12:25.000 --> 01:12:26.000
+Okay, hold on.
+
+01:12:25.000 --> 01:12:26.000
+This is a Bangler at night and all you see is construction.
+
+01:12:25.000 --> 01:12:26.000
+Can you see some of them?
+
+01:12:25.000 --> 01:12:29.000
+Or how about that's a friend with is a ton of traffic?
+
+01:12:53.000 --> 01:12:54.000
+Okay, let's go to Rafe.
+
+01:12:53.000 --> 01:12:54.000
+Not the tour.
+
+01:12:53.000 --> 01:12:54.000
+Not the tour I was looking for, but that was all right.
+
+01:12:53.000 --> 01:12:54.000
+All right.
+
+01:12:53.000 --> 01:12:54.000
+Well, thank you.
+
+01:12:53.000 --> 01:12:54.000
+Listen, this is a greeting from Germany.
+
+01:12:53.000 --> 01:12:54.000
+And speaking, David, in your language,
+
+01:12:53.000 --> 01:12:57.000
+I listen to a lot of podcasts, international and national ones.
+
+01:13:11.000 --> 01:13:12.000
+you're 10x the best in the world.
+
+01:13:11.000 --> 01:13:12.000
+I followed it for years.
+
+01:13:11.000 --> 01:13:12.000
+This is for sure.
+
+01:13:11.000 --> 01:13:12.000
+It's arising like pop stars.
+
+01:13:11.000 --> 01:13:12.000
+It's amazing.
+
+01:13:11.000 --> 01:13:12.000
+My question is, I think in the last couple of editions, we see an increase concern on security, of course.
+
+01:13:11.000 --> 01:13:12.000
+I think we captured it here a number of times.
+
+01:13:11.000 --> 01:13:15.000
+And then I think Alex, you framed it a little a few weeks ago as potentially a marketing thing
+
+01:13:34.000 --> 01:13:35.000
+because all the CEOs have a commercial interest in all of that.
+
+01:13:34.000 --> 01:13:35.000
+Now we see more and more the hintons of the world, the harrow.
+
+01:13:34.000 --> 01:13:35.000
+the Garari's, the Gavdads and other scientists warn as well in a certain way.
+
+01:13:34.000 --> 01:13:35.000
+So far, so good.
+
+01:13:34.000 --> 01:13:35.000
+I mean, it's technology we need to somehow manage it to find right answers,
+
+01:13:34.000 --> 01:13:35.000
+maybe on a scale, as we've seen never before.
+
+01:13:34.000 --> 01:13:35.000
+What triggers me most at the moment is this is US and Europe equally the same.
+
+01:13:34.000 --> 01:13:38.000
+It's a public opinion on AI, and this is predominantly driven by the media, right?
+
+01:14:07.000 --> 01:14:08.000
+Everything which is bad, which is a little poor, which is scary,
+
+01:14:07.000 --> 01:14:08.000
+which is whatever, the media jumps on it and have a headline, you know?
+
+01:14:07.000 --> 01:14:08.000
+And I can tell you here, it's even worse than everywhere else.
+
+01:14:07.000 --> 01:14:08.000
+Versus, you know, Singapore, for instance, right?
+
+01:14:07.000 --> 01:14:08.000
+Or other countries adopting it much more.
+
+01:14:07.000 --> 01:14:08.000
+And how do you treat that?
+
+01:14:07.000 --> 01:14:08.000
+Because, I mean, you're on this path of optimism like we all are, right?
+
+01:14:07.000 --> 01:14:11.000
+And I do this also as part of Accenture, part of my job every day.
+
+01:14:36.000 --> 01:14:37.000
+And it's exciting.
+
+01:14:36.000 --> 01:14:37.000
+I feel 10 times accelerated as a human.
+
+01:14:36.000 --> 01:14:37.000
+being since I deal with that. But the media dumerism, so to say, is so counterproductive. And yes,
+
+01:14:36.000 --> 01:14:37.000
+we have challenges. Of course, we all need to work on those. What's your opinion? I know you try hard,
+
+01:14:36.000 --> 01:14:37.000
+but I mean, what do you think? So the media is always going to be broken from here forward
+
+01:14:36.000 --> 01:14:37.000
+because they're starved for money. They have no budget. And so they have to chase drama in order
+
+01:14:36.000 --> 01:14:37.000
+to even survive. And so you just got to write off the mainstream media. I think the,
+
+01:14:36.000 --> 01:14:40.000
+The antidote to that is micromedia or, you know, X and podcasts and, you know, narrowcasting.
+
+01:15:18.000 --> 01:15:19.000
+And I think in particular, Germany to me is the most talented place on the planet that isn't doing AI.
+
+01:15:18.000 --> 01:15:19.000
+It's just mind-blowing.
+
+01:15:18.000 --> 01:15:19.000
+And I keep running into people in California that have come over from Germany.
+
+01:15:18.000 --> 01:15:19.000
+And I'm like, you're in the right place.
+
+01:15:18.000 --> 01:15:19.000
+What you want to do is go to Palo Alto, go to San Francisco, spend a month, pick up the culture,
+
+01:15:18.000 --> 01:15:19.000
+go in a group of like five or seven people, and then backport it.
+
+01:15:18.000 --> 01:15:19.000
+bring it back to Germany and expand it,
+
+01:15:18.000 --> 01:15:22.000
+but do it with like seven becomes 50 becomes 500 people
+
+01:15:46.000 --> 01:15:47.000
+that are all communicating through podcasts
+
+01:15:46.000 --> 01:15:47.000
+and through X and through Slack and through texting
+
+01:15:46.000 --> 01:15:47.000
+that, you know, they realize that everyone around them
+
+01:15:46.000 --> 01:15:47.000
+is completely out of touch with what's going on.
+
+01:15:46.000 --> 01:15:47.000
+And that's okay because within that group,
+
+01:15:46.000 --> 01:15:47.000
+they're self-reinforcing.
+
+01:15:46.000 --> 01:15:47.000
+You just need to get those critical masses of people.
+
+01:15:46.000 --> 01:15:50.000
+So I think the antidote to mainstream media
+
+01:16:07.000 --> 01:16:08.000
+is narrowcasted media.
+
+01:16:07.000 --> 01:16:08.000
+And it just kind of, it percolates.
+
+01:16:07.000 --> 01:16:08.000
+it's on its own.
+
+01:16:07.000 --> 01:16:08.000
+Yeah, I just want to jump in there because at end of the day,
+
+01:16:07.000 --> 01:16:08.000
+what you let into your mind is critical, right?
+
+01:16:07.000 --> 01:16:08.000
+You know, having some, you know, news producer decide what you learn
+
+01:16:07.000 --> 01:16:08.000
+or some editor decide what you read.
+
+01:16:07.000 --> 01:16:11.000
+I don't give them that option.
+
+01:16:33.000 --> 01:16:34.000
+I'm very careful, like what I put into my body from a food perspective
+
+01:16:33.000 --> 01:16:34.000
+and what I lend to my mind from a shaping my neural net
+
+01:16:33.000 --> 01:16:34.000
+perspective. And I choose very carefully the content that I absorb. And you're doing that as well.
+
+01:16:33.000 --> 01:16:34.000
+You're, you know, listening, listening to the podcast. So that's just it. Alex or Selim,
+
+01:16:33.000 --> 01:16:34.000
+you want to add to that? I'll just note maybe the obvious point you could always leave Europe.
+
+01:16:33.000 --> 01:16:34.000
+Europe has been hobbled, both due to external factors and internal factors, the post-Cold War era.
+
+01:16:33.000 --> 01:16:34.000
+and there are a number of historians who've written in particular about the role that the George H.W. Bush administration at the end of the Cold War played in deciding whether Europe would be brought even more into the U.S. orbit post-Cold War versus forming a stronger federation like EU.
+
+01:16:33.000 --> 01:16:37.000
+And the bias was bring Europe into more of a U.S. orbit so that it would be less independent.
+
+01:17:35.000 --> 01:17:36.000
+that may or may not have been the right geopolitical decision at the time.
+
+01:17:35.000 --> 01:17:36.000
+But I think now what we're seeing is a Europe that's energy hobbled, that's politically
+
+01:17:35.000 --> 01:17:36.000
+in certain ways hobbled, that doesn't enjoy, this is again widely reported, certain freedoms
+
+01:17:35.000 --> 01:17:36.000
+of speech and action that are considered fundamental in the U.S.
+
+01:17:35.000 --> 01:17:36.000
+But I think it really is energy, energy policy and associated policies that have left Europe
+
+01:17:35.000 --> 01:17:36.000
+hobbled.
+
+01:17:35.000 --> 01:17:36.000
+And so then if you're really interested in accelerationism and your Europe, what do you do?
+
+01:17:35.000 --> 01:17:39.000
+Well, either you get your energy act together so that you can afford to power your own data centers or you leave.
+
+01:18:16.000 --> 01:18:17.000
+And I think this is the question, and by the way, this has to happen on a relatively abbreviated time scale because we're in the middle of recursive self-improvement.
+
+01:18:16.000 --> 01:18:17.000
+So anyone who wants to play top-notch ball in the infrastructure game in Europe has to be asking the question,
+
+01:18:16.000 --> 01:18:17.000
+right now, either solve the energy plus data center crunch together with the concomitant policy
+
+01:18:16.000 --> 01:18:17.000
+issues or just move to hopefully the U.S. block the Pocilica and do it here.
+
+01:18:16.000 --> 01:18:17.000
+Yeah, one of my good friends, Guy Bradley, actually, he's actually British, but he came to the
+
+01:18:16.000 --> 01:18:17.000
+U.S., made a fortune in tech in the U.S., and then moved back to Germany.
+
+01:18:16.000 --> 01:18:17.000
+He speaks perfect German and French.
+
+01:18:16.000 --> 01:18:20.000
+So he has a place in southern France than a place in Germany, and there's no better place on the
+
+01:19:02.000 --> 01:19:03.000
+planet to live in his opinion. And I agree, actually, between Germany and France, it's just
+
+01:19:02.000 --> 01:19:03.000
+beautifully protected from everything that's damaging in the world. And you look at other jurisdictions,
+
+01:19:02.000 --> 01:19:03.000
+you know, like India, for example, where it's just rampant growth, but it's absolutely
+
+01:19:02.000 --> 01:19:03.000
+trashed. And it's like, so I think I'm always surprised that more Germans are not in Boston and
+
+01:19:02.000 --> 01:19:03.000
+Silicon Valley. I think there's a lot of national pride. But if you just do a five-year tour of duty in the
+
+01:19:02.000 --> 01:19:03.000
+US, you're going to be so overwhelmingly happy when you move back to Germany. It really feels like
+
+01:19:02.000 --> 01:19:03.000
+it should happen more. I can tell you, I'm an international traveler. Selim, 21 times I was in
+
+01:19:02.000 --> 01:19:06.000
+Bangalore, so I see all this rising and I wonder, Alex, absolutely, what are we doing over here?
+
+01:19:49.000 --> 01:19:50.000
+Why do we don't, why don't we wake up? Why are we under whatever kind of avenue? But anyway,
+
+01:19:49.000 --> 01:19:50.000
+that's another topic. Thank you very much. All right. Thank you, Ray. Over to you run.
+
+01:19:49.000 --> 01:19:50.000
+and we'll go for another 10 minutes
+
+01:19:49.000 --> 01:19:50.000
+and then we're going to have to jump
+
+01:19:49.000 --> 01:19:50.000
+into our normal days here.
+
+01:19:49.000 --> 01:19:50.000
+Okay, thanks so much for doing this.
+
+01:19:49.000 --> 01:19:50.000
+I'm calling from Calgary, Canada
+
+01:19:49.000 --> 01:19:53.000
+and longtime listener.
+
+01:20:11.000 --> 01:20:12.000
+And I'm a screenwriter, director.
+
+01:20:11.000 --> 01:20:12.000
+So a big special thank you to Peter
+
+01:20:11.000 --> 01:20:12.000
+because I was in a bad place
+
+01:20:11.000 --> 01:20:12.000
+when I was in early this year.
+
+01:20:11.000 --> 01:20:12.000
+I was writing something about China
+
+01:20:11.000 --> 01:20:12.000
+and yeah, I was like borderline depressed.
+
+01:20:11.000 --> 01:20:12.000
+But since I've been
+
+01:20:11.000 --> 01:20:15.000
+writing another project for Future Vision,
+
+01:20:34.000 --> 01:20:35.000
+you know, X-Price.
+
+01:20:34.000 --> 01:20:35.000
+You know, I have become a bit more optimistic
+
+01:20:34.000 --> 01:20:35.000
+about the future and everything.
+
+01:20:34.000 --> 01:20:35.000
+I also read the books Peter wrote The Boundants
+
+01:20:34.000 --> 01:20:35.000
+and, you know, we are as gods.
+
+01:20:34.000 --> 01:20:35.000
+And so I've been thinking,
+
+01:20:34.000 --> 01:20:35.000
+so since everything is hooked or incinerated,
+
+01:20:34.000 --> 01:20:38.000
+as Alex would say,
+
+01:20:53.000 --> 01:20:54.000
+what is the, like one of the hardest problems still left?
+
+01:20:53.000 --> 01:20:54.000
+So I kept coming back to distrust between rival nations, right?
+
+01:20:53.000 --> 01:20:54.000
+And I read Solve Everything two weeks ago.
+
+01:20:53.000 --> 01:20:54.000
+And Alex and Peter, you actually described agreement as one of the new scarcity
+
+01:20:53.000 --> 01:20:54.000
+once cognition becomes abundant, right?
+
+01:20:53.000 --> 01:20:54.000
+So I wonder, could agreement under distrust itself become compute bound?
+
+01:20:53.000 --> 01:20:54.000
+And could coordination between rivals like the U.S. and China become an engineering problem?
+
+01:20:53.000 --> 01:20:57.000
+So here's my question.
+
+01:21:26.000 --> 01:21:27.000
+As sovereign AIs will increasingly advise governments
+
+01:21:26.000 --> 01:21:27.000
+who we create a shared protocol that they can connect to
+
+01:21:26.000 --> 01:21:27.000
+and use AI and privacy-preserving computation
+
+01:21:26.000 --> 01:21:27.000
+to search for gradual improving agreements
+
+01:21:26.000 --> 01:21:27.000
+without either side exposing protected data.
+
+01:21:26.000 --> 01:21:27.000
+Is that technically an institutionally meaningful direction?
+
+01:21:26.000 --> 01:21:27.000
+And if it is, you know,
+
+01:21:26.000 --> 01:21:30.000
+what do each of you think is the hardest part we should solve first?
+
+01:21:54.000 --> 01:21:55.000
+Thank you. Alex, over to you, pal.
+
+01:21:54.000 --> 01:21:55.000
+Yeah. So I'll give you a hot take because that's what people want, I think.
+
+01:21:54.000 --> 01:21:55.000
+So multi-party computing, MPC or distributed multi-party computation,
+
+01:21:54.000 --> 01:21:55.000
+is a very fashionable problem in computer science right now,
+
+01:21:54.000 --> 01:21:55.000
+enabling multiple parties in a zero-trust way to collaborate, to share data,
+
+01:21:54.000 --> 01:21:55.000
+to achieve convergence, to mediate very fashionable.
+
+01:21:54.000 --> 01:21:55.000
+However, my hot take on this one is I don't think that's the limiting factor for, say, international peace.
+
+01:21:54.000 --> 01:21:58.000
+If you said the goal is I don't want a second Cold War between the U.S. and China, I want, you know, world peace, a thousand years apiece or whatever it looks like.
+
+01:22:42.000 --> 01:22:43.000
+I don't actually think the solution looks algorithmic in nature.
+
+01:22:42.000 --> 01:22:43.000
+it probably looks more geopolitical infrastructural, like solve the Taiwan issue, and redomesticate
+
+01:22:42.000 --> 01:22:43.000
+all supply chains everywhere to every country so that the international trade in physical products
+
+01:22:42.000 --> 01:22:43.000
+can afford to be cut off without a global depression. I think what we've seen, even just in the
+
+01:22:42.000 --> 01:22:43.000
+recent years in the Middle East, is in no small part because America can now frack its way and has
+
+01:22:42.000 --> 01:22:43.000
+fractured its way to fossil fuel energy sovereignty and independence. And I want to generalize that
+
+01:22:42.000 --> 01:22:43.000
+example, which I think is very instructive to what happens when the U.S. no longer needs China or Taiwan
+
+01:22:42.000 --> 01:22:46.000
+or South Korea or Japan or any advanced manufacturing at all. I think it would be a very different
+
+01:23:34.000 --> 01:23:35.000
+world. So in summary, if the goal is world peace, obliterate, as perverse as this sounds,
+
+01:23:34.000 --> 01:23:35.000
+obliterate, cook, incinerate the need for global trade in products and service.
+
+01:23:34.000 --> 01:23:35.000
+and perversely, I think you get a very peaceful world,
+
+01:23:34.000 --> 01:23:35.000
+and I don't think there's an algorithmic component to that,
+
+01:23:34.000 --> 01:23:35.000
+not to first order.
+
+01:23:34.000 --> 01:23:35.000
+Yeah, Peter.
+
+01:23:34.000 --> 01:23:35.000
+I got oil on my hands.
+
+01:23:34.000 --> 01:23:38.000
+I couldn't get to any unmute meat.
+
+01:23:55.000 --> 01:23:56.000
+Peter, this is your cooking show.
+
+01:23:55.000 --> 01:23:56.000
+We're doing the cooking show.
+
+01:23:55.000 --> 01:23:56.000
+Oh, that's cool.
+
+01:23:55.000 --> 01:23:56.000
+Yeah, let's see what you're doing there.
+
+01:23:55.000 --> 01:23:56.000
+I'm sure it's healthy, whatever it is.
+
+01:23:55.000 --> 01:23:56.000
+It is.
+
+01:23:55.000 --> 01:23:56.000
+It's an omit for my boys.
+
+01:23:55.000 --> 01:23:59.000
+Anthony, over to you.
+
+01:24:07.000 --> 01:24:08.000
+Yes, hello to the moonshot mates.
+
+01:24:07.000 --> 01:24:08.000
+I want to thank you all for your time
+
+01:24:07.000 --> 01:24:08.000
+and for the opportunity to participate.
+
+01:24:07.000 --> 01:24:08.000
+in the AMA.
+
+01:24:07.000 --> 01:24:08.000
+Also, the podcast has been very valuable,
+
+01:24:07.000 --> 01:24:08.000
+especially in the time we're in
+
+01:24:07.000 --> 01:24:08.000
+where people are looking at it cynically and negative.
+
+01:24:07.000 --> 01:24:11.000
+You guys have been a hope and optimism for me.
+
+01:24:31.000 --> 01:24:32.000
+Just a simple question.
+
+01:24:31.000 --> 01:24:32.000
+What books are material do you recommend reading
+
+01:24:31.000 --> 01:24:32.000
+to prepare for the transition we're in?
+
+01:24:31.000 --> 01:24:32.000
+I know you've mentioned Diamond Age
+
+01:24:31.000 --> 01:24:32.000
+and raised books,
+
+01:24:31.000 --> 01:24:32.000
+the singularity and some other works he has.
+
+01:24:31.000 --> 01:24:32.000
+I was just curious if you had any other material
+
+01:24:31.000 --> 01:24:35.000
+that you think is important to read.
+
+01:24:53.000 --> 01:24:54.000
+Alex, what's your...
+
+01:24:53.000 --> 01:24:54.000
+Yeah, I'll comment, and this is probably the last question
+
+01:24:53.000 --> 01:24:54.000
+I can take before. I need to drop.
+
+01:24:53.000 --> 01:24:54.000
+Read, solve everything, as folks in the comments,
+
+01:24:53.000 --> 01:24:54.000
+so solve everything.org, which Peter and I wrote.
+
+01:24:53.000 --> 01:24:54.000
+And then if you like sci-fi, read Accelerondo by Charlie Stras,
+
+01:24:53.000 --> 01:24:54.000
+which is, I think, the single best sci-fi treatment
+
+01:24:53.000 --> 01:24:57.000
+of what's in the process of happening right now.
+
+01:25:14.000 --> 01:25:15.000
+So everybody, listen, thank you for joining us.
+
+01:25:14.000 --> 01:25:15.000
+We love this, you know, the last one and this one.
+
+01:25:14.000 --> 01:25:15.000
+We're going to do this again.
+
+01:25:14.000 --> 01:25:15.000
+It's a chance for us to really connect with everybody, hear your thoughts.
+
+01:25:14.000 --> 01:25:15.000
+We have such brilliant minds with Alex and Saleem and Dave.
+
+01:25:14.000 --> 01:25:15.000
+I feel grateful to spend time with them every week and spend time with you.
+
+01:25:14.000 --> 01:25:15.000
+You know, we know your time is your most precious thing.
+
+01:25:14.000 --> 01:25:18.000
+So we appreciate it.
+
+01:25:38.000 --> 01:25:39.000
+Remember, you can join Moonshots Live now by on the
+
+01:25:38.000 --> 01:25:39.000
+live stream. So if you're not able to make it in person and we, please, it's going to be an
+
+01:25:38.000 --> 01:25:39.000
+amazing event, join us on the live stream. And we're grateful for your time. Everybody,
+
+01:25:38.000 --> 01:25:42.000
+have a beautiful day and see you all again very soon.

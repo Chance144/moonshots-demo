@@ -1,0 +1,2105 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.120 --> 00:00:10.559 align:start position:19%
+Wow, it's so much brighter out here.
+&gt;&gt; It is. It's, you know, the future is
+
+00:00:10.000 --> 00:00:15.120 align:start position:19%
+bright.
+&gt;&gt; There's lens flare in the future.
+
+00:00:12.320 --> 00:00:20.320 align:start position:19%
+&gt;&gt; Yeah. So, uh, welcome everybody to the
+Oscars of optimism that, of course,
+
+00:00:17.840 --> 00:00:24.290 align:start position:19%
+we're opening up the summit with the
+king of autonomous weapon systems.
+
+00:00:22.270 --> 00:00:24.290 align:start position:19%
+[laughter]
+
+00:00:26.560 --> 00:00:34.719 align:start position:19%
+All right. So, uh, I want to start with
+the fact that we're awarding three X
+
+00:00:32.719 --> 00:00:39.600 align:start position:19%
+prizes this week. Palmer,
+congratulations for winning our, uh,
+
+00:00:38.000 --> 00:00:42.800 align:start position:19%
+Wildfire X-P prize.
+&gt;&gt; Thank you so much.
+
+00:00:40.640 --> 00:00:46.800 align:start position:19%
+&gt;&gt; Yeah, [applause]
+&gt;&gt; this one's been a long time. And in
+
+00:00:44.800 --> 00:00:51.600 align:start position:19%
+&gt;&gt; it has Let's get Let's get the uh the
+the slide up here. So, Palmer won $2.2
+
+00:00:49.840 --> 00:00:57.840 align:start position:19%
+million for Ander
+&gt;&gt; as if you need it. um a million of
+
+00:00:55.039 --> 00:01:02.079 align:start position:19%
+&gt;&gt; a million of that from Lockheed,
+&gt;&gt; which was kind of interesting.
+
+00:01:00.239 --> 00:01:06.640 align:start position:19%
+&gt;&gt; We do a lot of work with Lockheed. We
+also compete with them, but we in the in
+
+00:01:04.559 --> 00:01:09.680 align:start position:19%
+the defense space, it's uh you know, we
+we compete with their fighter jet
+
+00:01:08.080 --> 00:01:12.560 align:start position:19%
+division and we partner with them on
+some of their payloads. And so we do a
+
+00:01:11.439 --> 00:01:15.520 align:start position:19%
+lot of stuff together. But me and you
+have both been trying to get this
+
+00:01:13.920 --> 00:01:17.920 align:start position:19%
+autonomous firefighting stuff going for
+a long time. For a while.
+
+00:01:16.400 --> 00:01:23.360 align:start position:19%
+&gt;&gt; I mean, you got this prize announced
+back in 2019. It's been a long time. And
+
+00:01:21.600 --> 00:01:27.520 align:start position:19%
+one of our first two products was an
+autonomous firefighting tank that we
+
+00:01:25.439 --> 00:01:30.479 align:start position:19%
+started building in 2017, finished in
+2019.
+
+00:01:28.320 --> 00:01:34.720 align:start position:19%
+&gt;&gt; It's insane that we let fires become
+conflrations before you put them out.
+
+00:01:32.479 --> 00:01:38.240 align:start position:19%
+&gt;&gt; And well, and and it's kind of insane
+that uh people are saying, "Oh, that you
+
+00:01:36.640 --> 00:01:41.920 align:start position:19%
+know, the technologies finally made this
+possible." And I I'm not going to
+
+00:01:39.759 --> 00:01:45.280 align:start position:19%
+correct him too often in public, but
+it's I mean, this has been possible for
+
+00:01:43.280 --> 00:01:48.960 align:start position:19%
+over a decade. It's just that uh
+&gt;&gt; let's watch it's become politically
+
+00:01:47.280 --> 00:01:52.479 align:start position:19%
+politically impossible to ignore the
+problem. out. I'm going to watch a one
+
+00:01:50.320 --> 00:01:56.320 align:start position:19%
+minute video clip of what your team
+achieved and if you'd walk us through it
+
+00:01:54.560 --> 00:02:01.360 align:start position:19%
+here.
+&gt;&gt; Sure. So you this was uh an example of
+
+00:01:59.600 --> 00:02:06.079 align:start position:19%
+what we were doing at the test site
+where we were uh detecting fires,
+
+00:02:04.399 --> 00:02:09.039 align:start position:19%
+classifying fires. What you don't really
+see in here is that you also [music]
+
+00:02:07.200 --> 00:02:11.920 align:start position:19%
+need to reject false fires. That was
+part of the test as well. So you have to
+
+00:02:10.720 --> 00:02:15.840 align:start position:19%
+know, you know, who's a guy smoking a
+cigarette, who's a guy, what's what's a
+
+00:02:13.840 --> 00:02:18.480 align:start position:19%
+campfire, what's a road flare, and then
+what's something that shows the
+
+00:02:16.879 --> 00:02:22.800 align:start position:19%
+characteristics of real fire? That's
+what you need to flag to people. That's
+
+00:02:21.120 --> 00:02:28.239 align:start position:19%
+what you need to flag to emergency
+services. Uh and then you need to
+
+00:02:25.280 --> 00:02:31.840 align:start position:19%
+matchmake the type of fire to the right
+asset that's in the area. And so you
+
+00:02:30.160 --> 00:02:36.480 align:start position:19%
+want to basically use the most cost
+effective thing that can respond and get
+
+00:02:35.040 --> 00:02:40.400 align:start position:19%
+there in time. And if something's
+growing faster, you might need something
+
+00:02:37.920 --> 00:02:43.280 align:start position:19%
+different. If it's in woods versus on a
+brush hill, you might need something
+
+00:02:41.760 --> 00:02:47.760 align:start position:19%
+different. And so, you know, it's it's
+it's about detection, classification,
+
+00:02:45.280 --> 00:02:51.680 align:start position:19%
+rejection, matchmaking, and then going
+and and hitting the target. And the last
+
+00:02:49.440 --> 00:02:58.000 align:start position:19%
+thing I'll say is that with most of what
+we do, uh, our work with the military,
+
+00:02:55.120 --> 00:03:03.440 align:start position:19%
+you go through many of these same steps,
+but if you find a target, let's say it
+
+00:03:00.720 --> 00:03:08.480 align:start position:19%
+takes you, you know, an hour to an hour
+to to get to somebody versus 10 minutes,
+
+00:03:06.080 --> 00:03:12.800 align:start position:19%
+it usually doesn't make as much of a
+difference. When you're talking about
+
+00:03:10.560 --> 00:03:16.879 align:start position:19%
+fire though, the difference between 10
+minutes and an hour response, totally
+
+00:03:15.360 --> 00:03:21.519 align:start position:19%
+different tools you're going to need to
+respond with. You know, a bomb is is is
+
+00:03:19.440 --> 00:03:25.760 align:start position:19%
+a is a bomb whether or not it takes a
+day or an hour or a minute to get there.
+
+00:03:23.599 --> 00:03:29.280 align:start position:19%
+Uh but when when a fire is is is
+metastasizing, you need to pick the
+
+00:03:27.840 --> 00:03:33.120 align:start position:19%
+right thing that can put it out before
+it gets too large.
+
+00:03:30.400 --> 00:03:39.200 align:start position:19%
+&gt;&gt; Amazing. you know, uh, we're going to be
+announcing something in a month's time,
+
+00:03:36.239 --> 00:03:44.400 align:start position:19%
+uh, that you're funding a new X-P prize
+and, uh, it's going to be secret until
+
+00:03:41.200 --> 00:03:49.440 align:start position:19%
+then, but we're going to tease it now.
+Uh, another $10 million prize. Would you
+
+00:03:48.000 --> 00:03:54.000 align:start position:19%
+share share with us what we're going to
+do?
+
+00:03:50.720 --> 00:03:57.200 align:start position:19%
+&gt;&gt; Sure. you know, uh, the, you know, we we
+should we should keep the details secret
+
+00:03:55.760 --> 00:04:01.840 align:start position:19%
+because there's there's some there's
+some good twists, but suffice to say
+
+00:03:59.519 --> 00:04:08.560 align:start position:19%
+that, uh, I'm not I'm not interested in
+joining the race to push AI forward with
+
+00:04:06.000 --> 00:04:12.799 align:start position:19%
+my money. I think that the the the the
+artificial intelligence side of models
+
+00:04:10.799 --> 00:04:16.639 align:start position:19%
+is is is pretty well covered by plenty
+of people. I think we've not been doing
+
+00:04:14.560 --> 00:04:20.000 align:start position:19%
+enough understanding biological
+intelligence, particularly beyond
+
+00:04:18.560 --> 00:04:25.120 align:start position:19%
+people. And so this is going to be a
+prize around understanding how animals
+
+00:04:23.120 --> 00:04:28.880 align:start position:19%
+think and making so that we can
+communicate with them 10 times better
+
+00:04:27.199 --> 00:04:32.960 align:start position:19%
+than the current state of the art for
+the current smartest species. And not
+
+00:04:30.400 --> 00:04:36.320 align:start position:19%
+just trained animals but wild animals in
+their own in their own language.
+
+00:04:34.960 --> 00:04:38.800 align:start position:19%
+Amazing. [applause and cheering]
+And I think that there's actually a lot
+
+00:04:37.600 --> 00:04:42.720 align:start position:19%
+that we're going to be able to learn. I
+mean if you look at uh large language
+
+00:04:40.560 --> 00:04:47.040 align:start position:19%
+models, they're kind of this, you know,
+they're they're based on uh humanity's
+
+00:04:45.280 --> 00:04:52.240 align:start position:19%
+way of thinking and communicating
+distilled. And I think that there's
+
+00:04:50.000 --> 00:04:55.040 align:start position:19%
+plenty to learn from all of the other
+species that are on this planet. And I
+
+00:04:53.919 --> 00:05:00.000 align:start position:19%
+wouldn't be surprised if it has
+applications for for AI, particularly
+
+00:04:57.919 --> 00:05:04.000 align:start position:19%
+AI, where you need to be uh more
+efficient, you know, more power
+
+00:05:01.600 --> 00:05:08.800 align:start position:19%
+efficient, more time efficient, uh you
+know, a a different point of view, two
+
+00:05:06.400 --> 00:05:11.680 align:start position:19%
+heads are better than one, whichever uh
+whatever metaphor you want to use.
+
+00:05:10.320 --> 00:05:16.080 align:start position:19%
+&gt;&gt; Love it. Love it. All right. I'm going
+to kick off the first official question
+
+00:05:13.199 --> 00:05:20.720 align:start position:19%
+here. Poom, you're in the AI industry,
+the defense industry. What's your P
+
+00:05:18.000 --> 00:05:28.639 align:start position:19%
+doom?
+I'm just not worried uh about AI dooming
+
+00:05:26.080 --> 00:05:34.000 align:start position:19%
+the I guess I'm not worried about AI
+doing the killing. I'm very very worried
+
+00:05:30.639 --> 00:05:36.560 align:start position:19%
+about evil people using moderately
+competent AI to do evil things.
+
+00:05:36.000 --> 00:05:41.120 align:start position:19%
+&gt;&gt; Exactly.
+&gt;&gt; And I am
+
+00:05:39.280 --> 00:05:47.919 align:start position:19%
+&gt;&gt; kind of frustrated by a lot of people
+who are new to the dooming hobby. Um,
+
+00:05:45.120 --> 00:05:51.759 align:start position:19%
+and and it's it's it's sort it's sort of
+like how we had to deal with uh you the
+
+00:05:50.160 --> 00:05:55.600 align:start position:19%
+war in Ukraine happens and all of a
+sudden all these people who have had the
+
+00:05:53.440 --> 00:06:00.000 align:start position:19%
+dumbest opinions you've ever heard about
+the military for their whole life. Uh,
+
+00:05:58.400 --> 00:06:04.560 align:start position:19%
+and people who believed we lived at the
+end of history, that we had moved past
+
+00:06:02.320 --> 00:06:08.960 align:start position:19%
+conflict, that we lived in a world where
+you could just write a nasty letter in
+
+00:06:07.120 --> 00:06:12.000 align:start position:19%
+the UN, forgetting that that only works
+if it's backed up by credible threat of
+
+00:06:10.639 --> 00:06:15.280 align:start position:19%
+violence. And and all of a sudden they
+change their minds. You're seeing this
+
+00:06:12.960 --> 00:06:20.160 align:start position:19%
+with AI. People who have not thought
+about this problem for more than a
+
+00:06:18.000 --> 00:06:24.800 align:start position:19%
+couple years or maybe even just a couple
+months uh are are saying, "Oh my god,
+
+00:06:22.800 --> 00:06:28.479 align:start position:19%
+this is the biggest threat to humanity."
+And these are people who have spent
+
+00:06:25.759 --> 00:06:31.440 align:start position:19%
+almost no time actually analyzing what
+the largest threats to humanity are.
+
+00:06:30.160 --> 00:06:35.840 align:start position:19%
+They haven't spoken to any of the
+experts in this area. They certainly
+
+00:06:33.600 --> 00:06:40.400 align:start position:19%
+weren't buying freeze-dried food and
+building prepper bunkers, you know, like
+
+00:06:37.919 --> 00:06:45.120 align:start position:19%
+like like like me and many of my my my
+buddies uh who who have indulged
+
+00:06:42.800 --> 00:06:49.759 align:start position:19%
+fantasies about what doom could look
+like and also thought realistically
+
+00:06:46.880 --> 00:06:52.880 align:start position:19%
+about it. And so uh yeah, the AI doom is
+way down the list for me. I'm I'm I'm a
+
+00:06:51.680 --> 00:06:57.520 align:start position:19%
+big optimist. I think it's going to
+massively reduce the cost of resource
+
+00:06:55.120 --> 00:07:01.280 align:start position:19%
+extraction, processing, transformation.
+You're going to see every part of
+
+00:06:58.960 --> 00:07:05.840 align:start position:19%
+society become subject to the same
+economies of scale and efficiency that
+
+00:07:03.680 --> 00:07:11.360 align:start position:19%
+automated industries that automated
+without AI have seen. So think like
+
+00:07:08.160 --> 00:07:19.840 align:start position:19%
+agriculture or uh or textiles. You can
+buy 2 weeks of calories for less than
+
+00:07:16.319 --> 00:07:22.880 align:start position:19%
+one hour of federal minimum wage labor.
+That's crazy.
+
+00:07:20.720 --> 00:07:26.080 align:start position:19%
+&gt;&gt; Let's give it up for for Palmer here.
+&gt;&gt; You're going to see that for everything,
+
+00:07:24.639 --> 00:07:30.400 align:start position:19%
+&gt;&gt; Dave. [applause]
+So, I I got a really um pressing
+
+00:07:28.880 --> 00:07:34.319 align:start position:19%
+question on my mind. I'm kind of a feeds
+and feeds and chips and AI foundation
+
+00:07:32.080 --> 00:07:39.120 align:start position:19%
+models guy. And so, uh when you're
+putting systems in the field, weapons in
+
+00:07:36.240 --> 00:07:42.319 align:start position:19%
+the field, uh you can you can put the
+intelligence inside it, and this has
+
+00:07:41.280 --> 00:07:45.280 align:start position:19%
+always been a big problem for the Air
+Force, like if we're going to start
+
+00:07:43.440 --> 00:07:48.319 align:start position:19%
+flying drones instead of pilots, who's
+going to unleash the weapons, and how's
+
+00:07:46.639 --> 00:07:53.520 align:start position:19%
+that decision going to get made? And the
+the downside of transmitting it back to
+
+00:07:50.319 --> 00:07:57.680 align:start position:19%
+headquarters is you have latency. Uh the
+upside is you have a lot more compute.
+
+00:07:55.840 --> 00:08:01.919 align:start position:19%
+uh what you can put locally in a device
+in a robot in the field in a plane is
+
+00:07:59.599 --> 00:08:04.720 align:start position:19%
+limited but it's really really fast. So,
+what's your philosophy on like, you
+
+00:08:03.280 --> 00:08:08.560 align:start position:19%
+know, I think a lot of people would say,
+well, are we going to have
+
+00:08:06.479 --> 00:08:12.000 align:start position:19%
+self-contained decision-making weapons
+wandering around enemy territories or
+
+00:08:10.720 --> 00:08:14.240 align:start position:19%
+are we going to like are we going to
+have, you know, control at the
+
+00:08:13.280 --> 00:08:19.759 align:start position:19%
+headquarters? How does it work?
+&gt;&gt; More or less. The the real concern isn't
+
+00:08:16.479 --> 00:08:25.280 align:start position:19%
+so much the latency or or or the speed
+of computation. The problem is that if
+
+00:08:21.680 --> 00:08:30.319 align:start position:19%
+you rely on uh you know central a
+central location to do your compute, you
+
+00:08:27.520 --> 00:08:34.399 align:start position:19%
+now need to have command and control
+that has uh good high bandwidth
+
+00:08:32.640 --> 00:08:38.479 align:start position:19%
+communication back and forth between you
+and potentially thousands or tens of
+
+00:08:36.560 --> 00:08:42.240 align:start position:19%
+thousands of active assets. And if your
+enemy jams your communications or
+
+00:08:40.560 --> 00:08:48.160 align:start position:19%
+intercepts your communications or hacks
+your communications, you're done. uh or
+
+00:08:45.440 --> 00:08:52.240 align:start position:19%
+worse they just skip targeting all the
+stuff in the field and they go for the
+
+00:08:50.560 --> 00:08:56.640 align:start position:19%
+place where it's all being controlled.
+You know, we saw we saw this I there was
+
+00:08:54.640 --> 00:09:00.640 align:start position:19%
+a there was a there there was there was
+this documentary that George Lucas was
+
+00:08:58.640 --> 00:09:04.399 align:start position:19%
+working on and and the Trade Federation
+they had they had their central AI
+
+00:09:02.720 --> 00:09:08.640 align:start position:19%
+command and control blown up and that
+was how the battle of Ne of Naboo
+
+00:09:06.560 --> 00:09:10.320 align:start position:19%
+actually resolved was all all the battle
+droids lost.
+
+00:09:09.360 --> 00:09:13.839 align:start position:19%
+&gt;&gt; Oh yeah. They all fell over.
+&gt;&gt; That's right. and they all fell over.
+
+00:09:11.600 --> 00:09:18.080 align:start position:19%
+And so I think that that's that that's
+the practical reality that's driving the
+
+00:09:15.839 --> 00:09:22.880 align:start position:19%
+need to have autonomy living not back
+home but forward. There's other areas
+
+00:09:20.320 --> 00:09:26.160 align:start position:19%
+like uh you go underwater, you can't
+talk to things
+
+00:09:24.080 --> 00:09:30.000 align:start position:19%
+&gt;&gt; and sometimes you could talk to things
+but you don't want to. Having radio
+
+00:09:27.920 --> 00:09:34.399 align:start position:19%
+emissions actually exposes you
+necessarily and so you for better or for
+
+00:09:33.360 --> 00:09:38.160 align:start position:19%
+worse you're going to need this. I
+actually don't think it's as much of a
+
+00:09:35.600 --> 00:09:41.440 align:start position:19%
+shift as people think. Um, I there's a
+lot of people who look at they say, "Oh
+
+00:09:39.360 --> 00:09:44.480 align:start position:19%
+my god, Pandora's box is being opened.
+You're going to have weapons that are
+
+00:09:42.560 --> 00:09:47.839 align:start position:19%
+making their own kill decisions, and
+they don't recognize the reality, which
+
+00:09:46.800 --> 00:09:51.920 align:start position:19%
+is that that's been the case for
+decades. Uh, you look at the you look at
+
+00:09:49.920 --> 00:09:55.600 align:start position:19%
+the the you look at the Aegis system on
+destroyers. It has a fully autonomous
+
+00:09:54.000 --> 00:10:00.480 align:start position:19%
+mode. You can flip a button and it will
+shoot down anything that comes within
+
+00:09:57.839 --> 00:10:05.040 align:start position:19%
+whatever range you programmed it with uh
+without any human confirmation. Uh you
+
+00:10:02.720 --> 00:10:09.120 align:start position:19%
+look at SeaWiz and CRAMM for shooting
+down incoming missiles, incoming mortar,
+
+00:10:07.040 --> 00:10:13.440 align:start position:19%
+incoming artillery fire, incoming
+missiles or incoming speedboats. Uh same
+
+00:10:12.240 --> 00:10:17.440 align:start position:19%
+thing, you can put them in fully
+autonomous modes. And I mean it going
+
+00:10:15.360 --> 00:10:21.279 align:start position:19%
+back to in into Vietnam, we had missiles
+that you could launch from an aircraft.
+
+00:10:19.040 --> 00:10:24.720 align:start position:19%
+They flew over the horizon, tried to
+identify the right radio emitters that
+
+00:10:23.040 --> 00:10:28.560 align:start position:19%
+they believed corresponded with a
+surfaceto-air missile site, and then
+
+00:10:26.560 --> 00:10:31.040 align:start position:19%
+struck them without any, you know, the
+person had to decide, I'm going to send
+
+00:10:29.839 --> 00:10:34.240 align:start position:19%
+it in this area. they're going to look
+for this signal and I know that there's
+
+00:10:32.880 --> 00:10:38.959 align:start position:19%
+this probability they're going to get it
+right. That decision is going to remain
+
+00:10:36.320 --> 00:10:43.040 align:start position:19%
+with people. But uh autonomous weapons
+are uh widely widely there's a whole
+
+00:10:41.920 --> 00:10:46.880 align:start position:19%
+another talk we're not going to have
+today. But I I will I I do have a rant
+
+00:10:45.680 --> 00:10:50.880 align:start position:19%
+about this where actually autonomous
+weapons have existed for thousands of
+
+00:10:48.480 --> 00:10:55.279 align:start position:19%
+years. If you look at and they're
+defined as kind of weapons that can
+
+00:10:53.200 --> 00:10:59.440 align:start position:19%
+execute the intent of uh what you
+program to do independent from the
+
+00:10:57.839 --> 00:11:03.200 align:start position:19%
+operator or the engineer. You look at,
+for example, pitfall traps that allow
+
+00:11:01.680 --> 00:11:06.399 align:start position:19%
+people to walk over them, but then
+capture the commander on his horse when
+
+00:11:04.880 --> 00:11:12.079 align:start position:19%
+he walks by and it's heavier. You look
+at uh certain poison traps that would uh
+
+00:11:09.279 --> 00:11:15.519 align:start position:19%
+that would uh kill people who had who
+had certain characteristics, not kill
+
+00:11:14.000 --> 00:11:21.440 align:start position:19%
+people who had other characteristics or
+not kill animals. Uh you look at many
+
+00:11:18.959 --> 00:11:26.640 align:start position:19%
+types of landmines and sea mines and
+even even torpedoes. And so it depends
+
+00:11:24.320 --> 00:11:29.279 align:start position:19%
+on on your exact definition, but even
+going into myth where people are
+
+00:11:27.839 --> 00:11:32.959 align:start position:19%
+creating golems that can, you know, go
+out and fight on their fight on their
+
+00:11:30.959 --> 00:11:37.600 align:start position:19%
+behalf or or defend you defend their
+city. I I guess my argument is we've had
+
+00:11:35.519 --> 00:11:41.200 align:start position:19%
+autonomous weapons for a very very long
+time. Uh it's just a new set of
+
+00:11:39.519 --> 00:11:43.120 align:start position:19%
+technology that's that's making them
+better.
+
+00:11:41.600 --> 00:11:47.920 align:start position:19%
+&gt;&gt; So technical question on that. The
+foundation models that go into those
+
+00:11:44.959 --> 00:11:52.800 align:start position:19%
+those remote systems right now.
+&gt;&gt; Yeah. Well, so the the right right now
+
+00:11:50.560 --> 00:11:55.440 align:start position:19%
+the open source models are all Chinese.
+So I'm pretty sure you're not going to
+
+00:11:53.839 --> 00:11:59.440 align:start position:19%
+be putting Chinese models into remote
+weapons. Are you going to build and
+
+00:11:57.680 --> 00:12:04.160 align:start position:19%
+foundation models or how are you going
+to get AI in those devices? I mean,
+
+00:12:01.600 --> 00:12:09.200 align:start position:19%
+we've been doing it since 2017. So we're
+way ahead of everybody. We're we're
+
+00:12:05.920 --> 00:12:12.639 align:start position:19%
+we're a decade beyond that question. Um
+I think that we also don't the
+
+00:12:11.440 --> 00:12:16.320 align:start position:19%
+foundation models that people are
+building are not the types of models you
+
+00:12:14.480 --> 00:12:20.240 align:start position:19%
+want to be doing this. They're non
+they're largely non-deterministic.
+
+00:12:17.920 --> 00:12:24.079 align:start position:19%
+they're non auditable. It's it's a very
+different category. The thing that we
+
+00:12:21.680 --> 00:12:29.200 align:start position:19%
+are building unfortunately has very few
+consumer applications
+
+00:12:25.839 --> 00:12:33.680 align:start position:19%
+&gt;&gt; and vice versa. There of course are LLM
+use cases for defense that make a lot of
+
+00:12:31.519 --> 00:12:38.480 align:start position:19%
+sense, but it's not guiding my missile
+or or classifying radar, you know, radar
+
+00:12:36.160 --> 00:12:42.880 align:start position:19%
+radar radar feeds. I mean, and we we're
+also we can't build models that ingest
+
+00:12:40.480 --> 00:12:47.760 align:start position:19%
+text and then spit out text. I need to
+process raw data radar data feeds. I
+
+00:12:45.279 --> 00:12:51.519 align:start position:19%
+need to process sonar data from passive
+listening stations on submarines. That's
+
+00:12:49.839 --> 00:12:55.519 align:start position:19%
+it's it's pretty highly specialized. And
+I I will take some credit here. Uh all
+
+00:12:54.000 --> 00:13:02.000 align:start position:19%
+these people who are talking about how
+AI is going to change everything, they
+
+00:12:58.079 --> 00:13:06.639 align:start position:19%
+are mostly uh recent converts. And
+Industries, you might notice the acronym
+
+00:13:03.920 --> 00:13:08.160 align:start position:19%
+is AI. Um so and that that was not that
+was not a mistake.
+
+00:13:07.839 --> 00:13:13.920 align:start position:19%
+&gt;&gt; Okay,
+&gt;&gt; Alex, jump in. Yeah, I think maybe
+
+00:13:12.000 --> 00:13:17.440 align:start position:19%
+dovetailing on our discussion of driving
+bench, we're now in an era when it's
+
+00:13:15.600 --> 00:13:21.760 align:start position:19%
+possible to take frontier models, drop
+them into a robotic embodiment and get
+
+00:13:19.920 --> 00:13:25.760 align:start position:19%
+pretty stunning results. So, I'd love to
+ask you a question maybe about the
+
+00:13:23.519 --> 00:13:29.839 align:start position:19%
+scaling hypothesis as it applies to
+autonomous weapon systems or autonomous
+
+00:13:27.920 --> 00:13:34.959 align:start position:19%
+systems in general. If you have to
+extrapolate out, is there a Moors law?
+
+00:13:32.320 --> 00:13:38.720 align:start position:19%
+Is there an experience curve for what a
+as obviously the capabilities of
+
+00:13:37.200 --> 00:13:45.680 align:start position:19%
+underlying frontier models whether
+they're from Frontier Labs proper or
+
+00:13:41.040 --> 00:13:51.040 align:start position:19%
+from AI as as those progress do we see
+any equivalent of a Moors law for the
+
+00:13:48.320 --> 00:13:54.720 align:start position:19%
+autonomous systems themselves and and
+maybe the the second half of the
+
+00:13:52.880 --> 00:14:00.000 align:start position:19%
+question would be do you think
+ultimately we achieve some sort of
+
+00:13:56.800 --> 00:14:02.560 align:start position:19%
+convergence you'll it makes a variety of
+embodiment in a variety of different
+
+00:14:01.440 --> 00:14:08.639 align:start position:19%
+form factors
+Do you see ultimately some general
+
+00:14:05.120 --> 00:14:12.880 align:start position:19%
+purpose category killer robot that is
+equivalently the generalist robotic
+
+00:14:11.440 --> 00:14:16.160 align:start position:19%
+embodiment just like we now have
+generalist models that are capable of
+
+00:14:14.639 --> 00:14:21.600 align:start position:19%
+doing substantially any task?
+&gt;&gt; No, I don't think so on the defense
+
+00:14:18.399 --> 00:14:26.000 align:start position:19%
+side. I think that for manufacturing and
+for hospitality and medicine, you might
+
+00:14:23.920 --> 00:14:29.760 align:start position:19%
+see this because you get economies of
+scale that uh that that are really that
+
+00:14:28.240 --> 00:14:34.480 align:start position:19%
+are really material for those types of
+businesses. And you know, a humanoid
+
+00:14:31.600 --> 00:14:37.760 align:start position:19%
+robot may not be the optimal form for a
+burger griller, and it may not be the
+
+00:14:36.000 --> 00:14:40.880 align:start position:19%
+optimal form for a firefighter. It may
+not be the optimal form for a for a
+
+00:14:39.279 --> 00:14:42.480 align:start position:19%
+nurse [laughter] or an assembly
+technician.
+
+00:14:41.199 --> 00:14:47.680 align:start position:19%
+&gt;&gt; Selma is smiling.
+&gt;&gt; But even if it's not optimal, the fact
+
+00:14:45.199 --> 00:14:52.240 align:start position:19%
+that it is shared with humanity in its
+form makes it a really, really good form
+
+00:14:50.480 --> 00:14:57.040 align:start position:19%
+factor. And now I can make one robot
+that does all of these things. And uh I
+
+00:14:54.560 --> 00:15:02.880 align:start position:19%
+I would probably rather have a let's say
+robot that's 5% slower or or uh you know
+
+00:15:00.800 --> 00:15:08.000 align:start position:19%
+less reliable than the optimal burger
+flipping robot if I can share
+
+00:15:04.560 --> 00:15:13.440 align:start position:19%
+commonality with that with that nurse.
+In defense, that's not really the case.
+
+00:15:10.880 --> 00:15:17.600 align:start position:19%
+Uh- because you are in this constant
+race to not just barely beat your
+
+00:15:15.360 --> 00:15:21.600 align:start position:19%
+adversary, but to massively overpower
+them, to try and make it where you the
+
+00:15:19.920 --> 00:15:28.160 align:start position:19%
+goal is not to just barely win a
+conflict on the margins. It is to fight
+
+00:15:24.639 --> 00:15:32.079 align:start position:19%
+unfair, to have overwhelming threat of
+violence underpinning whatever
+
+00:15:29.760 --> 00:15:36.560 align:start position:19%
+diplomatic overtures or negotiations you
+have. And and and everyone's always
+
+00:15:34.000 --> 00:15:42.720 align:start position:19%
+pushing the limit. So if if I if I have
+a jet that has a reliable 5% every time
+
+00:15:40.560 --> 00:15:48.320 align:start position:19%
+edge over the enemy, that's worth paying
+a lot of money for, right? Like I I I
+
+00:15:44.959 --> 00:15:52.240 align:start position:19%
+and and I think the the the
+loss in performance you would see
+
+00:15:49.920 --> 00:15:56.320 align:start position:19%
+through lack of specialization probably
+makes it nonviable. like to to to go to
+
+00:15:54.399 --> 00:16:00.720 align:start position:19%
+the to the extreme like uh you know I
+build robot submarines and those have a
+
+00:15:58.720 --> 00:16:05.199 align:start position:19%
+specialized form that needs to dive to
+6,000 meter depth and and sit on the
+
+00:16:03.199 --> 00:16:09.279 align:start position:19%
+bottom of the ocean for months at a time
+and then I have other stuff that's on
+
+00:16:07.199 --> 00:16:12.560 align:start position:19%
+the surface and uh and you know they're
+robotic systems that you know roll up a
+
+00:16:11.120 --> 00:16:15.600 align:start position:19%
+hill and and they loiter and then I have
+other things that are you know aerial
+
+00:16:14.160 --> 00:16:19.199 align:start position:19%
+vehicles that are doing very specialized
+tasks and I just can't imagine a
+
+00:16:17.120 --> 00:16:21.680 align:start position:19%
+convergence that would make sense unless
+you're telling me that we're going to
+
+00:16:20.240 --> 00:16:26.480 align:start position:19%
+get something cool like like humanoids
+that have like you know onboard fusion
+
+00:16:23.839 --> 00:16:28.399 align:start position:19%
+reactors and they could dive to 6,000 ft
+depth.
+
+00:16:26.720 --> 00:16:31.680 align:start position:19%
+&gt;&gt; So Palmer, why why aren't you building
+those? I mean, if anybody you should
+
+00:16:31.026 --> 00:16:35.440 align:start position:19%
+[laughter]
+it's look, you could potentially build
+
+00:16:33.440 --> 00:16:39.040 align:start position:19%
+such a thing. But then very quickly you
+realize that specialization would allow
+
+00:16:37.199 --> 00:16:42.480 align:start position:19%
+you to build something even better. You
+say, okay, I've built something that can
+
+00:16:40.639 --> 00:16:46.160 align:start position:19%
+dive to the bottom of the ocean and fly
+to the moon. Man, it could get to the
+
+00:16:44.639 --> 00:16:49.120 align:start position:19%
+moon a lot faster if it didn't have to
+also dive to the bottom of the ocean. So
+
+00:16:47.519 --> 00:16:53.199 align:start position:19%
+I think I think defense is going to be
+this one where kind of like uh you know
+
+00:16:51.839 --> 00:16:56.880 align:start position:19%
+you you look at for example the
+difference between cars where everything
+
+00:16:54.720 --> 00:17:00.560 align:start position:19%
+has shared platforms within a
+manufacturer you know manufacturer and
+
+00:16:58.560 --> 00:17:06.000 align:start position:19%
+they also share a lot of the same
+standards uh and interfaces. Uh I think
+
+00:17:04.160 --> 00:17:09.839 align:start position:19%
+that you compare that with like uh
+motorsport where it's all completely
+
+00:17:08.079 --> 00:17:14.799 align:start position:19%
+different and it's continuously pushing
+forward. I I think the defense side is
+
+00:17:12.559 --> 00:17:18.240 align:start position:19%
+probably always going to be this this
+weird branch of exotic, highly
+
+00:17:16.880 --> 00:17:21.280 align:start position:19%
+specialized robotic systems.
+&gt;&gt; You know, Palmer, I expected if anybody
+
+00:17:20.160 --> 00:17:24.720 align:start position:19%
+was going to be building humanoid
+robots, it would be you.
+
+00:17:23.199 --> 00:17:29.200 align:start position:19%
+&gt;&gt; You said you said absolutely not.
+&gt;&gt; I' I've opted out because um I because I
+
+00:17:27.839 --> 00:17:32.880 align:start position:19%
+believe in them. If I didn't believe
+that humanoid robotics had such a
+
+00:17:31.039 --> 00:17:36.559 align:start position:19%
+powerful future, then I would probably
+build them. But I want Andreal to build
+
+00:17:34.400 --> 00:17:40.240 align:start position:19%
+things that wouldn't exist otherwise.
+That's what I generally want. You want
+
+00:17:38.720 --> 00:17:42.080 align:start position:19%
+to maximize your marginal impact, but
+they
+
+00:17:40.559 --> 00:17:47.120 align:start position:19%
+&gt;&gt; correct? All the other people are
+already doing a great job. Like I I want
+
+00:17:44.320 --> 00:17:50.559 align:start position:19%
+to use their robots and and and do
+things with them. Like I think humanoids
+
+00:17:48.640 --> 00:17:56.000 align:start position:19%
+are going to be an incredible general
+artificial intelligence interface
+
+00:17:52.400 --> 00:18:00.160 align:start position:19%
+between AI and remote systems and a lot
+of legacy platforms that were designed
+
+00:17:57.840 --> 00:18:03.200 align:start position:19%
+for a person, you know, pull the lever,
+push the button, read the screen. Like
+
+00:18:02.080 --> 00:18:07.200 align:start position:19%
+we're going to be able to take all those
+and automate them without replacing them
+
+00:18:05.520 --> 00:18:11.120 align:start position:19%
+entirely. So, you have a lot of things
+like radar systems that cost millions,
+
+00:18:09.919 --> 00:18:15.600 align:start position:19%
+tens of millions, even hundreds of
+millions of dollars. Uh, nobody wants to
+
+00:18:13.440 --> 00:18:18.880 align:start position:19%
+man them during a hot conflict because
+they're the first thing that's going to
+
+00:18:16.720 --> 00:18:22.320 align:start position:19%
+go. But if I can put humanoid robots in
+them, I've now been able to automate
+
+00:18:20.720 --> 00:18:25.840 align:start position:19%
+them without that. So, yeah, I'm not
+going to build humanoids. Uh, this is
+
+00:18:23.840 --> 00:18:29.280 align:start position:19%
+also why Andre is not building like
+small quadcopter attack drones. Too many
+
+00:18:28.080 --> 00:18:32.240 align:start position:19%
+other companies doing a great job.
+There's there's a lot of a lot of areas
+
+00:18:31.039 --> 00:18:35.600 align:start position:19%
+and and we're not going to do space
+launch like we do space products. We
+
+00:18:34.160 --> 00:18:39.039 align:start position:19%
+have a lot we operate a lot of our own
+satellites and a lot of our own sensors
+
+00:18:37.120 --> 00:18:41.360 align:start position:19%
+in space. Uh but I don't want to be a
+launch provider. That's for all the
+
+00:18:40.160 --> 00:18:46.160 align:start position:19%
+other billionaires to
+&gt;&gt; Yeah. Yeah. Let let them handle that.
+
+00:18:42.880 --> 00:18:52.480 align:start position:19%
+That's fantastic. Sm um you know when
+you're operating Andreal Industries,
+
+00:18:48.640 --> 00:18:57.360 align:start position:19%
+you're uh decentralizing defense, right?
+The Pentagon and Ministries of Defense
+
+00:18:55.200 --> 00:19:02.160 align:start position:19%
+globally have been the most centralized
+entity in the history of humanity. Uh
+
+00:19:00.080 --> 00:19:07.280 align:start position:19%
+you're sitting on the edge dealing with
+that. uh you must have a massive immune
+
+00:19:05.360 --> 00:19:11.760 align:start position:19%
+system problem where people inside the
+entity are going, "No, we've done that
+
+00:19:08.880 --> 00:19:15.200 align:start position:19%
+before. We can do it better. They either
+try and suck you in or they try and spit
+
+00:19:13.520 --> 00:19:19.600 align:start position:19%
+you out." How are you navigating that
+interface? Because you're doing it in a
+
+00:19:16.720 --> 00:19:24.080 align:start position:19%
+way that I've never seen anybody succeed
+do it.
+
+00:19:22.480 --> 00:19:28.960 align:start position:19%
+&gt;&gt; I think that this is a problem that's
+very very hard at the beginning.
+
+00:19:26.240 --> 00:19:33.919 align:start position:19%
+&gt;&gt; Oh, I said the wrong thing. [laughter]
+&gt;&gt; Wow. No idea. Well, until someone gets
+
+00:19:31.360 --> 00:19:36.720 align:start position:19%
+on the intercom and tells us to go a
+million dollar.
+
+00:19:34.799 --> 00:19:40.679 align:start position:19%
+&gt;&gt; Congratulations.
+&gt;&gt; Um, what were we talking?
+
+00:19:44.320 --> 00:19:49.039 align:start position:19%
+&gt;&gt; Seriously, I knew the intercom was going
+to come on.
+
+00:19:47.360 --> 00:19:52.240 align:start position:19%
+&gt;&gt; What were we talking about again?
+&gt;&gt; Centralization of Pentagon versus
+
+00:19:51.039 --> 00:19:55.919 align:start position:19%
+decentralized
+&gt;&gt; I'm going to keep talking to.
+
+00:19:55.120 --> 00:20:00.000 align:start position:19%
+Um,
+&gt;&gt; so we've gotten through this a bit. I
+
+00:19:57.600 --> 00:20:03.679 align:start position:19%
+think early on there was that concern
+that Anderl was not going to be able to
+
+00:20:02.080 --> 00:20:06.523 align:start position:19%
+get through that. Our our hardest
+problem raising money.
+
+00:20:04.559 --> 00:20:09.679 align:start position:19%
+&gt;&gt; Skippy, would you please shut this down?
+[laughter]
+
+00:20:08.000 --> 00:20:11.520 align:start position:19%
+&gt;&gt; I've been through enough of these to to
+know know how it's going to work. There
+
+00:20:11.120 --> 00:20:14.480 align:start position:19%
+we go.
+&gt;&gt; I imagine.
+
+00:20:12.160 --> 00:20:18.080 align:start position:19%
+&gt;&gt; Um, one of our early problems was that
+our investors said, Palmer, you
+
+00:20:16.559 --> 00:20:20.880 align:start position:19%
+potential investors. They said, "Look,
+we believe that you'll be able to build
+
+00:20:19.440 --> 00:20:24.160 align:start position:19%
+things that work. We believe you'll be
+able to build products that are great,
+
+00:20:22.480 --> 00:20:27.840 align:start position:19%
+but we don't believe the government is
+capable of actually purchasing them at
+
+00:20:26.559 --> 00:20:32.480 align:start position:19%
+scale." Because I mean you talk you talk
+about centralization you know about the
+
+00:20:29.840 --> 00:20:39.120 align:start position:19%
+issues for people who don't uh until
+just a few years ago you had about 80%
+
+00:20:36.080 --> 00:20:46.400 align:start position:19%
+of uh MDAPs major defense acquisition
+programs so basically anything that that
+
+00:20:41.840 --> 00:20:50.320 align:start position:19%
+matters uh 80% of MDAPs went to five
+companies and that's it
+
+00:20:48.400 --> 00:20:54.960 align:start position:19%
+&gt;&gt; and uh I mean you've seen incredible
+consolidation centralization and has
+
+00:20:53.039 --> 00:20:57.919 align:start position:19%
+been successful because we use we're
+less of a contractor and more of a
+
+00:20:56.400 --> 00:21:01.039 align:start position:19%
+product company. We use our own money to
+build products. Then we sell them. And
+
+00:20:59.919 --> 00:21:05.919 align:start position:19%
+we've gotten to the point now where
+people in government have done very very
+
+00:21:03.200 --> 00:21:10.960 align:start position:19%
+well betting on and then miraculously we
+finish on schedule. We finish on time
+
+00:21:08.159 --> 00:21:15.600 align:start position:19%
+and then the next program manager says,
+"I know how I can make my job easy. I
+
+00:21:13.360 --> 00:21:18.640 align:start position:19%
+just I just give the contract to Ander."
+&gt;&gt; Got it.
+
+00:21:16.080 --> 00:21:22.960 align:start position:19%
+&gt;&gt; So it's got to take guts to enter the
+defense industry, right? The most
+
+00:21:20.159 --> 00:21:28.640 align:start position:19%
+incestuous, you know, self-licking ice
+cream cone on the planet.
+
+00:21:24.400 --> 00:21:34.000 align:start position:19%
+&gt;&gt; Yeah. and and and what insanity,
+you know, gave you the balls to do that?
+
+00:21:31.760 --> 00:21:39.360 align:start position:19%
+&gt;&gt; The insanity was the reason that I got
+into it. Uh the first page of our pitch
+
+00:21:36.880 --> 00:21:43.440 align:start position:19%
+deck said Andro will save taxpayers
+hundreds of billions of dollars a year
+
+00:21:41.520 --> 00:21:46.480 align:start position:19%
+by making tens of billions of dollars a
+year. The idea being we're not just
+
+00:21:44.960 --> 00:21:52.159 align:start position:19%
+making products that we're selling, but
+we are displacing the systems that cost
+
+00:21:49.200 --> 00:21:58.640 align:start position:19%
+needlessly 10 times what they should.
+And yeah, thank you. [applause]
+
+00:21:56.320 --> 00:22:03.840 align:start position:19%
+And so it does seem crazy, but you know,
+um I don't I I I can't put myself on the
+
+00:22:01.600 --> 00:22:08.000 align:start position:19%
+same pedestal as him, but one of my
+mentors and idols growing up and then
+
+00:22:06.320 --> 00:22:10.559 align:start position:19%
+also early in my career was John
+Carmarmac, the founder of Software.
+
+00:22:09.679 --> 00:22:14.080 align:start position:19%
+&gt;&gt; John is great.
+&gt;&gt; John is incredible. And for people who
+
+00:22:12.159 --> 00:22:18.640 align:start position:19%
+don't know, he's basically inventor of
+the modern modern 3D game engine
+
+00:22:16.480 --> 00:22:22.159 align:start position:19%
+firsterson shooters. Also started a
+rocket company that competed in He he
+
+00:22:20.480 --> 00:22:25.120 align:start position:19%
+was competing in the X-P prize and I I
+remember
+
+00:22:22.640 --> 00:22:28.720 align:start position:19%
+&gt;&gt; and he was one of the if not the only
+one to be doing reusable vertical.
+
+00:22:27.440 --> 00:22:30.640 align:start position:19%
+&gt;&gt; Exactly. He was doing vertical takeoff
+vertical.
+
+00:22:29.280 --> 00:22:34.720 align:start position:19%
+&gt;&gt; Nobody else was even trying to do
+&gt;&gt; and I remember I remember there's this
+
+00:22:32.320 --> 00:22:37.919 align:start position:19%
+this name on the side of his vehicles
+Nvidia. How do you pronounce that thing
+
+00:22:36.960 --> 00:22:42.320 align:start position:19%
+if I would only know?
+&gt;&gt; That's right. He was use and so yeah he
+
+00:22:39.679 --> 00:22:45.039 align:start position:19%
+was using uh he was using uh yeah he was
+building his own sensor fusion
+
+00:22:43.440 --> 00:22:49.520 align:start position:19%
+algorithms. He was processing them on
+modern or on a you know like commercial
+
+00:22:47.120 --> 00:22:52.400 align:start position:19%
+style graphics card hard hardware using
+his game programming experience. Anyway,
+
+00:22:51.679 --> 00:22:56.159 align:start position:19%
+the point is
+&gt;&gt; it was called Armadillo Armadillo
+
+00:22:54.320 --> 00:22:59.600 align:start position:19%
+Aerospace. That's right.
+&gt;&gt; And the thing and yeah, they were doing
+
+00:22:58.000 --> 00:23:03.760 align:start position:19%
+vertical takeoff and landing long before
+SpaceX was uh was was was I mean doing
+
+00:23:03.280 --> 00:23:08.240 align:start position:19%
+anything.
+&gt;&gt; Yeah. No, before it existed for sure.
+
+00:23:05.600 --> 00:23:14.240 align:start position:19%
+&gt;&gt; That's right. And uh so but anyway, the
+point is he he um I I he ended up
+
+00:23:11.600 --> 00:23:20.400 align:start position:19%
+becoming the CTO of Oculus VR. I managed
+to poach him away from ID, but after he
+
+00:23:17.200 --> 00:23:25.280 align:start position:19%
+left, he went to work on AI actually
+even before I did. Um and so he started
+
+00:23:23.039 --> 00:23:30.240 align:start position:19%
+he started his own company to work on uh
+on on AGI. And um and I said, "Why why
+
+00:23:29.039 --> 00:23:33.679 align:start position:19%
+are you why are you doing this?" you
+know that the odds of you succeeding and
+
+00:23:31.840 --> 00:23:37.600 align:start position:19%
+to be clear I still believe AI was going
+somewhere but he said I'm going to start
+
+00:23:35.200 --> 00:23:40.720 align:start position:19%
+a company that's just going all in on
+the end state like I'm not trying to
+
+00:23:39.280 --> 00:23:46.080 align:start position:19%
+incrementally get there it's just all in
+on AGI and the point that he made was
+
+00:23:43.280 --> 00:23:49.760 align:start position:19%
+Palmer even if I've got a 1% chance of
+succeeding which maybe is an
+
+00:23:47.760 --> 00:23:55.440 align:start position:19%
+overestimation but suppose I have a 1%
+chance of succeeding and suppose that I
+
+00:23:52.080 --> 00:24:01.679 align:start position:19%
+could pull it off uh
+the uh the risk adjusted uh outcome kind
+
+00:23:58.960 --> 00:24:06.559 align:start position:19%
+of demands that I do it. And that was
+how I felt about defense. If there was a
+
+00:24:03.600 --> 00:24:11.039 align:start position:19%
+1% chance that I could help solve this
+problem, then it was one that would be
+
+00:24:08.720 --> 00:24:15.600 align:start position:19%
+massively impactful to work on versus,
+let's say, starting another gaming
+
+00:24:12.720 --> 00:24:19.760 align:start position:19%
+company, getting into space launch, uh,
+you know, building a car company, uh,
+
+00:24:17.760 --> 00:24:22.159 align:start position:19%
+that that which it it all of the
+billionaires, they end up doing the same
+
+00:24:20.960 --> 00:24:27.279 align:start position:19%
+thing. You don't have enough people
+getting into defense or or putting on a
+
+00:24:24.559 --> 00:24:31.120 align:start position:19%
+bat suit. It's just it's just cars and
+rockets and and they just go in circles
+
+00:24:29.760 --> 00:24:34.240 align:start position:19%
+like that for for for
+&gt;&gt; So, you know, when I interviewed you on
+
+00:24:32.400 --> 00:24:38.799 align:start position:19%
+the on the Moonshots podcast last time,
+you mentioned that you're part of a
+
+00:24:36.320 --> 00:24:41.600 align:start position:19%
+billionaires boys club chat group.
+&gt;&gt; Yeah. Yeah. [clears throat] Oh, yeah.
+
+00:24:39.760 --> 00:24:44.720 align:start position:19%
+&gt;&gt; Are they working on anything worthwhile
+at this point? I mean, I g I gave them
+
+00:24:43.360 --> 00:24:47.200 align:start position:19%
+ for saying like, "God, you got all
+this capital. Solve the world's biggest
+
+00:24:46.640 --> 00:24:51.039 align:start position:19%
+problems."
+&gt;&gt; I think the B boys are doing a lot
+
+00:24:48.799 --> 00:24:52.000 align:start position:19%
+better now than we were a few years ago.
+&gt;&gt; Okay.
+
+00:24:51.440 --> 00:24:54.640 align:start position:19%
+&gt;&gt; Um
+&gt;&gt; they're they're stepping up.
+
+00:24:53.360 --> 00:24:58.080 align:start position:19%
+&gt;&gt; Yeah. And for people the thing we're
+talking about is I I was giving a lot of
+
+00:24:56.480 --> 00:25:02.720 align:start position:19%
+people a hard time especially some
+retired B boys and uh I was telling them
+
+00:25:01.120 --> 00:25:06.799 align:start position:19%
+what are you what are you doing you have
+cuz money is one of the resources they
+
+00:25:05.279 --> 00:25:10.159 align:start position:19%
+have but one of the resources people
+don't talk about especially for the
+
+00:25:08.240 --> 00:25:14.400 align:start position:19%
+retired B boys is that they have
+credibility which would allow them to
+
+00:25:12.000 --> 00:25:19.039 align:start position:19%
+gather people around them teams around
+them and capital like they could it's
+
+00:25:17.200 --> 00:25:22.720 align:start position:19%
+just sitting there unutilized if they're
+doing nothing. um they have the
+
+00:25:20.960 --> 00:25:26.960 align:start position:19%
+credibility in that people trust them as
+a leader to be able to lead an
+
+00:25:24.159 --> 00:25:31.440 align:start position:19%
+organization like that. They they could
+have the same ideas and the same words
+
+00:25:29.039 --> 00:25:35.279 align:start position:19%
+as somebody who's equally smart or
+smarter and uh they'll still do better
+
+00:25:33.760 --> 00:25:38.799 align:start position:19%
+for that. And so my point to them is you
+have a responsibility not only as
+
+00:25:36.720 --> 00:25:42.159 align:start position:19%
+someone who's who's got a lot of capital
+yourself, but who's got this
+
+00:25:40.000 --> 00:25:48.000 align:start position:19%
+underutilized resource of the ability to
+do more uh uh if you're not doing that
+
+00:25:45.679 --> 00:25:52.400 align:start position:19%
+then then are you really like what are
+you even doing? Anyone can sit on a
+
+00:25:50.000 --> 00:25:56.559 align:start position:19%
+boat. Few people can start another
+multi-billion dollar company that does
+
+00:25:54.240 --> 00:26:00.400 align:start position:19%
+something that matters. [applause] Yeah.
+And the good news is most of them I
+
+00:25:58.320 --> 00:26:03.840 align:start position:19%
+think uh I I I think a lot of people
+have uh have gotten the itch to to solve
+
+00:26:02.720 --> 00:26:04.720 align:start position:19%
+some of these problems that are out
+there.
+
+00:26:04.080 --> 00:26:08.400 align:start position:19%
+&gt;&gt; So we've got
+&gt;&gt; nihilism is is is on is on the down.
+
+00:26:06.799 --> 00:26:12.240 align:start position:19%
+&gt;&gt; The solution is we need more tea boys
+and fewer B boys. [laughter]
+
+00:26:10.720 --> 00:26:15.520 align:start position:19%
+&gt;&gt; Yeah, that's an interesting point.
+Although
+
+00:26:14.000 --> 00:26:18.960 align:start position:19%
+like I said, I think most of the tea
+boys I think they seem like they keep
+
+00:26:16.960 --> 00:26:21.919 align:start position:19%
+pretty busy. That's your point.
+&gt;&gt; I don't I don't even I don't have a
+
+00:26:20.240 --> 00:26:25.919 align:start position:19%
+problem with B boys who don't do enough.
+Like some people they mis mistake what I
+
+00:26:23.840 --> 00:26:31.600 align:start position:19%
+what I say like oh Palmer wants other
+billionaires to work on defense or
+
+00:26:27.919 --> 00:26:34.480 align:start position:19%
+energy or or biology and you like my
+point is not that people need to
+
+00:26:33.200 --> 00:26:38.559 align:start position:19%
+distract themselves by doing more
+things. A lot of people can only do one
+
+00:26:36.559 --> 00:26:43.360 align:start position:19%
+thing uh you know and that was what I
+did for a long time. Uh it's what I hate
+
+00:26:41.440 --> 00:26:47.679 align:start position:19%
+is the people who are not doing anything
+that's that that is that is like a
+
+00:26:45.360 --> 00:26:52.000 align:start position:19%
+repulsive to me. So maybe message to the
+audience, you get to join the B boys
+
+00:26:49.679 --> 00:26:54.880 align:start position:19%
+Slack group or whatever this is,
+Telegram if you're doing something new
+
+00:26:54.080 --> 00:26:58.480 align:start position:19%
+and differentiating.
+&gt;&gt; The group the group actually got shut
+
+00:26:56.640 --> 00:27:03.200 align:start position:19%
+down and uh we've been we've been
+talking about now we need to do a B boys
+
+00:27:00.400 --> 00:27:06.159 align:start position:19%
+2.0. Um but I think I think people post
+&gt;&gt; maybe some B girls as well.
+
+00:27:04.559 --> 00:27:10.799 align:start position:19%
+&gt;&gt; I think people posted the wrong memes a
+few too many times.
+
+00:27:07.600 --> 00:27:14.159 align:start position:19%
+&gt;&gt; Boom. I I look there there was there was
+a time where there were no there were no
+
+00:27:12.640 --> 00:27:18.400 align:start position:19%
+be girls and then there was this
+Business Insider article uh whining
+
+00:27:16.159 --> 00:27:21.679 align:start position:19%
+about it and uh the reality is like it's
+just like me and some guys like you know
+
+00:27:20.320 --> 00:27:26.000 align:start position:19%
+it's not like there's this isn't like
+the Illuminati conference [laughter] you
+
+00:27:23.919 --> 00:27:29.840 align:start position:19%
+know it's like they're like oh there's a
+group and you know but no women have
+
+00:27:27.919 --> 00:27:33.238 align:start position:19%
+been invited it's not that no women have
+been invited it's just like me and some
+
+00:27:31.600 --> 00:27:35.279 align:start position:19%
+some of my boys but
+&gt;&gt; [laughter]
+
+00:27:33.360 --> 00:27:39.440 align:start position:19%
+&gt;&gt; um but actually there there was a there
+was there was a there was a girl at it
+
+00:27:37.520 --> 00:27:41.760 align:start position:19%
+by the So, uh, we need Yeah, we need to
+we need to restart that. We need to
+
+00:27:40.720 --> 00:27:48.720 align:start position:19%
+restart that group.
+&gt;&gt; So, you're in Facebook commercials now.
+
+00:27:44.640 --> 00:27:52.480 align:start position:19%
+&gt;&gt; Oh, yeah. Yeah. Yeah. I'm so VR is out.
+Uh, how does it compare against your
+
+00:27:50.640 --> 00:27:54.159 align:start position:19%
+vision of what you wanted to achieve? Is
+it?
+
+00:27:53.440 --> 00:27:57.840 align:start position:19%
+&gt;&gt; Yeah.
+&gt;&gt; Look, it does a lot of the things that
+
+00:27:56.000 --> 00:28:01.120 align:start position:19%
+uh it's not exactly what I would make
+were I the guy who's waving the magic
+
+00:27:59.840 --> 00:28:05.120 align:start position:19%
+wand and and and
+&gt;&gt; you got lots of magic wands
+
+00:28:02.399 --> 00:28:10.320 align:start position:19%
+&gt;&gt; spinning the CAD. But uh um look, the
+new MetaVR glasses are a lot closer in a
+
+00:28:08.159 --> 00:28:15.919 align:start position:19%
+lot of ways. Uh so I've long been a
+believer that you need to decouple the
+
+00:28:12.320 --> 00:28:18.799 align:start position:19%
+compute and the battery from the head.
+You should it should not be that and and
+
+00:28:17.279 --> 00:28:23.679 align:start position:19%
+and I'm not even saying the head
+totally. It's more the front. So before
+
+00:28:21.279 --> 00:28:27.600 align:start position:19%
+Oculus Quest, so Oculus Quest was the
+last thing that I worked on before they
+
+00:28:25.039 --> 00:28:33.120 align:start position:19%
+fired me. And uh the prototypes at the
+time were a prototype series code named
+
+00:28:30.640 --> 00:28:37.919 align:start position:19%
+Santa Cruz. And uh we were actually
+showing that publicly before they fired
+
+00:28:35.039 --> 00:28:41.440 align:start position:19%
+me. And uh Santa Cruz had the battery
+and compute on the back of the head and
+
+00:28:40.000 --> 00:28:44.399 align:start position:19%
+then the light, you know, the part on
+the soft tissue on the front of your
+
+00:28:42.640 --> 00:28:48.320 align:start position:19%
+head was kept as light as possible. And
+then at some point after they got rid of
+
+00:28:46.159 --> 00:28:51.520 align:start position:19%
+me, they they jammed it all into one big
+giant lump in the front and they ruined
+
+00:28:49.919 --> 00:28:57.919 align:start position:19%
+the ergonomics. They forgot why you need
+a top strap. Uh but you know, it it
+
+00:28:55.120 --> 00:29:02.960 align:start position:19%
+bothers them, right? It bothers me most.
+Look, it bothers me mostly at this point
+
+00:29:00.240 --> 00:29:07.760 align:start position:19%
+because uh the Oculus Rift CV1, which
+was the first modern consumer VR
+
+00:29:05.279 --> 00:29:11.440 align:start position:19%
+headset. It got the ergonomics more or
+less perfect
+
+00:29:09.120 --> 00:29:17.919 align:start position:19%
+&gt;&gt; in 2016. And you know, we were showing
+it off in 2015 and literally nobody has
+
+00:29:15.760 --> 00:29:23.520 align:start position:19%
+done as good of as it and it's been over
+a decade. Every single person screws it
+
+00:29:20.640 --> 00:29:28.799 align:start position:19%
+up, even Apple. And I I just I don't I
+can't comprehend it. How how could it be
+
+00:29:25.760 --> 00:29:34.640 align:start position:19%
+that the ergonomic design led by a
+19-year-old kid with no experience is
+
+00:29:32.399 --> 00:29:39.440 align:start position:19%
+better than anything that anyone has
+come up with since. Anyway, the new
+
+00:29:36.640 --> 00:29:42.000 align:start position:19%
+Metavir glasses are the closest thing
+and they're very lightweight. They've
+
+00:29:40.880 --> 00:29:45.840 align:start position:19%
+offboarded the compute. They've
+offboarded the batteries. They have
+
+00:29:43.600 --> 00:29:50.320 align:start position:19%
+really high quality pass through. Um
+they it has a feature that I invented
+
+00:29:47.679 --> 00:29:57.760 align:start position:19%
+for CV1 called transformo fabric which
+they do not call it. The basically using
+
+00:29:53.520 --> 00:30:02.559 align:start position:19%
+uh fabric a a soft flexible fab black
+black black lightabsorbing matte fabric
+
+00:30:00.320 --> 00:30:06.320 align:start position:19%
+to one minimize reflections but two uh
+basically seal the cavity between and
+
+00:30:04.640 --> 00:30:10.559 align:start position:19%
+around the lenses. That means that you
+can move them uh and the fabric just
+
+00:30:08.480 --> 00:30:14.080 align:start position:19%
+stretches to meet where the lenses are
+for different interpupilary distances
+
+00:30:12.640 --> 00:30:18.399 align:start position:19%
+rather than having like sliding
+mechanical interfaces and plastic. And
+
+00:30:16.159 --> 00:30:23.200 align:start position:19%
+they brought Transformer fabric back for
+the first time since my my era. So I'm
+
+00:30:20.799 --> 00:30:28.240 align:start position:19%
+I'm I'm a huge fan and uh you know it's
+a third of the price of Apple's product
+
+00:30:25.840 --> 00:30:32.480 align:start position:19%
+and uh somewhat higher higher pixel
+density. I I think that's pretty
+
+00:30:30.000 --> 00:30:34.240 align:start position:19%
+extraordinary. Oh and and and 1/8 the
+weight.
+
+00:30:33.360 --> 00:30:38.159 align:start position:19%
+&gt;&gt; Amazing.
+&gt;&gt; Amazing. Um,
+
+00:30:36.480 --> 00:30:43.679 align:start position:19%
+&gt;&gt; let's close on let's close on this.
+We've got, you know, 1500 entrepreneurs,
+
+00:30:40.880 --> 00:30:49.039 align:start position:19%
+moonshot visionaries, and tens of
+thousands watching on the live stream.
+
+00:30:46.159 --> 00:30:54.240 align:start position:19%
+Uh, what's your advice?
+What, you know, what did you learn in
+
+00:30:50.880 --> 00:30:57.360 align:start position:19%
+high school that made you succeed at the
+speed you did? We were talking about
+
+00:30:56.320 --> 00:31:02.960 align:start position:19%
+this on the plane.
+&gt;&gt; I mean, I I was really lucky to uh I
+
+00:31:00.480 --> 00:31:06.159 align:start position:19%
+guess maybe not lucky, I did it. Uh, but
+&gt;&gt; Well, you are you are lucky. That's
+
+00:31:04.720 --> 00:31:09.440 align:start position:19%
+right. I am [laughter] lucky.
+&gt;&gt; Similar name.
+
+00:31:07.039 --> 00:31:15.200 align:start position:19%
+&gt;&gt; I started an online community called Mod
+Retro when I was 14 or 15. Um, it was an
+
+00:31:12.799 --> 00:31:19.679 align:start position:19%
+internet forum for people who were
+modifying vintage game consoles and
+
+00:31:17.360 --> 00:31:23.200 align:start position:19%
+computers, building handheld units,
+improving the performance in a variety
+
+00:31:21.440 --> 00:31:28.000 align:start position:19%
+of ways. We had a few thousand active
+members and uh and a whole team of
+
+00:31:25.919 --> 00:31:33.120 align:start position:19%
+volunteer moderators and administrators
+with with me me at me at the top of it
+
+00:31:30.000 --> 00:31:37.440 align:start position:19%
+for some reason. And uh I learned a lot
+of valuable lessons about how you can
+
+00:31:35.440 --> 00:31:41.120 align:start position:19%
+build an organization, how you market an
+organization, how you get people to
+
+00:31:39.200 --> 00:31:45.679 align:start position:19%
+believe in what you're doing. I learned
+a lot about dealing with the types of
+
+00:31:44.559 --> 00:31:47.200 align:start position:19%
+problems you deal with when you're
+running a company, you know,
+
+00:31:46.559 --> 00:31:50.640 align:start position:19%
+&gt;&gt; with humans.
+&gt;&gt; Well, I mean, you you have two, it's a
+
+00:31:49.200 --> 00:31:55.360 align:start position:19%
+tale as old as time. You've got two
+people. They're both brilliant. They're
+
+00:31:53.120 --> 00:32:00.000 align:start position:19%
+both very good at what they do, and they
+hate each other, and they disagree over
+
+00:31:57.760 --> 00:32:04.880 align:start position:19%
+something. you need to somehow mediate
+the conflict or separate them in a way
+
+00:32:02.799 --> 00:32:09.279 align:start position:19%
+that allows you to get the value that
+that allows both of them to contribute
+
+00:32:06.720 --> 00:32:14.240 align:start position:19%
+value to the greater project uh but not
+have them hate you, not have them lose
+
+00:32:11.600 --> 00:32:17.840 align:start position:19%
+faith in the broader thing, but also you
+not not kill each other. Sometimes that
+
+00:32:16.399 --> 00:32:21.519 align:start position:19%
+means you need to reconcile things
+between the two. Sometimes it means that
+
+00:32:19.600 --> 00:32:24.240 align:start position:19%
+you need to put one guy over here and
+one guy over here and sometimes you need
+
+00:32:22.960 --> 00:32:26.960 align:start position:19%
+to make sure that they don't know that
+that's what you're doing as you do it.
+
+00:32:25.919 --> 00:32:30.640 align:start position:19%
+That's [laughter] just I'm not saying
+that's the key to running a successful
+
+00:32:28.960 --> 00:32:36.507 align:start position:19%
+business is the management of the two problem. But it's you and once
+
+00:32:34.559 --> 00:32:39.679 align:start position:19%
+you make it a threebody problem now
+[laughter]
+
+00:32:37.760 --> 00:32:44.640 align:start position:19%
+but uh but but it's it's that and a
+hundred things like it that I learned
+
+00:32:42.640 --> 00:32:48.720 align:start position:19%
+running Mod Retro that I was able to
+take into starting Oculus to carry
+
+00:32:46.799 --> 00:32:53.279 align:start position:19%
+forward into what I'm doing in my other
+companies. And uh that that's why I'm
+
+00:32:50.640 --> 00:32:56.880 align:start position:19%
+I'm a strong believer that that kids
+should should should get a job. And I I
+
+00:32:55.360 --> 00:33:01.120 align:start position:19%
+also had a job starting when I was 14.
+So I learned how the real world worked,
+
+00:32:58.240 --> 00:33:05.440 align:start position:19%
+too. But I I I'm a huge fan of people
+doing things at a scale that's larger
+
+00:33:03.440 --> 00:33:09.919 align:start position:19%
+than just themselves. In other words,
+don't just do a project. Do a project
+
+00:33:07.679 --> 00:33:14.880 align:start position:19%
+with someone else. Do a project with
+other people. Build in the open. Learn
+
+00:33:12.720 --> 00:33:18.799 align:start position:19%
+the the the the good parts of that, the
+bad parts of that. It it it's been
+
+00:33:16.720 --> 00:33:22.320 align:start position:19%
+extremely useful to me. And has building
+changed in the age of AI? What advice do
+
+00:33:20.799 --> 00:33:26.399 align:start position:19%
+you have? Again, you know, we've been
+saying on the pod for a while now, you
+
+00:33:24.159 --> 00:33:30.640 align:start position:19%
+know, forget about grad school. You
+know, even college is a is a maybe you
+
+00:33:28.480 --> 00:33:36.480 align:start position:19%
+didn't go to college. You know, in high
+schoolers should what? Find a a purpose
+
+00:33:33.760 --> 00:33:40.960 align:start position:19%
+they care about and use AI to go and
+code it. What's your your closing advice
+
+00:33:38.080 --> 00:33:48.720 align:start position:19%
+here on that?
+You know, one of the reasons I have not
+
+00:33:43.039 --> 00:33:51.600 align:start position:19%
+been as upset as some people about uh
+No, that's funny. There's something on
+
+00:33:49.840 --> 00:33:54.480 align:start position:19%
+the screen. It's telling us to not talk
+about something. [laughter]
+
+00:33:53.279 --> 00:33:57.919 align:start position:19%
+Just wanted to make sure you saw that.
+&gt;&gt; I I I did. We're not going to talk about
+
+00:33:56.640 --> 00:34:03.440 align:start position:19%
+my company.
+&gt;&gt; All right. Great. Great. Um [laughter]
+
+00:34:00.960 --> 00:34:08.240 align:start position:19%
+the uh there's there's a lot of people
+who who love their craft and they love
+
+00:34:05.360 --> 00:34:14.079 align:start position:19%
+what they do and uh and they are
+rightfully mourning uh the end of for
+
+00:34:11.440 --> 00:34:18.320 align:start position:19%
+example coding things by hand top to
+bottom, start to finish as anything but
+
+00:34:15.679 --> 00:34:21.599 align:start position:19%
+like a craft endeavor. Um, and and I and
+I understand that it's it's the same way
+
+00:34:20.000 --> 00:34:25.280 align:start position:19%
+that a lot of artists felt when the
+camera was invented. They they whined
+
+00:34:23.520 --> 00:34:28.879 align:start position:19%
+and complained about how it ruined art
+and it made it so that anybody could
+
+00:34:26.800 --> 00:34:32.879 align:start position:19%
+push a button and and you know, these
+things are always painful for the people
+
+00:34:30.240 --> 00:34:35.919 align:start position:19%
+who are masters of their craft. Um, I
+already got screwed in that way a long
+
+00:34:34.560 --> 00:34:38.639 align:start position:19%
+time ago. When you're a founder, you
+don't get to actually work in any of the
+
+00:34:37.200 --> 00:34:42.560 align:start position:19%
+tech anyway. All the other people get to
+have all the fun. And so, you know, I I
+
+00:34:40.879 --> 00:34:45.679 align:start position:19%
+like electrical engineering. I like
+optical engineering. I like mechanical
+
+00:34:44.320 --> 00:34:51.599 align:start position:19%
+engineering. I don't get to do any of it
+because the job of a founder is to uh
+
+00:34:48.800 --> 00:34:56.159 align:start position:19%
+hire people to to displace them and and
+and to do what they thought they could
+
+00:34:53.679 --> 00:35:00.000 align:start position:19%
+do or what they like they do like doing
+better. Uh the job I've said many times
+
+00:34:58.640 --> 00:35:05.359 align:start position:19%
+to people if you want to work on
+technology uh work for somebody else. If
+
+00:35:02.880 --> 00:35:10.240 align:start position:19%
+you want to work on non-stop
+start a company. And and and so and so
+
+00:35:07.839 --> 00:35:14.480 align:start position:19%
+what I would say to people is AI doesn't
+actually change the part of the
+
+00:35:12.640 --> 00:35:18.400 align:start position:19%
+job very much. you're still on the hook
+legally. You're still on the hook for
+
+00:35:16.480 --> 00:35:21.440 align:start position:19%
+all the interpersonal stuff. And you can
+you you can delegate some of it, but at
+
+00:35:19.920 --> 00:35:24.960 align:start position:19%
+the end of the day, it's your call. It's
+your decision. It's the same thing for
+
+00:35:23.359 --> 00:35:28.000 align:start position:19%
+fundraising. It's the same thing for
+general product architecture. And when
+
+00:35:26.480 --> 00:35:32.480 align:start position:19%
+people make the wrong decisions, it's
+your choice as to when you need to
+
+00:35:30.400 --> 00:35:37.760 align:start position:19%
+overrule them, override them, replace
+them. I don't see AI replacing that part
+
+00:35:35.119 --> 00:35:42.000 align:start position:19%
+of it anytime soon. Not because it
+couldn't, but because the gains
+
+00:35:39.200 --> 00:35:46.960 align:start position:19%
+everywhere else are so much larger that
+I think we've got a good 10 years of
+
+00:35:44.160 --> 00:35:50.640 align:start position:19%
+speed running all of the other parts of
+the business before they before they
+
+00:35:48.560 --> 00:35:54.079 align:start position:19%
+cover that. So, look, AI changes a lot.
+But I I'm telling you, there's a lot of
+
+00:35:52.160 --> 00:35:58.079 align:start position:19%
+people you are in for a rude awakening.
+If you are like a hobbyist coder or a
+
+00:35:56.640 --> 00:36:01.119 align:start position:19%
+hobbyist engineer and you think you're
+going to start a company and you think
+
+00:35:59.200 --> 00:36:07.040 align:start position:19%
+you're going to be doing all that stuff,
+no, you're going to learn a hard lesson.
+
+00:36:03.599 --> 00:36:09.920 align:start position:19%
+B being a founder was was always like AI
+took your job. It's just that other
+
+00:36:08.640 --> 00:36:12.560 align:start position:19%
+people took it.
+&gt;&gt; Yeah.
+
+00:36:10.720 --> 00:36:15.560 align:start position:19%
+&gt;&gt; Ladies and gentlemen, give it up for
+Lucky.
+
+00:36:19.865 --> 00:36:21.885 align:start position:19%
+[music]
+

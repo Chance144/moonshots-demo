@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """Fetch Moonshots episode metadata and English captions.
 
-Primary path: yt-dlp (metadata + auto-captions).
+Primary path: yt-dlp (metadata + original English auto-captions).
 Fallbacks for cloud / bot-checked IPs:
-  - YouTube oEmbed + playlist/watch HTML for metadata
-  - youtube-transcript-api if installed
+  - playlist RSS if the playlist page listing fails
+  - yt-dlp player clients default, android, web_embedded, ios
+    (retry with backoff on HTTP 429 or the bot check)
+  - youtube-transcript-api for original English auto-captions
+  - YouTube oEmbed for metadata
   - public timed transcripts (podscripts.co) matching the same episodes
+
+Machine-translated English tracks are rejected. Nothing here invents a transcript.
 
 Usage:
   python3 scripts/scrape.py --ids vAgEf4jX_1o,1DB_QDiviH4,...
@@ -22,9 +27,11 @@ import re
 import shutil
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,9 +39,20 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw"
 ALT_RAW_DIR = ROOT / "data" / "raw"
 
-PLAYLIST_URL = (
-    "https://www.youtube.com/playlist?list=PL1wpF5k0tdIve4idTp3-FX2ZY7ks_BKeU"
+PLAYLIST_ID = "PL1wpF5k0tdIve4idTp3-FX2ZY7ks_BKeU"
+PLAYLIST_URL = f"https://www.youtube.com/playlist?list={PLAYLIST_ID}"
+PLAYLIST_RSS_URL = (
+    f"https://www.youtube.com/feeds/videos.xml?playlist_id={PLAYLIST_ID}"
 )
+# Rotate through these. android and web_embedded have each cleared the bot
+# check on a past run; "default" is yt-dlp's built-in client set.
+PLAYER_CLIENTS = ("default", "android", "web_embedded", "ios")
+# Initial pass plus one retry pass. Back off only after 429 / bot-check.
+CLIENT_PASSES = 2
+ATOM_NS = "http://www.w3.org/2005/Atom"
+YT_NS = "http://www.youtube.com/xml/schemas/2015"
+MEDIA_NS = "http://search.yahoo.com/mrss/"
+EN_AUTO_LANGS = ("en-orig", "en-US-orig", "en-GB-orig", "en", "en-US", "en-GB")
 PODSCRIPTS_SHOW = (
     "https://podscripts.co/podcasts/moonshots-with-peter-diamandis"
 )
@@ -67,9 +85,6 @@ TRANSCRIPT_FALLBACKS = {
         "sam-altman-singularity-slow-down-emad-runs-18-grokbots-waymo-slashes-hardware-83-ep-283"
     ),
 }
-
-DEFAULT_IDS = list(TRANSCRIPT_FALLBACKS.keys())
-
 
 def http_get(url: str, timeout: int = 40) -> str:
     req = urllib.request.Request(
@@ -129,6 +144,134 @@ def write_vtt(path: Path, cues: list[dict]) -> None:
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
+class ListingError(Exception):
+    """Playlist listing failed and the caller should try another source."""
+
+
+def _one_line(text: str, limit: int = 300) -> str:
+    cleaned = re.sub(r"\s+", " ", text or "").strip()
+    if not cleaned:
+        return "unknown error"
+    if len(cleaned) > limit:
+        return cleaned[: limit - 1] + "…"
+    return cleaned
+
+
+def looks_like_bot_check(text: str) -> bool:
+    lowered = (text or "").lower().replace("’", "'").replace("‘", "'")
+    return "sign in to confirm" in lowered and "not a bot" in lowered
+
+
+def looks_like_rate_limit(text: str) -> bool:
+    lowered = (text or "").lower()
+    if "too many requests" in lowered or "http error 429" in lowered:
+        return True
+    return bool(re.search(r"\b429\b", lowered) and "error" in lowered)
+
+
+def _last_error_line(stderr: str, stdout: str) -> str:
+    lines = [line.strip() for line in f"{stderr}\n{stdout}".splitlines() if line.strip()]
+    for line in reversed(lines):
+        lowered = line.lower()
+        if "error" in lowered or "429" in line or "bot" in lowered:
+            return _one_line(line)
+    return _one_line(lines[-1] if lines else "")
+
+
+def format_attempts(title: str, attempts: list[tuple[str, str]]) -> str:
+    lines = [title]
+    if not attempts:
+        lines.append("  - (no method recorded)")
+    for method, reason in attempts:
+        lines.append(f"  - {method}: {_one_line(reason)}")
+    return "\n".join(lines)
+
+
+def _track_is_translation(track: dict) -> bool:
+    """True for a machine-translated caption track, including translated 'en'."""
+    url = track.get("url") or track.get("baseUrl") or ""
+    query = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+    if query.get("tlang"):
+        return True
+    name = (track.get("name") or "").lower()
+    if " from " in name:
+        return True
+    langs = [value.lower() for value in query.get("lang", [])]
+    code = (track.get("language_code") or track.get("languageCode") or "").lower()
+    if code.startswith("en") and langs and not any(value.startswith("en") for value in langs):
+        return True
+    return False
+
+
+def _snapshot(video_id: str) -> dict[str, int]:
+    snap: dict[str, int] = {}
+    for path in RAW_DIR.glob(f"{video_id}*"):
+        try:
+            snap[path.name] = path.stat().st_mtime_ns
+        except OSError:
+            continue
+    return snap
+
+
+def _new_files(video_id: str, before: dict[str, int]) -> list[Path]:
+    found: list[Path] = []
+    for path in RAW_DIR.glob(f"{video_id}*"):
+        try:
+            mtime = path.stat().st_mtime_ns
+        except OSError:
+            continue
+        if path.name not in before or mtime > before[path.name]:
+            found.append(path)
+    return found
+
+
+def _discard_subs(paths: list[Path], keep: Path | None = None) -> None:
+    keep_name = keep.name if keep else None
+    for path in paths:
+        if path.suffix != ".vtt" or path.name == keep_name:
+            continue
+        try:
+            path.unlink()
+        except OSError:
+            pass
+
+
+def _matching_vtt(video_id: str, lang: str, created: list[Path]) -> Path | None:
+    want = f"{video_id}.{lang}.vtt"
+    for path in created:
+        if path.suffix == ".vtt" and (path.name == want or f".{lang}." in path.name):
+            return path
+    return None
+
+
+def choose_caption_file(
+    info: dict, video_id: str, created: list[Path]
+) -> tuple[Path | None, str]:
+    """Prefer original English auto-captions; reject machine-translated 'en'."""
+    autos = info.get("automatic_captions") or {}
+    rejected: list[str] = []
+    missing: list[str] = []
+    for lang in EN_AUTO_LANGS:
+        tracks = [track for track in (autos.get(lang) or []) if isinstance(track, dict)]
+        if not tracks:
+            continue
+        if any(_track_is_translation(track) for track in tracks):
+            rejected.append(lang)
+            continue
+        path = _matching_vtt(video_id, lang, created)
+        if path and path.stat().st_size > 0:
+            return path, ""
+        missing.append(lang)
+    if rejected:
+        reason = "rejected machine-translated 'en' track(s): " + ", ".join(dict.fromkeys(rejected))
+        if missing:
+            reason += "; not saved: " + ", ".join(missing)
+        return None, reason
+    if missing:
+        return None, "English auto-captions were not saved (" + ", ".join(missing) + ")"
+    return None, "no English automatic captions"
+
+
 def find_ytdlp() -> str | None:
     env = os.environ.get("YT_DLP")
     if env and Path(env).exists():
@@ -142,41 +285,7 @@ def find_ytdlp() -> str | None:
     return None
 
 
-def scrape_ytdlp(video_id: str) -> dict | None:
-    ytdlp = find_ytdlp()
-    if not ytdlp:
-        print("  yt-dlp not on PATH; skipping primary extractor")
-        return None
-    url = f"https://www.youtube.com/watch?v={video_id}"
-    cmd = [
-        ytdlp,
-        "--skip-download",
-        "--write-info-json",
-        "--write-auto-sub",
-        "--sub-lang",
-        "en",
-        "--sub-format",
-        "vtt",
-        "--no-playlist",
-        "--no-warnings",
-        "--output",
-        str(RAW_DIR / f"{video_id}.%(ext)s"),
-        url,
-    ]
-    print(f"  yt-dlp {' '.join(cmd[1:8])} …")
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
-        err = (result.stderr or result.stdout or "").strip().splitlines()
-        print(f"  yt-dlp failed: {err[-1] if err else 'unknown error'}")
-        return None
-
-    info_path = RAW_DIR / f"{video_id}.info.json"
-    if not info_path.exists():
-        return None
-    info = json.loads(info_path.read_text(encoding="utf-8"))
-    vtt = next(RAW_DIR.glob(f"{video_id}*.en*.vtt"), None) or next(
-        RAW_DIR.glob(f"{video_id}*.vtt"), None
-    )
+def _record_from_info(video_id: str, info: dict) -> dict:
     return {
         "id": video_id,
         "title": info.get("title") or "",
@@ -186,10 +295,120 @@ def scrape_ytdlp(video_id: str) -> dict | None:
         "durationSeconds": int(info.get("duration") or 0) or None,
         "thumbnail": info.get("thumbnail")
         or f"https://i.ytimg.com/vi/{video_id}/maxresdefault.jpg",
-        "youtubeUrl": url,
-        "transcriptPath": str(vtt) if vtt else None,
+        "youtubeUrl": f"https://www.youtube.com/watch?v={video_id}",
+        "transcriptPath": None,
         "transcriptSource": "yt-dlp",
     }
+
+
+def _ytdlp_once(ytdlp: str, video_id: str, client: str) -> tuple[int, str, str]:
+    cmd = [
+        ytdlp,
+        "--skip-download",
+        "--write-info-json",
+        "--write-auto-sub",
+        "--sub-langs",
+        "en-orig,en",
+        "--sub-format",
+        "vtt",
+        "--no-playlist",
+        "--no-warnings",
+        "--force-overwrites",
+        "--retries",
+        "0",
+        "--extractor-retries",
+        "0",
+        "--extractor-args",
+        f"youtube:player_client={client}",
+        "--output",
+        str(RAW_DIR / f"{video_id}.%(ext)s"),
+        f"https://www.youtube.com/watch?v={video_id}",
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    return result.returncode, result.stderr or "", result.stdout or ""
+
+
+def _backoff_seconds(pass_index: int) -> float:
+    return float(min(8, 2 ** (pass_index + 1)))
+
+
+def _will_retry(pass_index: int, client: str, retryable: set[str]) -> bool:
+    later = [name for name in PLAYER_CLIENTS if name in retryable]
+    if client in later and later.index(client) < len(later) - 1:
+        return True
+    return pass_index + 1 < CLIENT_PASSES and bool(retryable)
+
+
+def scrape_ytdlp(video_id: str, attempts: list[tuple[str, str]]) -> dict | None:
+    """Metadata plus original English auto-captions, rotating player clients."""
+    ytdlp = find_ytdlp()
+    if not ytdlp:
+        attempts.append(("yt-dlp", "not on PATH"))
+        print("  yt-dlp not on PATH; skipping primary extractor")
+        return None
+
+    best: dict | None = None
+    retryable = set(PLAYER_CLIENTS)
+    for pass_index in range(CLIENT_PASSES):
+        if not retryable:
+            break
+        for client in PLAYER_CLIENTS:
+            if client not in retryable:
+                continue
+            label = f"yt-dlp client={client} attempt={pass_index + 1}"
+            print(f"  {label}")
+            before = _snapshot(video_id)
+            code, stderr, stdout = _ytdlp_once(ytdlp, video_id, client)
+            created = _new_files(video_id, before)
+            blob = f"{stderr}\n{stdout}"
+            if code != 0:
+                reason = _last_error_line(stderr, stdout)
+                if code and reason == "unknown error":
+                    reason = f"exit {code}"
+                attempts.append((label, reason))
+                print(f"  {label} failed: {reason}")
+                _discard_subs(created)
+                if looks_like_bot_check(blob) or looks_like_rate_limit(blob):
+                    if _will_retry(pass_index, client, retryable):
+                        delay = _backoff_seconds(pass_index)
+                        print(f"  backing off {delay:.0f}s after {label}")
+                        time.sleep(delay)
+                else:
+                    retryable.discard(client)
+                continue
+
+            info_path = RAW_DIR / f"{video_id}.info.json"
+            if not info_path.exists():
+                attempts.append((label, "exit 0 but no info json"))
+                print(f"  {label} failed: exit 0 but no info json")
+                retryable.discard(client)
+                continue
+            try:
+                info = json.loads(info_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as exc:
+                attempts.append((label, f"invalid info json: {exc}"))
+                print(f"  {label} failed: invalid info json")
+                retryable.discard(client)
+                continue
+
+            record = _record_from_info(video_id, info)
+            path, caption_reason = choose_caption_file(info, video_id, created)
+            if path:
+                _discard_subs(created, keep=path)
+                record["transcriptPath"] = str(path)
+                record["transcriptSource"] = "yt-dlp"
+                attempts.append((label, "ok"))
+                print(f"  {label} ok captions={path.name}")
+                return record
+
+            _discard_subs(created)
+            attempts.append((label, caption_reason))
+            print(f"  {label} metadata only: {caption_reason}")
+            if best is None:
+                best = record
+            # A different client can still expose the original track.
+            retryable.discard(client)
+    return best
 
 
 def oembed(video_id: str) -> dict:
@@ -212,7 +431,16 @@ def oembed(video_id: str) -> dict:
 
 def playlist_catalog(limit: int | None = None) -> list[dict]:
     """Newest-first IDs + durations from the public playlist page."""
-    html_text = http_get(PLAYLIST_URL)
+    try:
+        html_text = http_get(PLAYLIST_URL)
+    except urllib.error.HTTPError as exc:
+        raise ListingError(f"HTTP {exc.code} {exc.reason}") from exc
+    except Exception as exc:  # noqa: BLE001
+        raise ListingError(f"{exc.__class__.__name__}: {exc}") from exc
+    if looks_like_bot_check(html_text):
+        raise ListingError("Sign in to confirm you're not a bot")
+    if looks_like_rate_limit(html_text):
+        raise ListingError("HTTP 429")
     ordered: list[str] = []
     seen: set[str] = set()
     for vid in re.findall(r'"videoId":"([\w-]{11})"', html_text):
@@ -239,28 +467,145 @@ def playlist_catalog(limit: int | None = None) -> list[dict]:
                 durations[vid] = secs
                 break
     items = [{"id": vid, "durationSeconds": durations.get(vid)} for vid in ordered]
+    if not items:
+        raise ListingError("playlist page returned no video ids")
     return items[:limit] if limit else items
 
 
-def youtube_transcript_api(video_id: str) -> list[dict] | None:
+def parse_playlist_rss(xml_text: str, limit: int | None = None) -> list[dict]:
+    """Newest-first videos from a YouTube playlist Atom feed."""
+    if looks_like_bot_check(xml_text):
+        raise ListingError("Sign in to confirm you're not a bot")
+    if looks_like_rate_limit(xml_text):
+        raise ListingError("HTTP 429")
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError as exc:
+        raise ListingError(f"invalid RSS XML: {exc}") from exc
+
+    items: list[dict] = []
+    seen: set[str] = set()
+    for entry in root.findall(f"{{{ATOM_NS}}}entry"):
+        vid = (entry.findtext(f"{{{YT_NS}}}videoId") or "").strip()
+        if not re.fullmatch(r"[\w-]{11}", vid) or vid in seen:
+            continue
+        seen.add(vid)
+        title = html.unescape((entry.findtext(f"{{{ATOM_NS}}}title") or "").strip())
+        published = (entry.findtext(f"{{{ATOM_NS}}}published") or "").strip()
+        desc_el = entry.find(f"{{{MEDIA_NS}}}group/{{{MEDIA_NS}}}description")
+        description = ""
+        if desc_el is not None and desc_el.text:
+            description = html.unescape(desc_el.text).strip()
+        thumb_el = entry.find(f"{{{MEDIA_NS}}}group/{{{MEDIA_NS}}}thumbnail")
+        thumbnail = thumb_el.get("url") if thumb_el is not None else ""
+        author_el = entry.find(f"{{{ATOM_NS}}}author/{{{ATOM_NS}}}name")
+        channel = author_el.text.strip() if author_el is not None and author_el.text else ""
+        items.append(
+            {
+                "id": vid,
+                "durationSeconds": None,
+                "title": title,
+                "publishedAt": published,
+                "description": description,
+                "thumbnail": thumbnail,
+                "channel": channel,
+            }
+        )
+    if not items:
+        raise ListingError("RSS feed returned no videos")
+    items.sort(key=lambda row: row.get("publishedAt") or "", reverse=True)
+    return items[:limit] if limit else items
+
+
+def playlist_rss(limit: int | None = None) -> list[dict]:
+    try:
+        xml_text = http_get(PLAYLIST_RSS_URL)
+    except urllib.error.HTTPError as exc:
+        raise ListingError(f"HTTP {exc.code} {exc.reason}") from exc
+    except Exception as exc:  # noqa: BLE001
+        raise ListingError(f"{exc.__class__.__name__}: {exc}") from exc
+    return parse_playlist_rss(xml_text, limit)
+
+
+def _english_code(code: str) -> bool:
+    lowered = (code or "").lower().replace("_", "-")
+    return lowered == "en" or lowered.startswith("en-")
+
+
+def _transcript_is_translation(transcript: object) -> bool:
+    url = getattr(transcript, "_url", "") or ""
+    code = getattr(transcript, "language_code", "") or ""
+    name = getattr(transcript, "language", "") or ""
+    return _track_is_translation(
+        {"url": url, "language_code": code, "name": name}
+    )
+
+
+def _cue_from_item(item: object) -> dict | None:
+    if isinstance(item, dict):
+        start = item.get("start", 0)
+        duration = item.get("duration", 2)
+        text = item.get("text") or ""
+    else:
+        start = getattr(item, "start", 0)
+        duration = getattr(item, "duration", 2)
+        text = getattr(item, "text", "") or ""
+    text = re.sub(r"\s+", " ", str(text)).strip()
+    if not text:
+        return None
+    start_f = float(start or 0)
+    return {"start": start_f, "end": start_f + float(duration or 0), "text": text}
+
+
+def youtube_transcript_api(video_id: str) -> tuple[list[dict] | None, str]:
+    """Original English auto-captions. Never requests a translated 'en' track."""
     try:
         from youtube_transcript_api import YouTubeTranscriptApi  # type: ignore
     except ImportError:
-        return None
+        return None, "not installed"
     try:
-        fetched = YouTubeTranscriptApi().fetch(video_id, languages=["en"])
-        cues = []
-        for item in fetched:
-            start = float(getattr(item, "start", item.get("start") if isinstance(item, dict) else 0))
-            duration = float(
-                getattr(item, "duration", item.get("duration") if isinstance(item, dict) else 2)
-            )
-            text = getattr(item, "text", item.get("text") if isinstance(item, dict) else "")
-            cues.append({"start": start, "end": start + duration, "text": text})
-        return cues or None
+        listing = YouTubeTranscriptApi().list(video_id)
     except Exception as exc:  # noqa: BLE001
-        print(f"  youtube-transcript-api blocked or failed: {exc.__class__.__name__}")
-        return None
+        return None, f"{exc.__class__.__name__}: {exc}"
+
+    generated: list[object] = []
+    manual: list[object] = []
+    rejected: list[str] = []
+    for transcript in listing:
+        code = getattr(transcript, "language_code", "") or ""
+        if not _english_code(code):
+            continue
+        if _transcript_is_translation(transcript):
+            rejected.append(code)
+            continue
+        if getattr(transcript, "is_generated", False):
+            generated.append(transcript)
+        else:
+            manual.append(transcript)
+
+    # Auto-captions first. Manual English is still original speech, not a translation.
+    pool = generated or manual
+    if not pool:
+        if rejected:
+            return None, (
+                "rejected machine-translated 'en' track(s): "
+                + ", ".join(dict.fromkeys(rejected))
+            )
+        return None, "no original English auto-captions"
+
+    def rank(transcript: object) -> tuple[int, str]:
+        code = (getattr(transcript, "language_code", "") or "").lower()
+        return (0 if code in {"en", "en-orig"} else 1, code)
+
+    chosen = sorted(pool, key=rank)[0]
+    try:
+        fetched = chosen.fetch()
+    except Exception as exc:  # noqa: BLE001
+        return None, f"{exc.__class__.__name__}: {exc}"
+    cues = [cue for item in fetched if (cue := _cue_from_item(item))]
+    if not cues:
+        return None, "original English track was empty"
+    return cues, ""
 
 
 def parse_podscripts(page: str) -> tuple[list[dict], dict]:
@@ -342,6 +687,9 @@ def scrape_transcript_page(video_id: str, title: str) -> tuple[list[dict], dict,
 def normalize_published(value: str) -> str:
     if re.fullmatch(r"\d{8}", value or ""):
         return f"{value[0:4]}-{value[4:6]}-{value[6:8]}"
+    iso = re.match(r"(\d{4})-(\d{2})-(\d{2})", value or "")
+    if iso:
+        return f"{iso.group(1)}-{iso.group(2)}-{iso.group(3)}"
     months = {
         "january": "01",
         "february": "02",
@@ -365,33 +713,74 @@ def normalize_published(value: str) -> str:
     return f"{m.group(3)}-{mon}-{int(m.group(2)):02d}"
 
 
-def scrape_one(video_id: str, duration_hint: int | None = None) -> dict:
+def _fill_hint(record: dict, hint: dict) -> None:
+    if hint.get("durationSeconds") and not record.get("durationSeconds"):
+        record["durationSeconds"] = hint["durationSeconds"]
+    if hint.get("title") and not record.get("title"):
+        record["title"] = hint["title"]
+    if hint.get("description") and not record.get("description"):
+        record["description"] = hint["description"]
+    if hint.get("publishedAt") and not record.get("publishedAt"):
+        record["publishedAt"] = hint["publishedAt"]
+    if hint.get("channel") and not record.get("channel"):
+        record["channel"] = hint["channel"]
+    if hint.get("thumbnail") and not record.get("thumbnail"):
+        record["thumbnail"] = hint["thumbnail"]
+
+
+def scrape_one(video_id: str, hint: dict | None = None) -> dict:
+    hint = hint or {}
     print(f"\n== {video_id}")
-    record = scrape_ytdlp(video_id)
-    source = "yt-dlp" if record and record.get("transcriptPath") else None
+    attempts: list[tuple[str, str]] = []
+    record = scrape_ytdlp(video_id, attempts)
 
     if not record:
-        record = oembed(video_id)
-        record["durationSeconds"] = duration_hint
-        record["publishedAt"] = ""
-        record["transcriptPath"] = None
-        record["transcriptSource"] = "oembed"
-
-    if duration_hint and not record.get("durationSeconds"):
-        record["durationSeconds"] = duration_hint
+        try:
+            record = oembed(video_id)
+            record["durationSeconds"] = hint.get("durationSeconds")
+            record["publishedAt"] = ""
+            record["transcriptPath"] = None
+            record["transcriptSource"] = "oembed"
+            attempts.append(("oEmbed", "ok"))
+        except Exception as exc:  # noqa: BLE001
+            attempts.append(("oEmbed", f"{exc.__class__.__name__}: {exc}"))
+            print(f"  oEmbed failed: {exc.__class__.__name__}: {exc}")
+            record = {
+                "id": video_id,
+                "title": hint.get("title") or "",
+                "description": hint.get("description") or "",
+                "channel": hint.get("channel") or "Peter H. Diamandis",
+                "publishedAt": hint.get("publishedAt") or "",
+                "durationSeconds": hint.get("durationSeconds"),
+                "thumbnail": hint.get("thumbnail")
+                or f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg",
+                "youtubeUrl": f"https://www.youtube.com/watch?v={video_id}",
+                "transcriptPath": None,
+                "transcriptSource": "metadata-only",
+            }
+    _fill_hint(record, hint)
 
     cues = None
     vtt_path = RAW_DIR / f"{video_id}.en.vtt"
+    source: str | None
     if record.get("transcriptPath") and Path(record["transcriptPath"]).exists():
         source = "yt-dlp"
     else:
-        cues = youtube_transcript_api(video_id)
+        cues, reason = youtube_transcript_api(video_id)
         if cues:
             write_vtt(vtt_path, cues)
             record["transcriptPath"] = str(vtt_path)
             source = "youtube-transcript-api"
+            attempts.append(("youtube-transcript-api", "ok"))
         else:
-            fallback = scrape_transcript_page(video_id, record.get("title") or "")
+            attempts.append(("youtube-transcript-api", reason))
+            print(f"  youtube-transcript-api failed: {_one_line(reason)}")
+            try:
+                fallback = scrape_transcript_page(video_id, record.get("title") or "")
+            except Exception as exc:  # noqa: BLE001
+                fallback = None
+                attempts.append(("podscripts", f"{exc.__class__.__name__}: {exc}"))
+                print(f"  podscripts failed: {exc.__class__.__name__}: {exc}")
             if fallback:
                 cues, extra, src_url = fallback
                 write_vtt(vtt_path, cues)
@@ -402,9 +791,23 @@ def scrape_one(video_id: str, duration_hint: int | None = None) -> dict:
                 if extra.get("publishedAt"):
                     record["publishedAt"] = extra["publishedAt"]
                 source = "podscripts"
+                attempts.append(("podscripts", "ok"))
             else:
-                print("  WARNING: no captions found")
-                source = record.get("transcriptSource") or "metadata-only"
+                if not any(method == "podscripts" for method, _reason in attempts):
+                    attempts.append(
+                        ("podscripts", "no matching transcript page or empty transcript")
+                    )
+                source = None
+
+    if not record.get("transcriptPath"):
+        source = "metadata-only"
+        report = format_attempts(
+            f"FAILED {video_id}: no usable transcript. Methods tried:",
+            attempts,
+        )
+        report += "\nNo transcript or quotes were fabricated."
+        print(report, file=sys.stderr)
+        record["transcriptError"] = report
 
     record["publishedAt"] = normalize_published(record.get("publishedAt") or "")
     record["transcriptSource"] = source
@@ -421,12 +824,14 @@ def scrape_one(video_id: str, duration_hint: int | None = None) -> dict:
     # Plain-text transcript for the searchable episode database.
     vtt = Path(record["transcriptPath"]) if record.get("transcriptPath") else None
     txt_path = RAW_DIR / f"{video_id}.txt"
+    wrote_txt = False
     if vtt and vtt.exists():
         body = vtt_to_plaintext(vtt)
         txt_path.write_text(body, encoding="utf-8")
         record["transcriptTextPath"] = str(txt_path)
+        wrote_txt = True
     ALT_RAW_DIR.mkdir(parents=True, exist_ok=True)
-    for src in (out_info, vtt, txt_path if txt_path.exists() else None):
+    for src in (out_info, vtt, txt_path if wrote_txt else None):
         if src and src.exists():
             shutil.copy2(src, ALT_RAW_DIR / src.name)
     cue_count = len(cues) if cues else ("vtt" if record.get("transcriptPath") else 0)
@@ -446,30 +851,44 @@ def main() -> int:
     args = parse_args()
     RAW_DIR.mkdir(parents=True, exist_ok=True)
 
-    duration_by_id: dict[str, int] = {}
+    listing_source = "ids"
+    catalog: list[dict] = []
     if args.ids:
         video_ids = [v.strip() for v in args.ids.split(",") if v.strip()]
         mode = "ids"
     else:
         # Default (and --playlist): last N from PL1wpF5k0tdIve4idTp3-FX2ZY7ks_BKeU
         mode = "playlist"
+        listing_failures: list[tuple[str, str]] = []
         try:
             catalog = playlist_catalog(args.limit)
-            video_ids = [row["id"] for row in catalog]
-            duration_by_id = {
-                row["id"]: row["durationSeconds"]
-                for row in catalog
-                if row.get("durationSeconds")
-            }
-            print(f"Playlist mode: {len(video_ids)} newest videos")
-        except Exception as exc:  # noqa: BLE001
-            print(f"Playlist page failed ({exc}); falling back to default last 5 IDs")
-            video_ids = DEFAULT_IDS[: args.limit]
+            listing_source = "html"
+            print(f"Playlist page: {len(catalog)} newest videos")
+        except ListingError as exc:
+            listing_failures.append(("playlist HTML", str(exc)))
+            print(f"Playlist page failed ({exc}); trying RSS feed")
+            try:
+                catalog = playlist_rss(args.limit)
+                listing_source = "rss"
+                print(f"RSS feed: {len(catalog)} newest videos")
+            except ListingError as rss_exc:
+                listing_failures.append((f"RSS feed {PLAYLIST_RSS_URL}", str(rss_exc)))
+                print(
+                    format_attempts(
+                        "FAILED playlist listing. Methods tried:",
+                        listing_failures,
+                    ),
+                    file=sys.stderr,
+                )
+                return 1
+        video_ids = [row["id"] for row in catalog]
 
-    print(f"Scraping {len(video_ids)} episode(s) [{mode}]")
-    records = [scrape_one(vid, duration_by_id.get(vid)) for vid in video_ids]
+    hint_by_id = {row["id"]: row for row in catalog}
+    print(f"Scraping {len(video_ids)} episode(s) [{mode}/{listing_source}]")
+    records = [scrape_one(vid, hint_by_id.get(vid)) for vid in video_ids]
     manifest = {
         "mode": mode,
+        "listing": listing_source,
         "playlist": PLAYLIST_URL,
         "channel": CHANNEL_URL,
         "ids": video_ids,

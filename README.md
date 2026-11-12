@@ -36,7 +36,7 @@ npm run data
 make data
 ```
 
-`scripts/scrape.py` uses **yt-dlp** first (`--write-info-json --write-auto-sub --sub-lang en`). If YouTube bot-checks the IP, it falls back to oEmbed + playlist HTML + timed transcripts. Writes `raw/<id>.info.json`, `.en.vtt`, and `.txt`.
+`scripts/scrape.py` lists playlist `PL1wpF5k0tdIve4idTp3-FX2ZY7ks_BKeU`, then fetches metadata and English auto-captions. If that page is blocked, listing uses the RSS feed `https://www.youtube.com/feeds/videos.xml?playlist_id=PL1wpF5k0tdIve4idTp3-FX2ZY7ks_BKeU`. yt-dlp rotates player clients `default`, `android`, `web_embedded`, and `ios`, and backs off before retrying on HTTP 429 or YouTube's "Sign in to confirm you're not a bot" check. Captions then fall back to `youtube-transcript-api`. Original English auto-captions are kept; machine-translated `en` tracks are rejected. If every method fails, the script reports each attempt and does not invent a transcript or quote. Writes `raw/<id>.info.json`, `.en.vtt` or `.en-orig.vtt`, and `.txt`.
 
 | Command | Purpose |
 | --- | --- |
@@ -49,7 +49,7 @@ make data
 | `npm run pages` | Same as process (sync Pages files) |
 | `npm run dev:vite` | Optional Vite + React UI on the same JSON |
 
-Optional: `pip install yt-dlp`
+Optional: `pip install yt-dlp youtube-transcript-api`
 
 ## Demo episode IDs (newest first)
 
